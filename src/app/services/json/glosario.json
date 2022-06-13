@@ -1,0 +1,38 @@
+[
+  {
+    "word": "MAC",
+    "description": "El MAC (Medium Access Control) proporciona a la capa de enlace de datos el direccionamiento y la delimitación de datos de acuerdo con los requisitos de señalización física del medio y al tipo de protocolo de capa de enlace de datos en uso."
+  },
+  {
+    "word": "LLC",
+    "description": "El LLC (Logical Link Control) coloca información en la trama que identifica qué protocolo de capa de red está siendo utilizado por la trama."
+  },
+  {
+    "word": "HDLC",
+    "description": "El HDLC (High-level Data Link Control) es un protocolo de la capa de Enlace de Datos responsable de definir como se deben encapsular los datos para su transmisión a una máquina remota a través de enlaces dedicados (redes WAN)."
+  },
+  {
+    "word": "Ancho de Banda",
+    "description": "Intervalo de frecuencias positivas donde la respuesta del sistema es relativamente plana (las señales pueden pasar sin distorsión)"
+  },
+  {
+    "word": "Capacidad de Canal",
+    "description": "Es la máxima velocidad a la cual los datos pueden ser transmitidos sobre un canal de comunicación con cierta fidelidad. Se mide en bits por segundo (bps)."
+  },
+  {
+    "word": "Ruido",
+    "description": "Toda señal no deseada que se mezcla con la señal útil que se quiere transmitir."
+  },
+  {
+    "word": "Trama",
+    "description": "Una unidad de envío de datos. Es una serie sucesiva de bits, organizados en forma cíclica, que transportan información y que permiten en la recepción extraer esta información"
+  },
+  {
+    "word": "IEEE",
+    "description": "Estándares de red IEEE (Institute Of Electrical and Electronics Engineers)<br>Su misión, en cuestión de redes, se centra en desarrollar estándares de redes de área local y redes de área metropolitana, principalmente en las dos capas inferiores del modelo OSI"
+  },
+  {
+    "word": "CSMA",
+    "description": "En telecomunicaciones, Acceso Múltiple con Escucha de Señal Portadora (Carrier-Sense Multiple Access o CSMA por sus siglas en inglés) es un protocolo de control de acceso al medio en el cual un nodo verifica la ausencia de tráfico antes de transmitir en un medio compartido como un canal electrónico o una banda de espectro electromagnético."
+  }
+]

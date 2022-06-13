@@ -1,0 +1,31 @@
+.act-h{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.aux-h{
+  padding: 7rem;
+  color: white;
+  background-color: #037bc0;
+}
+
+.preguntas{
+  max-height: 45rem;
+  border: solid #6c757d3f 0.1rem;
+  border-radius: 1rem;
+  overflow-y:scroll;
+}
+
+.res-div{
+  max-height: 60rem;
+  overflow-y:scroll;
+}
+
+.wrong-answer{
+  background-color: rgba(212, 20, 20, 0.116) !important;
+}
+
+.good-answer{
+  background-color: rgba(47, 211, 25, 0.267) !important;
+}
+

@@ -1,0 +1,30 @@
+.titulo{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+/*   background-color: rgb(2, 66, 0);
+ */
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 3.2rem;
+}
+
+.competencia{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.aux-compe{
+  padding: 7rem;
+  color: white;
+  background-color: #037bc0;
+}
+
+.btn-perso{
+  font-size: 1.2rem;
+  color: white;
+  padding: 0;
+}
+.btn-perso:hover{
+  border: solid white 0.1rem;
+}

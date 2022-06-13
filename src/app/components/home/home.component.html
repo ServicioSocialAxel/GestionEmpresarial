@@ -1,0 +1,158 @@
+<div id="curso-info"></div>
+<section class="about-us">
+  <div class="container grid-au">
+    <div class="aux-div">
+      <h1 class="m-0">¡¡¡Bienvenidos!!!</h1>
+      <h2>Sobre el Curso</h2>
+      <p>
+        Recibe la más cordial bienvenida a este recurso didáctico digital (RDD) de la Unidad de Aprendizaje (UA)
+        de Redes de Computadoras que se imparte en la Escuela Superior de Cómputo del Instituto Politécnico
+        Nacional.
+        Este RDD fue construido con el propósito de promover el aprendizaje autónomo, así como de facilitar, enriquecer
+        y fortalecer los procesos de enseñanza-aprendizaje de la UA en cuestión en la modalidad escolarizada.
+      </p>
+      <p>
+        La unidad de aprendizaje contribuye al perfil de egreso de Ingeniería en Sistemas Computacionales con el
+        desarrollo de las habilidades de análisis de las funciones del modelo de referencia para interconexión de
+        sistemas abiertos y la pila de protocolos de la arquitectura TCP/IP, el diseño de topologías lógica y física de
+        una red de área local de acuerdo a los estándares EIA/TIA/ANSI. Así como la configuración de algoritmos de
+        enrutamiento. Asimismo, fomenta el trabajo en equipo, el liderazgo y la toma de decisiones.
+      </p>
+    </div>
+  </div>
+  <div id="meto"></div>
+</section>
+
+<section class="meto">
+  <div class="grid-meto">
+    <div class="aux-reque">
+      <h2>Metodología</h2>
+      El alumnado desarrollará las siguientes actividades:
+      <ol>
+        <li>Indagación documental de los temas a tratar en cada clase </li>
+        <li>Discusión dirigida de los conceptos para la programación del analizador de protocolos.</li>
+        <li>Organizadores gráficos.</li>
+        <li>Uso de algún sniffer para poder manipular paquetes que contengan dichos protocolos</li>
+        <li>Uso de algún simulador/emulador de redes para el diseño de la red.</li>
+        <li>Desarrollo de un proyecto integrado por fases a lo largo de las cuatro unidades temáticas que consta de un
+          analizador de protocolos y configuración de escenarios de red.</li>
+        <li>Realización de las prácticas.</li>
+      </ol>
+    </div>
+    <div class="img-meto"></div>
+  </div>
+  <div id="competencia"></div>
+</section>
+
+<section class="competencia-section">
+  <div class="container div-competencia">
+    <h2 class="text-center">Unidad de Competencia</h2>
+    <div class="competencia-text">
+      <img src="assets/img/comptencia.png" alt="Imagen Cargada" />
+      <div id="eval"></div>
+      <p>
+        Diseña las topologías lógica y física de una red de área local a partir de sus fundamentos, técnicas de
+        transmisión de datos y capas de acceso a la red, Internet y transporte.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="eval">
+  <div class="container grid-au">
+    <div class="aux-div">
+      <h2>Evaluación</h2>
+      Evaluación diagnóstica.<br>
+      Portafolio de evidencias:
+      <ol>
+        <li>Reporte de indagación</li>
+        <li>Programas de cómputo documentados y ejecutados correctamente.</li>
+        <li>Organizadores gráficos.</li>
+        <li>Analizador de protocolos ejecutado correctamente.</li>
+        <li>Configuración de escenarios en simuladores/emuladores de red.</li>
+        <li>Fase 1 del proyecto: configuración del controlador de la tarjeta de red en modo promiscuo para la captura de
+          tramas</li>
+        <li>Fase 2 del proyecto: análisis de los protocolos de la capa de acceso a la red</li>
+        <li>Fase 3 del proyecto: análisis de los protocolos de la capa de Interred</li>
+        <li>Fase 4 del proyecto: análisis de los protocolos de la capa de Transporte</li>
+        <li>Fase 5 del proyecto: funciones adicionales: filtrado de tramas, importación y exportación de tramas.</li>
+        <li>Fase 6 del proyecto: configuración de un escenario de red en algún simulador/emulador.</li>
+        <li>Reportes de prácticas</li>
+        <li>Evaluación escrita</li>
+      </ol>
+    </div>
+  </div>
+  <div id="estrategias"></div>
+</section>
+<section class="estrat">
+  <div class="grid-meto">
+    <div class="aux-reque">
+      <h2>Estrategias de Aprendizaje</h2>
+      El alumnado desarrollará las siguientes actividades:
+      <ol>
+        <li>Indagación documental de los temas a tratar en cada clase.</li>
+        <li>Discusión dirigida de los conceptos para la programación del analizador de protocolos.</li>
+        <li>Organizadores gráficos.</li>
+        <li>Uso de algún sniffer para poder manipular paquetes que contengan dichos protocolos.</li>
+        <li>Uso de algún simulador/emulador de redes para el diseño de la red.</li>
+        <li>Desarrollo de un proyecto integrado por fases a lo largo de las cuatro unidades temáticas que consta de un
+          analizador de protocolos y configuración de escenarios de red.</li>
+        <li>Realización de las prácticas.</li>
+      </ol>
+    </div>
+    <div class="img-estra"></div>
+  </div>
+  <div id="contactos"></div>
+</section>
+
+<section class="container categories">
+  <h2 class="text-center">Contactos: Ext. 52032</h2>
+  <div class="list-cat">
+    <div *ngFor="let item of responsables;let idx = index" class="category">
+      <div class="prof-photo" [style]="'background-image: url('+item.photo+');'"></div>
+      <!--  <img [src]="item.photo" alt="Imagen Cargada" /> -->
+      <p>
+        <b>{{item.name}}</b><br>{{item.mail}}<br>
+        <button type="button" class="btn btn-link" data-toggle="modal" [attr.data-target]="'#prof'+idx">Más acerca del
+          docente</button>
+      </p>
+
+      <div class="modal fade" [id]="'prof'+idx">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header text-center">
+              <h2 class="modal-title">{{item.name}}</h2>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span>&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <b>Desarrollo profesional:</b><br />
+              <div [innerHtml]="item.info"></div>
+              <br />
+              <b>Áreas de interés:</b><br />
+              <div [innerHtml]="item.intereses"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="reque"></div>
+</section>
+
+
+<section class="reque">
+  <div class="grid-reque">
+    <div class="aux-reque">
+      <h2>Requerimientos</h2>
+      <p>
+        Requerimos de tu compromiso como estudiante :)
+      </p>
+    </div>
+    <div class="img-reque"></div>
+  </div>
+</section>
+
+<main class="main-prod container">
+</main>

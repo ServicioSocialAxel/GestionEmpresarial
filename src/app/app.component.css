@@ -1,0 +1,76 @@
+.app{
+  margin-top: 15rem;
+}
+
+.dropdown-item{
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.navbar-nav {
+  width: 40%;
+  justify-content: space-between;
+  margin-left: 5rem;
+}
+
+.dropdown-menu {
+  border: none;
+}
+
+/** Header y Nav Main **/
+
+.nav-main-header{
+  border-bottom: 3px solid;
+  border-image-source: linear-gradient(to right, #637681, #037bc0);
+  border-image-slice: 1;
+  padding: 2rem 10rem; /*Top Rigth Bottom Left */ /*TB LR*/
+  background-color: white;
+  font-size: 1.7rem;
+}
+
+.img-logo{
+  width: 6rem;
+}
+
+.logos{
+  display: inline-flex;
+  cursor: pointer;
+}
+
+.redes-text{
+  margin: 0 1rem;
+  font-size: 2rem;
+}
+
+.redes-text span{
+  color: #037bc0;
+}
+
+.header-main a{
+  align-items: center;
+  display: flex;
+}
+
+.navs-header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 2.5rem;
+}
+
+.navs-header a{
+  margin: 0 auto;
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 600px) {
+  .nav-main-header{
+    padding: 2rem 5rem; /*Top Rigth Bottom Left */ /*TB LR*/
+  }
+  .logos{
+    margin-right: 0rem;
+  }
+}
+
+

@@ -1,0 +1,42 @@
+.container-unidad{
+  max-width: 150rem;
+  margin: 0 auto;
+}
+
+.contenidos{
+  margin: 5rem auto;
+}
+
+.contenidos h3{
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.contenidos span{
+  color: rgba(70, 70, 70, 0.801);
+  font-size: 1.5rem;
+}
+
+.contenidos .card-header{
+  cursor: pointer;
+}
+
+.contenidos .card{
+  margin: 2rem auto;
+}
+
+.container{
+  margin: 2rem auto;
+}
+
+.data-act{
+  display: grid;
+  grid-template-columns: 30fr 1fr;
+}
+
+@media only screen and (max-width: 900px) {
+  .data-act{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}

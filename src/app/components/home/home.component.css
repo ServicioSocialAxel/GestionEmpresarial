@@ -51,13 +51,11 @@
   color: white;
 }
 
-.about-us{
-  background-image: linear-gradient(to right, transparent 50%,#037bc0 50%,#037bc0 100%), url(../../../assets/img/redes1.jpg);
-  padding: 8rem 0;
+.about-us-img{
+  background-image: url(../../../assets/img/redes1.jpg);
   background-repeat: no-repeat;
-  background-size: 100%, 120rem;
-  background-position: left center;
-  margin-top: 3rem;
+  background-size: cover;
+  background-position: center center;
 }
 
 .aux-div{
@@ -139,10 +137,6 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .about-us{
-    background-image: linear-gradient(to right, transparent 25%,#037bc0 25%,#037bc0 100%), url(../../../assets/img/redes1.jpg);
-    padding: 5rem 0;
-  }
   .eval{
     background-image: linear-gradient(to right, transparent 25%,#037bc0 25%,#037bc0 100%), url(../../../assets/img/eval.jpg);
     background-position: right center;

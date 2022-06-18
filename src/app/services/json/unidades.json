@@ -123,7 +123,7 @@
       "IEE 802.3",
       "Accesos"
     ],
-    "cuadroEval": "../../assets/img/bibliografia.png",
+    "cuadroEval": "assets/img/bibliografia.png",
     "contenido": [
       {
         "seccion": 3.1,
@@ -145,7 +145,7 @@
           "Enviar Tramas",
           "Rutinas"
         ],
-        "unidad": "<h4>Acceso Acceso al controlador de la tarjeta de red en C</h4><div class='embed-responsive embed-responsive-16by9 diapos'><object data='/assets/data/NIC_Npcap.pdf' type='application/pdf'></object></div><h4 class='pt-5'>Acceso Acceso al controlador de la tarjeta de red en JAVA</h4><div class='embed-responsive embed-responsive-16by9 diapos'><object data='/assets/data/NIC_Pcap4J.pdf' type='application/pdf'></object></div>",
+        "unidad": "<h4>Acceso Acceso al controlador de la tarjeta de red en C</h4><div class='embed-responsive embed-responsive-16by9 diapos'><object data='assets/data/NIC_Npcap.pdf' type='application/pdf'></object></div><h4 class='pt-5'>Acceso Acceso al controlador de la tarjeta de red en JAVA</h4><div class='embed-responsive embed-responsive-16by9 diapos'><object data='assets/data/NIC_Pcap4J.pdf' type='application/pdf'></object></div>",
         "recurso": "<h4>Acceso Acceso al controlador de la tarjeta de red en C</h4><div class='embed-responsive embed-responsive-16by9 diapos'><object data='http://148.204.58.221/axel/redesnp/sniffer/NPCAP/' type='text/html'></object></div><h4 class='pt-5'>Acceso Acceso al controlador de la tarjeta de red en JAVA</h4><div class='embed-responsive embed-responsive-16by9 diapos'><object data='http://148.204.58.221/axel/redesnp/sniffer/pcap4j/' type='text/html'></object></div>"
       },
       {
@@ -157,7 +157,7 @@
           "Encabezados",
           "Análisis de Trama"
         ],
-        "unidad": "<div class='embed-responsive embed-responsive-16by9 diapos'><object data='/assets/data/HDLC_LLC.pdf' type='application/pdf'></object></div>",
+        "unidad": "<div class='embed-responsive embed-responsive-16by9 diapos'><object data='assets/data/HDLC_LLC.pdf' type='application/pdf'></object></div>",
         "recurso": ""
       },
       {
@@ -167,7 +167,7 @@
         "keywords": [
           "Accesos, Medios compartidos, CSMA"
         ],
-        "unidad": "<div class='embed-responsive embed-responsive-16by9 diapos'><object data='/assets/data/ControlAccesoMedio.pdf' type='application/pdf'></object></div>",
+        "unidad": "<div class='embed-responsive embed-responsive-16by9 diapos'><object data='assets/data/ControlAccesoMedio.pdf' type='application/pdf'></object></div>",
         "recurso": ""
       }
     ]

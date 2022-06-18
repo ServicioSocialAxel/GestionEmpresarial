@@ -16,9 +16,18 @@
             <span>{{item.descripcionRecurso}}</span>
           </div>
         </div>
-        <div [id]="'seccion' + idx" class="collapse">
+        <div [id]="'seccion' + idx" class="collapsing">
           <div [innerHTML]="item.unidad | sanitizedHtml" class="container" *ngIf="tipo == 0"></div>
           <div [innerHTML]="item.recurso | sanitizedHtml" class="container" *ngIf="tipo == 1"></div>
+          <!-- <div class="container">
+            <pdf-viewer src="../assets/data/HDLC_LLC.pdf"
+            [render-text]="false"
+            [original-size]="false"
+            class="pdf-viewer"
+            [show-borders]="true"
+            [zoom]="0.75"
+            [autoresize]="true"
+            ></pdf-viewer></div>-->
         </div>
       </div>
       <button type="button" class="btn btn btn-outline-secondary btn-lg" data-toggle="modal" [attr.data-target]="'#actividad'+idx">

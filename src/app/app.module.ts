@@ -32,7 +32,8 @@ import { HttpClientModule } from '@angular/common/http';
     routing,
     FormsModule,
     DataTablesModule,
-    HttpClientModule
+    HttpClientModule,
+    PdfViewerModule
   ],
   providers: [
     routingProviders

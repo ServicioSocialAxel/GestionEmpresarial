@@ -30,11 +30,13 @@
 
 .img-logo{
   width: 6rem;
+  max-width: 6rem;
 }
 
 .logos{
-  display: inline-flex;
+  display: grid;
   cursor: pointer;
+  grid-template-columns: repeat(3,3fr);
 }
 
 .redes-text{
@@ -52,16 +54,29 @@
 }
 
 .navs-header{
-  display: flex;
+  /* display: flex;
   flex-direction: row;
   justify-content: space-between;
-  flex-wrap: wrap;
+  flex-wrap: wrap; */
   padding-top: 2.5rem;
+  display: grid;
+  grid-template-columns: 1fr 5fr;
 }
 
 .navs-header a{
   margin: 0 auto;
   font-weight: 700;
+}
+
+.navbar-toggler{
+  margin: 0 auto;
+  padding: 0.5rem 4rem;
+}
+
+@media only screen and (max-width: 800px) {
+  .navs-header{
+    grid-template-columns: 1fr;
+  }
 }
 
 @media only screen and (max-width: 600px) {

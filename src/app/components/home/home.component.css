@@ -117,6 +117,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+
 .img-meto{
   background-image: url(../../../assets/img/meto.png);
   background-repeat: no-repeat;

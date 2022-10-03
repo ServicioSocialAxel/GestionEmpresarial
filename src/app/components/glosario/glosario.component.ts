@@ -7,7 +7,11 @@ import { InfoService } from '../../services/info.service';
   styleUrls: ['./glosario.component.css']
 })
 export class GlosarioComponent implements OnInit {
-  dtOptions: DataTables.Settings = {};
+  dtOptions: DataTables.Settings = {
+    "columns": [
+      { "width": "33%" }
+    ]
+  };
   constructor(private infoService : InfoService) { }
 
   ngOnInit(): void {
@@ -29,10 +33,25 @@ export class GlosarioComponent implements OnInit {
         lengthMenu: "Mostrar _MENU_ entradas",
       },
       columns: [
-        { "data": "word"},
-        { "data": "description" },
+        { 
+          "data": "word"
+        },
+        { 
+          "data": "description" 
+        },
+        { 
+          "data": "sources",
+          "render": function ( data, type, row, meta ) {
+            return data;
+          }
+        }
       ]
     };
+    /*setTimeout(()=>{
+      let dataTableTD = document.querySelector('.dataTable td');
+      if(dataTableTD)
+        dataTableTD.setAttribute('style', 'word-break: break-all;');
+    }, 20)*/
   }
 
 }

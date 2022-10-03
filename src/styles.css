@@ -59,7 +59,7 @@ img{
 
 .img-full-cover{
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-position: 30% 70%;
 }
 

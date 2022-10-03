@@ -1,1 +1,10 @@
+table.dataTable thead th:nth-child(2){
+    /*width: 50% !important;*/
+    /*max-width: 50% !important;*/
+    /*min-width: 50% !important;*/
+}  
 
+
+.dataTable td {
+    /*word-break: break-all;*/
+}

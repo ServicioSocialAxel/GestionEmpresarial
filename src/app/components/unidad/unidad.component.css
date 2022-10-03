@@ -34,6 +34,10 @@
   grid-template-columns: 30fr 1fr;
 }
 
+.data-complete {
+  display: grid;
+}
+
 .pdf-viewer {
   display: flex;
   align-items: flex-start;

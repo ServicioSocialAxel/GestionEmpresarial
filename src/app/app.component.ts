@@ -14,30 +14,21 @@ export class AppComponent implements OnInit, DoCheck{
   currentLink: string = "";
   navs : Array<any> = [
     {
-      title : "Metodología",
-      link: "#meto"
+      title : "Bienvenida",
+      link: "#bienvenida"
     },
     {
-      title : "Competencia",
-      link: "#competencia"
+      title : "Metodología",
+      link: "#metodologia"
+    },
+    {
+      title : "Unidad de competencia",
+      link: "#unidad"
     },
     {
       title : "Evaluación",
       link: "#eval"
-    },
-    {
-      title : "Estrategias de Aprendizaje",
-      link: "#estrategias"
-    },
-    {
-      title : "Contactos",
-      link: "#contactos"
-    },
-    {
-      title : "Requerimientos",
-      link: "#reque"
     }
-
   ]
   constructor(private router: Router, private infoService: InfoService){
     this.unidades = this.infoService.getUnidades();

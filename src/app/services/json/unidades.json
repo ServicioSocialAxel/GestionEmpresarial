@@ -1,73 +1,39 @@
 [
   {
     "indice": 1,
-    "titulo": "Fundamentos de redes",
-    "imagen": "https://i.go-travels.com/img/how-to/networking-fundamentals.jpg",
-    "competencia": "Analiza los fundamentos de redes de computadoras con base en su clasificación, organizaciones de estandarización, el modelo OSI, la arquitectura TCP/IP.",
+    "titulo": "Introducción a la gestión empresarial",
+    "imagen": "https://www.awerty.net/wp-content/uploads/2019/11/Gestion-Negocio.png",
+    "competencia": "Aún no existe información para la unidad.",
     "keywords": [
-      "Redes",
-      "Clasificación",
-      "Estandares",
-      "OSI",
-      "TCP/IP"
     ],
     "contenido": [
       {
         "seccion": 1.1,
-        "titulo": "Fundamentos de redes de computadoras",
+        "titulo": "Aún no existe información para esta unidad",
         "descripcionRecurso": "",
         "keywords": [
-          "Redes",
-          "Fundamentos"
         ],
         "unidad": "<h3 class='text-center'>Sección sin información</h3>",
-        "recurso": "",
-        "actividad": "<div class='embed-responsive embed-responsive-16by9 diapos'><object data='https://www.dspace.espol.edu.ec/bitstream/123456789/27398/1/20132SPRTCO011561_1.PDF' type='application/pdf'></object></div>"
-      },
+        "recurso": ""
+      }
+    ],
+    "recurso": [
       {
-        "seccion": 1.2,
-        "titulo": "Clasificación de redes de computadoras",
+        "seccion": 1.1,
+        "titulo": "Aún no existe información para esta unidad",
         "descripcionRecurso": "",
         "keywords": [
-          "Clasificacion",
-          "Geográfica",
-          "Tendencias"
         ],
         "unidad": "<h3 class='text-center'>Sección sin información</h3>",
-        "recurso": "",
-        "actividad": "<h3 class='text-center'>Sin actividades disponibles</h3>"
-      },
-      {
-        "seccion": 1.3,
-        "titulo": "Organizaciones de estandarización",
-        "descripcionRecurso": "",
-        "keywords": [
-          "Estandares",
-          "IEEE"
-        ],
-        "unidad": "Test",
-        "recurso": "",
-        "actividad": "<h3 class='text-center'>Sin actividades disponibles</h3>"
-      },
-      {
-        "seccion": 1.4,
-        "titulo": "Modelo OSI y Arquitectura TCP/IP",
-        "descripcionRecurso": "",
-        "keywords": [
-          "OSI",
-          "TCP/IP"
-        ],
-        "unidad": "<h3 class='text-center'>Sección sin información</h3>",
-        "recurso": "",
-        "actividad": "<h3 class='text-center'>Sin actividades disponibles</h3>"
+        "recurso": ""
       }
     ]
   },
   {
     "indice": 2,
-    "titulo": "Transmisión de datos",
-    "imagen": "https://x.utel.edu.mx/repositorios/uploads/2020/03/L1Is113.jpg",
-    "competencia": "Analiza los mecanismos de transmisión de datos que garantizan una comunicación confiable con base en las funciones de los protocolos, especificaciones y estándares de medios de transmisión.",
+    "titulo": "Gestión estratégica en las empresas de innovación tecnológica",
+    "imagen": "https://www.uic.mx/wp-content/uploads/2020/05/servicios-empresa.png",
+    "competencia": "Aplicar la gestión estratégica en las empresas de inovación tecnológica.",
     "keywords": [
       "Protocolos",
       "Encapsulamiento",
@@ -79,212 +45,281 @@
     "contenido": [
       {
         "seccion": 2.1,
-        "titulo": "Funciones de los protocolos",
+        "titulo": "Factores de competitividad que afectan la gestión",
         "descripcionRecurso": "",
         "keywords": [
-          "Redes",
-          "Fundamentos"
+          "Dirección",
+          "liderazgo",
+          "capacidad financiera",
+          "competencia"
         ],
-        "unidad": "",
-        "recurso": ""
+        "actividad": "<iframe loading='lazy' src='../../../assets/data/Actividad_2_1.pdf' width='100%' height='900px' frameborder='0'></iframe>",
+        "unidad": "Existen numerosos factores que afectan la gestión empresarial, entre los cuales se encuentran: <br/> <ul>        <li><b>Capacidad directiva:</b> Se relaciona con las aptitudes de liderazgo y dirección que posee el alto mando de la empresa. Si los líderes de la empresa no son buenos, o presentan carencias, todo esto tendrá impacto en la empresa como un todo.</li>        <li><b>Diferencia en roles de producción o de servicios:</b>  Este factor está relacionado con las categorías de organización y del servicio al cliente. Es un elemento importante porque una buena distinción de los cargos y responsabilidades es necesaria para obtener y mantener una productividad óptima. También ayuda a la selección de personal, ya que se conocen las necesidades de la empresa.</li>        <li><b>Relación calidad/precio:</b> Una empresa que no tiene problemas con este factor conoce a la perfección los gastos, ganancias y riesgos que reporta la producción, distribución y comercialización de sus productos o servicios.</li>        <li><b>Recursos tecnológicos:</b>  Las marcas que tienen una buena competitividad empresarial, al mismo tiempo que poseen tecnología de punta o estrategias de marketing actualizadas, son aquellas que tienen la capacidad de seleccionar los recursos tecnológicos necesarios de acuerdo con el alcance y recursos con los que cuentan.</li>        <li><b>Capacidad innovadora:</b> La capacidad innovadora es un factor importante porque puede tener repercusiones en todos los niveles de organización de una empresa. Aunque hay estrategias y maneras de organización que facilitan el desarrollo, crecimiento y prosperidad de los negocios.</li>        <li><b>Recursos comerciales:</b> Este factor determina la competitividad empresarial en tanto que da cuenta del capital económico con el que cuentan los negocios. Está relacionado con el elemento de relación precio-calidad y también dice mucho sobre la rentabilidad de una marca.</li>        <li><b>Capacidades del capital humano:</b> Dado que es el talento humano el permite realizar las tareas clave y brindar las interacciones más sobresalientes con los clientes, también es fundamental para la competitividad. Determina gran parte del factor de calidad, ya sea que la empresa comercie un producto o servicio.</li>        <li><b>Recursos financieros:</b> Este último factor es muy importante en la competitividad empresarial; sin él es imposible atender las necesidades de infraestructura, mantener un buen capital humano, o invertir en los recursos tecnológicos que necesita la empresa.</li>        </br> </ul>  </br> <div style='display: flex; justify-content:center;'><img style='width: 75rem;' src='../../../assets/img/2_1_Factores_de_competitividad.png'></div> </br> <a  href='https://blog.hubspot.es/sales/competitividad-empresarial' target='_blank' style='color: blue;'>Fuente<a>"
       },
       {
         "seccion": 2.2,
-        "titulo": "Especificaciones y estándares de medios de transmisión",
+        "titulo": "Filosofía corporativa de empresas de innovación tecnológica",
         "descripcionRecurso": "",
         "keywords": [
-          "Medios",
-          "Transmisión"
         ],
-        "unidad": "",
+        "actividad": "<iframe loading='lazy' src='../../../assets/data/Actividad_2_2.pdf' width='100%' height='900px' frameborder='0'></iframe>",
+        "unidad": "Contenidos pendientes por agregar",
         "recurso": ""
       },
       {
         "seccion": 2.3,
-        "titulo": "Códigos de línea",
+        "titulo": "Estrategia y Cultura Organizacional de empresas",
         "descripcionRecurso": "",
         "keywords": [
-          "Código"
+          "Identidad", 
+          "unicidad"
         ],
-        "unidad": "",
+        "unidad": "Tanto la estrategia como la cultura organizacional son términos sumamente diferentes, pero no por eso dejan de estar relacionados. </br> El término cultura puede sonar como algo abstracto, poco comprensible o incluso demasiado general para poderlo aplicar. A pesar de ser un término muy utilizado, pocas veces se comprende. </br> La cultura es lo que define y <b>distingue a una organización</b> de otra. Son todas aquellas normas, creencias, rituales, códigos y valores que, compartidos, guían la actitud y el comportamiento de los colaboradores. </br> Es posible decir que la cultuira, a grandes rasgos, define la <b>“identidad” de una organización.</b> Todas las personas tenemos particularidades que nos distinguen de otros: nuestro ADN, nuestros rasgos físicos, el conjunto de habilidades, aptitudes, actitudes, emociones, nuestro estilo de comunicación, y demás características específicas que nos hacen ser quien somos. </br>    Las organizaciones tienen dos componentes que generan identidad, la <b>cultura organizacional</b> y la <b>estrategia organizacional</b>, ambas deben ser definidas con claridad y ser desarrolladas consistentemente a lo largo del tiempo. </br> <div style='display: flex; justify-content:center;'><img style='width: 75rem;' src='../../../assets/img/2_3_Estrategia_y_cultura.png'></div> </br> <a  href='https://www.altonivel.com.mx/recursos-humanos/cultura-organizacional-estrategia/' target='_blank' style='color: blue;'>Fuente<a>",
         "recurso": ""
+      },
+      {
+        "seccion": 2.4,
+        "titulo": "Implementación de la estrategia Planes",
+        "descripcionRecurso": "",
+        "keywords": [
+          "Planeación", 
+          "metas",
+          "estrategias"
+        ],
+        "unidad": "La implementación estratégica, en palabras simples, es el proceso que pone planes y estrategias en acción para alcanzar objetivos. Un plan estratégico es un documento escrito en el que se exponen los planes de negocio para alcanzar objetivos, pero quedará olvidado sin una implementación estratégica. La implementación hace que se cumplan los planes de la compañía. </br> Características de la implementación estratégica: </br> <ul> <li>Debe tener un líder muy visible que comparta valores positivos como la visión, entusiasmo, entre otras características deseables.</li> <li>Tiene un mapa estratégico.</li> <li>Los pasos a seguir son claros para lograr un óptimo desempeño.</li> <li>Se tienen claros factores de finanzas, mercado, ambiente laboral, operaciones, personas y socios.</li> </ul> </br> <div style='display: flex; justify-content:center;'><img style='width: 40rem; height:auto;' src='../../../assets/img/2_4_Implementacion_de_la_ajedrez.jpg'> </div> <div style='display: flex; justify-content:center; padding-top: 1rem; padding-bottom: 3rem;'> <a style='color: blue;' target='_blank' href='https://l.hdnux.com/350x235p/photos.demandstudios.com/74/134/fotolia_465350_XS.jpg'>Fuente de la imagen</a> </div> <div style='display: flex; justify-content:center;'> <img style='width: 40rem;' src='../../../assets/img/2_4_Implementacion_de_la_mapa.png'> </div> </br> <a  href='https://pyme.lavoztx.com/qu-es-la-implementacin-estratgica-4652.html' target='_blank' style='color: blue;'>Fuente<a>",
+        "recurso": ""
+      },
+      {
+        "seccion": "2.4.1",
+        "titulo": "Cuadro de mando integral",
+        "descripcionRecurso": "",
+        "keywords": [
+          "Rendimiento", 
+          "Satisfacción",
+          "Crecimiento",
+          "Calidad"
+        ],
+        "unidad": "El Cuadro de Mando Integral (CMI) es un modelo de gestión que traduce la estrategia en objetivos relacionados entre sí, medidos a través de indicadores y ligados a unos planes de acción que permiten alinear el comportamiento de los miembros de la organización con la estrategia de la empresa. </br> Se trata de una herramienta de control de gestión, cuya función primordial es la implantación y comunicación de la estrategia a toda la empresa. </br> El modelo de CMI diseñado por Kaplan y Norton (Balanced Scorecard) busca un cuadro de mandos «balanceado», dónde además de la perspectiva Financiera se tienen en cuenta las otras tres grandes áreas a nivel estratégico dentro de las organizaciones: clientes, procesos y recursos. </br> <ul><li>Financiera : ¿Cómo nos vemos a los ojos de los accionistas?</li> <li>Desarrollo y Aprendizaje: ¿Podemos continuar mejorando y creando valor?</li> <li>Procesos: ¿En qué debemos sobresalir?</li> <li>Clientes: ¿Cómo nos ven los clientes?</li> </ul> <div style='display: flex; justify-content:center;'><img style='width: 45rem;' src='../../../assets/img/2_4_1_Cuadro_de_mando.png'></div> </br> <a  href='https://cmigestion.es/2012/10/23/el-cuadro-de-mando-integral-i-que-es-y-para-que-sirve/' target='_blank' style='color: blue;'>Fuente de imagen y artículo<a>",
+        "recurso": ""
+      },
+      {
+        "seccion": 2.5,
+        "titulo": "Herramientas de gestión estratégica",
+        "descripcionRecurso": "",
+        "keywords": [
+          "FODA", 
+          "Porter",
+          "PESTEL",
+          "VRIO",
+          "CANVAS"
+        ],
+        "unidad": "Existen numerosas herramientas para gestionar correctamente y eficientemente una empresa, entre las que se encuentran: </br> <ul><li><b>Matriz FODA:</b> Un análisis DOFA (o matriz FODA) es un modelo de alto nivel, utilizado al comienzo de la planificación estratégica de una organización. Es un acrónimo de las palabras \"debilidades, debilidades, oportunidades, fortalezas  y amenazas\". Las fortalezas y debilidades se consideran factores internos, es decir hacen parte de la empresa; y las oportunidades y amenazas son factores externos, por lo tanto, hacen parte del entorno</li> <li><b>Porter/De las 5 fuerzas:</b> Es un marco de ejecución de estrategia más antiguo, creado por Michael Porter en 1979 en torno a la competitividad. A través de él se puede medir el nivel de competencia de la organización con enfoque en la rentabilidad del mercado. Entre las principales 5 fuerzas se encuentran: <b>Poder de negociación con proveedores, amenaza de nuevos competidores, poder de negociación con los clientes, amenaza de productos sustitutos y rivalidad competitiva existente.</b></li> <li><b>Modelo PEST/EL:</b> Consiste en evaluar la Industria de la organización y de esta manera estar preparado para acoger las oportunidades o prevenir las amenazas. Entre los principales factores a evaluar se incluyen los <b>políticos, económicos, sociales, tecnológicos, ambientales y legales.</b></li> <li><b>Análisis VRIO:</b> El marco VRIO es un acrónimo de \"valor, singularidad, imitabilidad y organización\". Este proceso de planeación estratégica se relaciona más con su declaración de visión que con su estrategia general. El objetivo final en la implementación del modelo VRIO es definir la ventaja competitiva en el mercado. Entre los principales puntos a analizar se encuentra el <b>valor, singularidad, imitabilidad, y organización.</b></li> <li><b>CANVAS:</b> El modelo Canvas se popularizó en el libro \"Blue Ocean Strategy\". Puede usarlo para comprender cómo una empresa se diferencia de sus competidores en las siguientes áreas: clientes, oferta, infraestructura y viabilidad económica. </li></ul> </br> <div style='display: flex; justify-content:center;'><img style='width: 55rem;' src='../../../assets/img/2_5_Herramientas.png'></div> </br> <a  href='https://gestion.pensemos.com/herramientas-para-elaborar-la-estrategia' target='_blank' style='color: blue;'>Fuente<a>",
+        "recurso": ""
+      },
+      {
+        "seccion": "2.5.1",
+        "titulo": "Análisis FODA",
+        "descripcionRecurso": "",
+        "keywords": [
+          "Factores internos/externos", 
+          "fortalezas",
+          "debilidades",
+          "oportunidades",
+          "amenazas"
+        ],
+        "unidad": "Un análisis DOFA (o matriz FODA) es un modelo de alto nivel, utilizado al comienzo de la planificación estratégica de una organización. Es un acrónimo de las palabras \"debilidades, debilidades, oportunidades, fortalezas  y amenazas\". Las fortalezas y debilidades se consideran factores internos, es decir hacen parte de la empresa; y las oportunidades y amenazas son factores externos, por lo tanto, hacen parte del entorno </br> <ul><li><b>Fortalezas:</b> son aquellos aspectos que brindan un diferenciación positiva con respecto a la competencia. Es lo que hace única y mejor a la organización.</li> <li><b>Debilidades:</b> son las limitaciones u obstáculos que nos impiden alcanzar los objetivos trazados.</li> <li><b>Oportunidades:</b> son aquellos factores que están ocurriendo en el entorno  y que nos pueden ayudar a alcanzar las metas.</li> <li><b>Amenazas:</b> son los hechos del entorno que podrían impedir alcanzar el objetivo.</li></ul> </br> <div style='display: flex; justify-content:center;'><img style='width: 55rem;' src='../../../assets/img/2_5_1_Analisis_FODA.jpg'></div>  <div style='display: flex; justify-content:center;'>Ejemplo de una matriz. <a  href='https://gestion.pensemos.com/herramientas-para-elaborar-la-estrategia' target='_blank' style='color: blue;'> Fuente<a></div>",
+        "recurso": ""
+      },
+      {
+        "seccion": "2.5.2",
+        "titulo": "Modelos de negocio",
+        "descripcionRecurso": "",
+        "keywords": [
+          "Factores únicos", 
+          "identidad",
+          "valor",
+          "alcances"
+        ],
+        "unidad": "Un modelo de negocio es una herramienta previa al plan de negocio que te permitirá definir con claridad qué vas a ofrecer al mercado, cómo lo vas a hacer, a quién se lo vas a vender, cómo se lo vas a vender y de qué forma vas a generar ingresos. Es una herramienta de análisis que te permitirá saber quién eres, cómo lo haces, a qué coste, con qué medios y qué fuentes de ingresos vas a tener. Definir tu modelo de negocio es saber cuál es tu ADN, cómo está hecho, cómo se puede modificar, cómo pulir, cómo cambiar, cómo moldear… </br> <div style='display: flex; justify-content:center;'><img style='width: 55rem;' src='../../../assets/img/2_5_2_Modelo_de_negocio.png'></div>  <div style='display: flex; justify-content:center;'><a  href='https://www.vinte.com/wp-content/uploads/2019/08/modelo_de_negocios_3.png' target='_blank' style='color: blue;'>Fuente: imagen<a></div> </br> Los modelos que están funcionando son aquellos que son capaces de crear valor para el cliente, es decir, que tienen una propuesta de valor clara, que son capaces de llegar al cliente, de diferenciarse, de establecer fuertes lazos con el cliente, de fidelizar y que son capaces de producirlos también de una manera especial. </br> <a  href='https://www.vinte.com/en/modelo-negocios/' target='_blank' style='color: blue;'>Fuente<a>",
+        "recurso": ""
+      },
+      {
+        "seccion": "2.5.3",
+        "titulo": "Modelo de Diamante de Porter",
+        "descripcionRecurso": "",
+        "keywords": [
+          "Demanda", 
+          "Estrategia",
+          "Rivales",
+          "Factores"
+        ],
+        "unidad": "El modelo de diamante de porter es un <b>esquema gráfico</b> en el cual se relacionan los indicadores a nivel micro que influyen decisivamente para que un país, una región, una comunidad o, incluso, una empresa, sean realmente competitivos. </br>Entre los principales componentes del diagrama de porter se encuentran: </br><ul><li>Condiciones de los factores</li><li>Condiciones de la demanda</li><li>Estrategia, estructura y rivalidad de las empresas</li><li>Sectores similares y auxiliares</li><li>El gobierno y gestión de los recursos a nivel interno</li><li>Factores imprevistos</li></ul> Todos los factores anteriores están sumamente relacionados y cada uno afecta a la empresa en formas distintas y de manera potencialmente negativa, ya que cualquier condición es suficiente para que la demanda no exista, o para que el producto no sea sustenible, por ejemplo. </br> <div style='display: flex; justify-content:center; padding-top: 1rem;'><img style='width: 55rem;' src='../../../assets/img/2_5_3_Modelo_de_diamante.jpg'></div>  <div style='display: flex; justify-content:center;'><a  href='https://tradebrains.in/wp-content/uploads/2019/11/What-is-Porter%E2%80%99s-Diamond-Model-of-National-Advantage-min.jpg' target='_blank' style='color: blue;'>Fuente imagen<a></div> </br><a  href='https://www.obsbusiness.school/blog/diamante-de-porter-componentes-usos-y-beneficios#:~:text=%C2%BFQu%C3%A9%20es%20el%20diamante%20de,una%20empresa%2C%20sean%20realmente%20competitivos.' target='_blank' style='color: blue;'>Fuente<a>",
+        "recurso": ""
+      },
+      {
+        "seccion": "2.5.4",
+        "titulo": "Plan comercial",
+        "descripcionRecurso": "",
+        "keywords": [
+          "estrategia comercial", 
+          "objetivos a lograr",
+          "retención de clientes"
+        ],
+        "unidad": "El <b>plan comercial</b> de una empresa es un documento en el cual se registran las acciones que tomará la compañía para atraer y retener clientes, qué productos o servicios venderás, cuáles son tus proyecciones financieras. </br>En otras palabras, un modelo de plan de negocios describe la estrategia comercial de una empresa: cuáles son tus objetivos a corto, mediano y largo plazo, y cómo vas a lograrlos.</br>Un plan comercial:</br><ul><li>Aumenta las posibilidades de supervivencia</li><li>Aumenta las oportunidades de éxito</li><li>Aumenta los ingresos a la empresa</li> <div style='display: flex; justify-content:center;'><img style='width: 55rem;' src='../../../assets/img/2_5_4_Plan_comercial.jpg'></div> </br> <div style='display: flex; justify-content:center;'><iframe width='560' height='315' src='https://www.youtube.com/embed/Lk6OfqndH1k' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></div> </br> <a style='color: blue;' target='_blank' href='https://www.zendesk.com.mx/blog/como-hacer-un-plan-comercial/'>Fuente<a>",
+        "recurso": ""
+      },
+      {
+        "seccion": "2.5.5",
+        "titulo": "Plan maestro (Económico - Financiero)",
+        "descripcionRecurso": "",
+        "keywords": [
+          "retornos", 
+          "inversión",
+          "logros financieros",
+          "recursos"
+        ],
+        "unidad": "Una correcta ejecución de un presupuesto maestro implica velar por la realización de inversiones, los planes de crecimiento de la compañía, la expansión del negocio e incluso el posicionamiento de la empresa como marca. Al mismo tiempo, contempla riesgos, recursos, controles, límites de gastos, indicadores y todas las herramientas que puedan ser utilizadas paras las proyecciones.</br><div style='display: flex; justify-content:center;'><img style='width: 55rem;' src='../../../assets/img/2_5_5_Plan_maestro.jpeg'></div> </br><div style='display: flex; justify-content:center;'><a style='color: blue;' target='_blank' href='https://medium.datadriveninvestor.com/fundamentals-in-five-minutes-burn-rate-f4d765d5cd39?gi=4617bc3807a0'>Fuente Imagen<a></div> </br>Entre sus principales objetivos se encuentran:</br><ul><li>Asegurar el retorno de la inversión del negocio.</li><li>Comparar las inversiones pasadas con las que se realizarán en el presente y futuro de la organización.</li><li>Obtener logros financieros.</li><li>Plantear una base para que la gerencia pueda coordinar con los sistemas contables.</li><li>Monitorear las expectativas en cuanto a ingresos futuros, flujos de dinero y rentabilidad financiera.</li><li>Facilitar la gestión de cada actividad a nivel contable y financiero.</li><li>Mejora la eficacia del control de recursos de la compañía.</li></ul> </br><a style='color: blue;' target='_blank' href='https://www.esan.edu.pe/apuntes-empresariales/2019/02/el-presupuesto-maestro-conoce-sus-objetivos-en-una-empresa/'>Fuente<a>",
+        "recurso": ""
+      }
+    ],
+    "recurso": [
+      {
+        "seccion": 2.1,
+        "titulo": "Visión empresarial",
+        "descripcionRecurso": "Tutorial para hacer una visión empresarial para tu empresa.",
+        "unidad": "",
+        "recurso": "<iframe width='100%' height='400px' src='https://www.youtube.com/embed/Lk6OfqndH1k' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen=''></iframe>"
+      },
+      {
+        "seccion": 2.2,
+        "titulo": "Misión empresarial",
+        "descripcionRecurso": "Tutorial para hacer una misión empresarial para tu empresa.",
+        "unidad": "",
+        "recurso": "<iframe width='100%' height='400px' src='https://www.youtube.com/embed/d-IqjXIgyJg' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen=''></iframe>"
+      },
+      {
+        "seccion": 2.3,
+        "titulo": "Valores empresariales",
+        "descripcionRecurso": "Tutorial acerca de los valores empresariales de tu empresa.",
+        "unidad": "",
+        "recurso": "<iframe width='100%' height='400px' src='https://www.youtube.com/embed/h5qoUg2jACw' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen=''></iframe>"
+      },
+      {
+        "seccion": "2.4.1",
+        "titulo": "Visión empresarial",
+        "descripcionRecurso": "Video sobre el Balanced Scorecard.",
+        "unidad": "",
+        "recurso": "<iframe width='100%' height='400px' src='https://express.adobe.com/video/9tEznS736I36p/embed' frameborder='0' allowfullscreen=''></iframe>"
+      },
+      {
+        "seccion": 2.5,
+        "titulo": "Análisis FODA",
+        "descripcionRecurso": "Tutorial para el análisis FODA.",
+        "unidad": "",
+        "recurso": "<iframe width='100%' height='400px' src='https://www.youtube.com/embed/0-ttApFL78g' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen=''></iframe>"
+      },
+      {
+        "seccion": 2.6,
+        "titulo": "Análisis FODA",
+        "descripcionRecurso": "Tutorial para el análisis FODA.",
+        "unidad": "",
+        "recurso": "<iframe width='100%' height='400px' src='https://www.youtube.com/embed/_6vz0-Hx9cE' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen=''></iframe>"
+      },
+      {
+        "seccion": 2.7,
+        "titulo": "Gestión estratégica de la empresa",
+        "descripcionRecurso": "Presentación de genial.ly sobre la Gestión Estratégica de las empresas.",
+        "unidad": "",
+        "recurso": "<iframe frameborder='0' width='100%' height='500px'  src='https://view.genial.ly/6154a6c25d28670d7f01b83e' type='text/html' allowscriptaccess='always' allowfullscreen='true' scrolling='yes' allownetworking='all'></iframe>"
       }
     ]
   },
   {
     "indice": 3,
-    "titulo": "Capa de Acceso a la Red",
-    "imagen": "https://www.legalik.com/i/wi/abogados-acceso-a-red-no-autorizada-espionaje-y-robo-de-informacion.1280x960.1493543501.jpeg",
-    "competencia": "Examina la capa de acceso a la red a partir de rutinas para manipular la NIC, estándares aplicables y tecnologías de control de acceso al medio.",
+    "titulo": "Gestión operativa de la empresa",
+    "imagen": "https://d1f5pwbie4mbzn.cloudfront.net/resources/default/img/pages/home/infoempresa_home_header_mobile.png",
+    "competencia": "Aún no existe información para la unidad.",
     "keywords": [
-      "Capa Física",
-      "NIC",
-      "Rutinas",
-      "IEE 802.3",
-      "Accesos"
     ],
-    "cuadroEval": "assets/img/bibliografia.png",
     "contenido": [
       {
-        "seccion": 3.1,
-        "titulo": "Fundamentos de capa física",
+        "seccion": 1.1,
+        "titulo": "Aún no existe información para esta unidad",
         "descripcionRecurso": "",
         "keywords": [
-          "Ancho de banda",
-          "Ruido"
         ],
-        "unidad": "<div class='embed-responsive embed-responsive-16by9 diapos'><object data='http://148.204.58.221/axel/redesnp/2020/2a_parte_Redes%20de%20computadoras.pdf#page=2' type='application/pdf'></object></div>",
+        "unidad": "<h3 class='text-center'>Sección sin información</h3>",
         "recurso": ""
-      },
+      }
+    ],
+    "recurso": [
       {
-        "seccion": 3.2,
-        "titulo": "Rutinas para manipular la NIC",
-        "descripcionRecurso": "Lista de códigos para la NIC tanto en C, como en Java",
-        "keywords": [
-          "Tramas de vuelo",
-          "Enviar Tramas",
-          "Rutinas"
-        ],
-        "unidad": "<h4>Acceso Acceso al controlador de la tarjeta de red en C</h4><div class='embed-responsive embed-responsive-16by9 diapos'><object data='assets/data/NIC_Npcap.pdf' type='application/pdf'></object></div><h4 class='pt-5'>Acceso Acceso al controlador de la tarjeta de red en JAVA</h4><div class='embed-responsive embed-responsive-16by9 diapos'><object data='assets/data/NIC_Pcap4J.pdf' type='application/pdf'></object></div>",
-        "recurso": "<h4>Acceso Acceso al controlador de la tarjeta de red en C</h4><div class='embed-responsive embed-responsive-16by9 diapos'><object data='http://148.204.58.221/axel/redesnp/sniffer/NPCAP/' type='text/html'></object></div><h4 class='pt-5'>Acceso Acceso al controlador de la tarjeta de red en JAVA</h4><div class='embed-responsive embed-responsive-16by9 diapos'><object data='http://148.204.58.221/axel/redesnp/sniffer/pcap4j/' type='text/html'></object></div>"
-      },
-      {
-        "seccion": 3.3,
-        "titulo": "Estándar IEEE 802.3",
+        "seccion": 1.1,
+        "titulo": "Aún no existe información para esta unidad",
         "descripcionRecurso": "",
         "keywords": [
-          "HDLC",
-          "Encabezados",
-          "Análisis de Trama"
         ],
-        "unidad": "<div class='embed-responsive embed-responsive-16by9 diapos'><object data='assets/data/HDLC_LLC.pdf' type='application/pdf'></object></div>",
-        "recurso": ""
-      },
-      {
-        "seccion": 3.4,
-        "titulo": "Tecnologías de Control de Acceso al Medio",
-        "descripcionRecurso": "",
-        "keywords": [
-          "Accesos, Medios compartidos, CSMA"
-        ],
-        "unidad": "<div class='embed-responsive embed-responsive-16by9 diapos'><object data='assets/data/ControlAccesoMedio.pdf' type='application/pdf'></object></div>",
+        "unidad": "<h3 class='text-center'>Sección sin información</h3>",
         "recurso": ""
       }
     ]
   },
   {
     "indice": 4,
-    "titulo": "Capa de Internet",
-    "imagen": "https://ruizhealytimes.com/wp-content/uploads/2020/12/Internet-velocidad-Foto-Archivo.jpg",
-    "competencia": "Administra problemas entre redes IP con base en el direccionamiento IPv4 y los protocolos ARP, IP, ICMP, IGMP y de enrutamiento.  ",
+    "titulo": "Gestión del capital humano y la calidad",
+    "imagen": "https://sites.google.com/site/portafoliodemercadeoaud/_/rsrc/1534912118077/calidad-en-un-producto/calidad.png",
+    "competencia": "Aún no existe información para la unidad.",
     "keywords": [
-      "Internet IP",
-      "Enrutamiento IP",
-      "ARP",
-      "ICMP",
-      "IGMP"
     ],
     "contenido": [
       {
-        "seccion": 4.1,
-        "titulo": "Protocolo de Internet IP",
+        "seccion": 1.1,
+        "titulo": "Aún no existe información para esta unidad",
         "descripcionRecurso": "",
         "keywords": [
-          "IPv4",
-          "IPv6",
-          "Encabezados",
-          "Tramas"
         ],
-        "unidad": "",
+        "unidad": "<h3 class='text-center'>Sección sin información</h3>",
         "recurso": ""
-      },
+      }
+    ],
+    "recurso": [
       {
-        "seccion": 4.2,
-        "titulo": "Enrutamiento IP",
+        "seccion": 1.1,
+        "titulo": "Aún no existe información para esta unidad",
         "descripcionRecurso": "",
         "keywords": [
-          "Enrutamiento Estático",
-          "Enrutamiento Dinámico"
         ],
-        "unidad": "",
-        "recurso": ""
-      },
-      {
-        "seccion": 4.3,
-        "titulo": "Protocolo de Resolución de Direcciones ARP",
-        "descripcionRecurso": "",
-        "keywords": [
-          "ARP",
-          "Tramas"
-        ],
-        "unidad": "",
-        "recurso": ""
-      },
-      {
-        "seccion": 4.4,
-        "titulo": "Protocolo de Mensajes de Control de Internet ICMP ",
-        "descripcionRecurso": "",
-        "keywords": [
-          "ICMP",
-          "Tramas"
-        ],
-        "unidad": "",
-        "recurso": ""
-      },
-      {
-        "seccion": 4.5,
-        "titulo": "Protocolo de Administración de Grupos de Internet (IGMP)",
-        "descripcionRecurso": "",
-        "keywords": [
-          "IGMP",
-          "DVMRP",
-          "PIM",
-          "MSDP"
-        ],
-        "unidad": "",
+        "unidad": "<h3 class='text-center'>Sección sin información</h3>",
         "recurso": ""
       }
     ]
   },
   {
     "indice": 5,
-    "titulo": "Capa de Transporte",
-    "imagen": "https://jaidoman.files.wordpress.com/2015/02/iot.png",
-    "competencia": "Analiza los servicios de la capa de Transporte a partir de los protocolos TCP Y UDP para una comunicación confiable extremo a extremo.",
+    "titulo": "Retos de la gestión empresarial",
+    "imagen": "https://loupenlatam.com/wp-content/uploads/elementor/thumbs/BLOG-Central-Como-o-Central-ajuda-nos-desafios-de-TI-em-2021_Prancheta-1-p73zmfwovu20qrhgv3no1s74amqecke3ct1zu8bsmk.png",
+    "competencia": "Aún no existe información para la unidad.",
     "keywords": [
-      "TCP",
-      "UDP"
     ],
     "contenido": [
       {
-        "seccion": 5.1,
-        "titulo": "Protocolo de Control de Transmisión TCP",
+        "seccion": 1.1,
+        "titulo": "Aún no existe información para esta unidad",
         "descripcionRecurso": "",
         "keywords": [
-          "Encabezados TCP"
         ],
-        "unidad": "",
+        "unidad": "<h3 class='text-center'>Sección sin información</h3>",
         "recurso": ""
-      },
+      }
+    ],
+    "recurso": [
       {
-        "seccion": 5.2,
-        "titulo": "Protocolo de Datagramas de Usuario UDP ",
+        "seccion": 1.1,
+        "titulo": "Aún no existe información para esta unidad",
         "descripcionRecurso": "",
         "keywords": [
-          "Encabezados UDP"
         ],
-        "unidad": "",
-        "recurso": ""
-      },
-      {
-        "seccion": 5.3,
-        "titulo": "Análisis de segmentos TCP y datagramas UDP",
-        "descripcionRecurso": "",
-        "keywords": [
-          "Segmentos",
-          "Datagramas"
-        ],
-        "unidad": "",
+        "unidad": "<h3 class='text-center'>Sección sin información</h3>",
         "recurso": ""
       }
     ]

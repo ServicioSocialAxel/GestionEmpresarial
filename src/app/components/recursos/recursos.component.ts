@@ -36,7 +36,7 @@ export class RecursosComponent implements OnInit {
 
   updateUnidad(){
     this.unidad = this.unidades[this.id-1];
-    this.unidad.contenido.forEach((element:any) => {
+    this.unidad.recurso.forEach((element:any) => {
       if(!element.recurso || element.recurso.trim()==""){
         element.recurso = "<h3 class='text-center'>Sin recursos disponibles</h3>";
       }

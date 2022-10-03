@@ -1,38 +1,72 @@
 [
   {
-    "word": "MAC",
-    "description": "El MAC (Medium Access Control) proporciona a la capa de enlace de datos el direccionamiento y la delimitación de datos de acuerdo con los requisitos de señalización física del medio y al tipo de protocolo de capa de enlace de datos en uso."
+    "word": "Competividad",
+    "description": "Es la capacidad de la empresa para competir en su sector, entendida como posición actual frente a los competidores y como capacidad para sostener su posición de forma duradera. Se puede medir en términos de eficiencia, el índice de eficiencia global (EG) es el cociente entre el resultado actual (RA) y el resultado medio (RM) de la empresa en su entorno competitivo. EG = (RA/RM)",
+    "sources":"Fuente: J. Pérez Moya. (1997).  Estrategia gestión y habilidades directivas. Diaz de Santos."
   },
   {
-    "word": "LLC",
-    "description": "El LLC (Logical Link Control) coloca información en la trama que identifica qué protocolo de capa de red está siendo utilizado por la trama."
+    "word": "Cuadro de mando integral",
+    "description": "Es un sistema de control e información que equilibra las medidas financieras tradicionales con las medidas operativas relacionadas con los factores críticos de éxito de una organización, pone en operación el plan estratégico de una firma al enfocarse en los resultados medibles sobre las cuatro dimensiones del desempeño de la firma: financieros, procesos de negocios, clientes, y aprendizaje y crecimiento.",
+    "sources":"Fuente: G. Cummings Thomas y G. Worley Christopher. (2007). Desarrollo y cambio organizacional. Thompson. Fuente: C. Laudon Kenneth y P. Laudon Jane. (2012). Sistemas de información gerencial. Pearson."
   },
   {
-    "word": "HDLC",
-    "description": "El HDLC (High-level Data Link Control) es un protocolo de la capa de Enlace de Datos responsable de definir como se deben encapsular los datos para su transmisión a una máquina remota a través de enlaces dedicados (redes WAN)."
+    "word": "Cultura organizacional",
+    "description": "Son los valores y supuestos básicos que caracterizan a una organización. Se refiere a los elementos básicos de una empresa, o la manera como se desenvuelve, a todo el ambiente corporativo, incluyendo cuestiones como las tendencias de compartir o no la información entre las unidades y las personas, la disposición de las personas y la tendencia de los empleados para trabajar con tecnologías e ideas nuevas.",
+    "sources":"Fuente: A. Whetten David y S- Cameron kIm. (2011). Desarrollo de habilidades directivas. Prentice Hall. Fuente: Effy Oz. (2008). Administración de los sistemas de información. CENAGE Learning."
   },
   {
-    "word": "Ancho de Banda",
-    "description": "Intervalo de frecuencias positivas donde la respuesta del sistema es relativamente plana (las señales pueden pasar sin distorsión)"
+    "word": "Análisis FODA",
+    "description": "También llamado DAFO (Debilidades, Amenazas, Fortalezas y Oportunidades) tiene por objeto integrar el diagnóstico interno con el externo para orientar a la empresa en la formulación de la estrategia más conveniente. Suele representarse en un cuadro, que constituye un inventario de temas estratégicos para el análisis. La combinación de los puntos fuertes y débiles con las oportunidades y amenazas permite la formulación de estrategias.",
+    "sources": "Fuente: J. Pérez Moya. (1997). Estrategia gestión y habilidades directivas. Diaz de Santos."
   },
   {
-    "word": "Capacidad de Canal",
-    "description": "Es la máxima velocidad a la cual los datos pueden ser transmitidos sobre un canal de comunicación con cierta fidelidad. Se mide en bits por segundo (bps)."
+    "word": "Estrategia",
+    "description": "Es un conjunto de políticas y acciones definidas por la organización para tratar de alcanzar sus objetivos a largo plazo. Se denomina competitiva cuando se refiere al modo con el que la empresa pretende obtener o mantener una ventaja competitiva sostenida en su mercado. Por lo general, incluye opciones sobre las funciones que desempeñará una organización, los productos o servicios que proporcionará y los mercados y poblaciones a los que servirá.",
+    "sources":"Fuente: J. Pérez Moya. (1997).  Estrategia gestión y habilidades directivas. Diaz de Santos. Fuente: G. Cummings Thomas y G. Worley Christopher. (2007). Desarrollo y cambio organizacional. Thompson."
   },
   {
-    "word": "Ruido",
-    "description": "Toda señal no deseada que se mezcla con la señal útil que se quiere transmitir."
+    "word": "Innovación tecnológica",
+    "description": "Es la introducción al mercado de un producto o proceso nuevo o mejorado que alcanza plena realización práctica, industrial o comercial. La innovación de producto permite ofrecer productos mejorados, mientras que la innovación de proceso mejora la productividad, flexibilidad, calidad o condiciones de trabajo.",
+    "sources":"Fuente: J. Pérez Moya. (1997).  Estrategia gestión y habilidades directivas. Diaz de Santos."
   },
   {
-    "word": "Trama",
-    "description": "Una unidad de envío de datos. Es una serie sucesiva de bits, organizados en forma cíclica, que transportan información y que permiten en la recepción extraer esta información"
+    "word": "Misión",
+    "description": "Es la finalidad que persigue la organización, a su razón de ser ante la sociedad, es el motivo por el cual existe, y, por lo tanto, da sentido y guía sus actividades, debe contener características que le permitan permanecer en el tiempo.",
+    "sources":"Fuente: J. Pérez Moya. (1997).  Estrategia gestión y habilidades directivas. Diaz de Santos. Fuente: Alcaraz Rodríguez Rafael. (2001). El emprendedor de éxito. Mc Graw Hill."
   },
   {
-    "word": "IEEE",
-    "description": "Estándares de red IEEE (Institute Of Electrical and Electronics Engineers)<br>Su misión, en cuestión de redes, se centra en desarrollar estándares de redes de área local y redes de área metropolitana, principalmente en las dos capas inferiores del modelo OSI"
+    "word": "Modelo de negocio",
+    "description": "Descripción de las bases sobre las que una empresa crea, proporciona y capta valor de los clientes, en el cual se planifica a largo plazo, se evitan errores costosos y ayuda a tener una ventaja competitiva.",
+    "sources":"Fuente: Oxterwalder Alexander y Pigneur Yves. Generación de modelos de negocios. (Online). Disponible en: <a target='_blank' style='color: blue;' href='https://cecma.com.ar/wp-content/uploads/2019/04/generacion-de-modelos-de-negocio.pdf'>Generación de modelos de negocio</a>"
   },
   {
-    "word": "CSMA",
-    "description": "En telecomunicaciones, Acceso Múltiple con Escucha de Señal Portadora (Carrier-Sense Multiple Access o CSMA por sus siglas en inglés) es un protocolo de control de acceso al medio en el cual un nodo verifica la ausencia de tráfico antes de transmitir en un medio compartido como un canal electrónico o una banda de espectro electromagnético."
+    "word": "Plan comercial",
+    "description": "Es una estrategia que debe seguirse en una nueva iniciativa, en el que se fijan metas y objetivos de ventas, que define lo que requiere la empresa para conseguir dichas metas analizando la viabilidad técnica, económica y financiera.",
+    "sources":"Fuente: J. Pérez Moya. (1997).  Estrategia gestión y habilidades directivas. Diaz de Santos."
+  },
+  {
+    "word": "Política",
+    "description": "Es una orientación verbal, escrita o implícita que fija la frontera proporcionada, por los límites y dirección general de la cual se desenvuelve la acción administrativa. Revelan las intenciones del administrador para periodos futuros y se deciden antes de que surja la necesidad del conocimiento de tales intenciones.",
+    "sources":"Fuente: Rodríguez Valencia Joaquín, (1999), Introducción a la administración con enfoque en sistemas. Thompson."
+  },
+  {
+    "word": "Presupuesto",
+    "description": "Es la cuantificación y asignación de los recursos disponibles a las actividades específicas, se utiliza para planear el futuro y reducir la incertidumbre acerca de la disponibilidad de los recursos humanos y materiales necesarios, para desempeñar las tareas del departamento.",
+    "sources":"Fuente: Michael A. Hitt. (2006) Administración.  Pearson educación. Fuente: L. Daft Richard. (2011). Teoría y diseño organizacional. CENGAGE Learning."
+  },
+  {
+    "word": "Procedimientos",
+    "description": "Son planes por medio de los cuales se establece un método para el manejo de actividades futuras. Consisten en secuencias cronológicas de las acciones requeridas. Son guías de acción, no de pensamiento, en las que se detalla la manera exacta en que deben realizarse ciertas actividades.",
+    "sources":"Fuente: “Administración, una perspectiva global” Harold Koontz."
+  },
+  {
+    "word": "Programas",
+    "description": "Son un conjunto de metas, políticas, procedimientos, reglas, asignaciones de tareas, pasos a seguir, recursos por emplear y otros elementos necesarios para llevar a cabo un curso de acción.",
+    "sources":"Fuente: Los Programas en la administración. Curso de Administracion de Empresas. <a target='_blank' style='color: blue;' href='http://cursodeadministraciondeempresas.com/los-programas-en-la-administracion'>Programas en la administración</a>."
+  },
+  {
+    "word": "Visión",
+    "description": "Es una declaración que ayuda al emprendedor a seguir el rumbo al que se dirige a largo plazo, permite establecer objetivos y estrategias que se convierten en acciones que inspiren a todos los miembros del equipo para llegar a la meta.",
+    "sources":"Fuente: Alcaraz Rodríguez Rafael. (2001). El emprendedor de éxito. Mc Graw Hill."
   }
 ]

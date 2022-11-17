@@ -32,6 +32,7 @@
 .section-welcome{
   padding: 2rem;
   margin-bottom: 2rem;
+  padding-top: 3rem;
 }
 
 .category p{
@@ -47,7 +48,7 @@
 }
 
 .category p:hover{
-  background-color: #0091F7;
+  background-color: #007BFF;
   color: white;
   border-radius: 0 0 1rem 1rem;
 }
@@ -91,13 +92,13 @@
   text-align: center;
   font-size: 2rem;
   margin-top: 3rem;
- /*  background-color: #037bc0; */
+ /*  background-color: #007BFF; */
   /* color: white; */
   border-radius: 0 0 1rem 1rem;
 }
 
 .unidad{
-  background-image: linear-gradient(to right, transparent 50%,#0091F7 50%,#0091F7 100%), url(../../../assets/img/learning.png);
+  background-image: linear-gradient(to right, transparent 50%,#007BFF 50%,#007BFF 100%), url(../../../assets/img/learning.png);
   padding: 8rem 0;
   background-repeat: no-repeat;
   background-size: contain;
@@ -146,12 +147,12 @@
 .aux-reque{
   padding: 6rem;
   color: white;
-  background-color: #0091F7;
+  background-color: #007BFF;
 }
 
 @media only screen and (max-width: 600px) {
   .unidad{
-    background-image: linear-gradient(to right, transparent 25%,#0091F7 25%,#0091F7 100%), url(../../../assets/img/learning.png);
+    background-image: linear-gradient(to right, transparent 25%,#007BFF 25%,#007BFF 100%), url(../../../assets/img/learning.png);
     background-position: right center;
     padding: 5rem 0;
   }

@@ -52,7 +52,7 @@ git commit -m "jonrojas adding ng description to readme file"
 
 Para poder desplegar los cambios que se han hecho en `develop` para GitHub pages, es necesario que estos cambios estén en `master`, para esto, debes crear un merge request desde develop a master (recomiendo hacerlo desde el dashboard de GitHub), una vez que el merge se ha hecho (JAMÁS BORRAR LA RAMA DEVELOP EN EL MERGE REQUEST, ¡¡¡¡¡JAMÁS!!!!!) desde la terminal, debes cambiarte a la branch `master` y una vez que te encuentres en dicha rama, debes realizar un deploy con el siguiente comando:
 
-`ng deploy --base-href=https://ServicioSocialAxel.github.io/RedesComputadoras/`
+`ng deploy --base-href=https://ServicioSocialAxel.github.io/GestionEmpresarial/`
 
 ## NG
 

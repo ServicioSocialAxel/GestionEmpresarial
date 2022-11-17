@@ -29,16 +29,33 @@
 }
 
 .img-logo{
-  width: 6rem;
-  max-width: 6rem;
+  width: 12rem;
+  max-width: 12rem;
 }
 
 .logos{
   display: grid;
   cursor: pointer;
-  grid-template-columns: repeat(3,3fr);
+  grid-template-columns: repeat(2,3fr);
   text-align: center;
   align-items: center;
+}
+
+.escom-logos{
+  display: grid;
+  cursor: pointer;
+  /*grid-template-rows: 1fr 1fr;*/
+  text-align: center;
+  align-items: center;
+  justify-items: center
+}
+
+.escom-logo{
+  padding-bottom: 1rem;
+}
+
+.nav-main-header{
+  padding: 0;
 }
 
 .redes-text{
@@ -62,7 +79,7 @@
   flex-wrap: wrap; */
   padding-top: 2.5rem;
   display: grid;
-  grid-template-columns: 1fr 5fr;
+  grid-template-columns: 1fr 5fr 1fr;
 }
 
 .navs-header a{
@@ -79,9 +96,26 @@
   margin-bottom: 0px;
 }
 
+@media only screen and (max-width: 1985px) {
+  .app{
+    margin-top: 17rem;
+  }
+}
+
+@media only screen and (max-width: 1845px) {
+  .app{
+    margin-top: 19rem;
+  }
+}
+
+
+
 @media only screen and (max-width: 800px) {
   .navs-header{
     grid-template-columns: 1fr;
+  }
+  .app{
+    margin-top: 28rem;
   }
 }
 
@@ -91,6 +125,9 @@
   }
   .logos{
     margin-right: 0rem;
+  }
+  .app{
+    margin-top: 34rem;
   }
 }
 

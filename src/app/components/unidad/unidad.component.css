@@ -46,6 +46,12 @@
   height: 500px;
 }
 
+.container-grid-center{
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+}
+
 @media only screen and (max-width: 900px) {
   .data-act {
     display: grid;

@@ -3,18 +3,92 @@
     "indice": 1,
     "titulo": "Introducción a la gestión empresarial",
     "imagen": "https://www.awerty.net/wp-content/uploads/2019/11/Gestion-Negocio.png",
-    "competencia": "Aún no existe información para la unidad.",
+    "competencia": "Distingue entre el concepto de administrar y gestionar, la clasificación de las organizaciones y su constitución legal con base en la normativa vigente.",
     "keywords": [
     ],
+    "evaluacion": "<h3 class='text-center'>Sección sin información</h3>",
+    "autoevaluacion": "<h3 class='text-center'>Sección sin información</h3>",
+    "coevaluacion": "<h3 class='text-center'>Sección sin información</h3>",
     "contenido": [
       {
         "seccion": 1.1,
-        "titulo": "Aún no existe información para esta unidad",
+        "titulo": "Las organizaciones",
         "descripcionRecurso": "",
         "keywords": [
         ],
-        "unidad": "<h3 class='text-center'>Sección sin información</h3>",
-        "recurso": ""
+        "unidad": "<h3 class='text-center'>Sección sin información</h3>"
+      },
+      {
+        "seccion": "1.1.1",
+        "titulo": "Clasificación",
+        "descripcionRecurso": "",
+        "keywords": [
+        ],
+        "unidad": "<h3 class='text-center'>Sección sin información</h3>"
+      },
+      {
+        "seccion": "1.1.2",
+        "titulo": "Constitución legal",
+        "descripcionRecurso": "",
+        "keywords": [
+        ],
+        "unidad": "<h3 class='text-center'>Sección sin información</h3>"
+      },
+      {
+        "seccion": 1.2,
+        "titulo": "Administración",
+        "descripcionRecurso": "",
+        "keywords": [
+        ],
+        "unidad": "<h3 class='text-center'>Sección sin información</h3>"
+      },
+      {
+        "seccion": "1.2.1",
+        "titulo": "Objetivo de la administración",
+        "descripcionRecurso": "",
+        "keywords": [
+        ],
+        "unidad": "<h3 class='text-center'>Sección sin información</h3>"
+      },
+      {
+        "seccion": 1.3,
+        "titulo": "Gestión empresarial",
+        "descripcionRecurso": "",
+        "keywords": [
+        ],
+        "unidad": "<h3 class='text-center'>Sección sin información</h3>"
+      },
+      {
+        "seccion": "1.3.1",
+        "titulo": "Objetivo de la gestión empresarial",
+        "descripcionRecurso": "",
+        "keywords": [
+        ],
+        "unidad": "<h3 class='text-center'>Sección sin información</h3>"
+      },
+      {
+        "seccion": "1.3.2",
+        "titulo": "Funciones básicas",
+        "descripcionRecurso": "",
+        "keywords": [
+        ],
+        "unidad": "<h3 class='text-center'>Sección sin información</h3>"
+      },
+      {
+        "seccion": "1.3.3",
+        "titulo": "Clasificación",
+        "descripcionRecurso": "",
+        "keywords": [
+        ],
+        "unidad": "<h3 class='text-center'>Sección sin información</h3>"
+      },
+      {
+        "seccion": 1.4,
+        "titulo": "Diferencias entre Administrar y Gestionar",
+        "descripcionRecurso": "",
+        "keywords": [
+        ],
+        "unidad": "<h3 class='text-center'>Sección sin información</h3>"
       }
     ],
     "recurso": [
@@ -33,7 +107,7 @@
     "indice": 2,
     "titulo": "Gestión estratégica en las empresas de innovación tecnológica",
     "imagen": "https://www.uic.mx/wp-content/uploads/2020/05/servicios-empresa.png",
-    "competencia": "Aplicar la gestión estratégica en las empresas de inovación tecnológica.",
+    "competencia": "Aplica la gestión estratégica en las empresas a partir de la innovación tecnológica.",
     "keywords": [
       "Protocolos",
       "Encapsulamiento",
@@ -42,10 +116,13 @@
       "Control de errores",
       "Segmentación"
     ],
+    "evaluacion": "<iframe loading='lazy' src='assets/data/Evaluacion_2.pdf' style='width: 100%; height: 70rem;'></iframe>",
+    "autoevaluacion": "<iframe loading='lazy' frameborder='0'  style='width: 100%; height: 50rem;' src='https://view.genial.ly/625af435f8dc320011f3709d' type='text/html' allowscriptaccess='always' allowfullscreen='true' scrolling='yes' allownetworking='all'></iframe>",
+    "coevaluacion": "<iframe loading='lazy' frameborder='0' style='width: 100%; height: 50rem;' src='https://my.forms.app/form/6287930d95113a44f6a79b6b' type='text/html' allowscriptaccess='always' allowfullscreen='true' scrolling='yes' allownetworking='all'></iframe>",
     "contenido": [
       {
         "seccion": 2.1,
-        "titulo": "Factores de competitividad que afectan la gestión",
+        "titulo": "Factores de competitividad que afectan la gestión empresarial",
         "descripcionRecurso": "",
         "keywords": [
           "Dirección",
@@ -53,40 +130,44 @@
           "capacidad financiera",
           "competencia"
         ],
-        "actividad": "<iframe loading='lazy' src='../../../assets/data/Actividad_2_1.pdf' width='100%' height='900px' frameborder='0'></iframe>",
-        "unidad": "Existen numerosos factores que afectan la gestión empresarial, entre los cuales se encuentran: <br/> <ul>        <li><b>Capacidad directiva:</b> Se relaciona con las aptitudes de liderazgo y dirección que posee el alto mando de la empresa. Si los líderes de la empresa no son buenos, o presentan carencias, todo esto tendrá impacto en la empresa como un todo.</li>        <li><b>Diferencia en roles de producción o de servicios:</b>  Este factor está relacionado con las categorías de organización y del servicio al cliente. Es un elemento importante porque una buena distinción de los cargos y responsabilidades es necesaria para obtener y mantener una productividad óptima. También ayuda a la selección de personal, ya que se conocen las necesidades de la empresa.</li>        <li><b>Relación calidad/precio:</b> Una empresa que no tiene problemas con este factor conoce a la perfección los gastos, ganancias y riesgos que reporta la producción, distribución y comercialización de sus productos o servicios.</li>        <li><b>Recursos tecnológicos:</b>  Las marcas que tienen una buena competitividad empresarial, al mismo tiempo que poseen tecnología de punta o estrategias de marketing actualizadas, son aquellas que tienen la capacidad de seleccionar los recursos tecnológicos necesarios de acuerdo con el alcance y recursos con los que cuentan.</li>        <li><b>Capacidad innovadora:</b> La capacidad innovadora es un factor importante porque puede tener repercusiones en todos los niveles de organización de una empresa. Aunque hay estrategias y maneras de organización que facilitan el desarrollo, crecimiento y prosperidad de los negocios.</li>        <li><b>Recursos comerciales:</b> Este factor determina la competitividad empresarial en tanto que da cuenta del capital económico con el que cuentan los negocios. Está relacionado con el elemento de relación precio-calidad y también dice mucho sobre la rentabilidad de una marca.</li>        <li><b>Capacidades del capital humano:</b> Dado que es el talento humano el permite realizar las tareas clave y brindar las interacciones más sobresalientes con los clientes, también es fundamental para la competitividad. Determina gran parte del factor de calidad, ya sea que la empresa comercie un producto o servicio.</li>        <li><b>Recursos financieros:</b> Este último factor es muy importante en la competitividad empresarial; sin él es imposible atender las necesidades de infraestructura, mantener un buen capital humano, o invertir en los recursos tecnológicos que necesita la empresa.</li>        </br> </ul>  </br> <div style='display: flex; justify-content:center;'><img style='width: 75rem;' src='../../../assets/img/2_1_Factores_de_competitividad.png'></div> </br> <a  href='https://blog.hubspot.es/sales/competitividad-empresarial' target='_blank' style='color: blue;'>Fuente<a>"
+        "actividad": "<iframe loading='lazy' src='assets/data/Actividad_2_1.pdf' width='100%' height='900px' frameborder='0'></iframe>",
+        "unidad": "<p>Existen numerosos factores que afectan la gestión empresarial, entre los cuales se encuentran: </p> <ul>        <li><b>Capacidad directiva:</b> Se relaciona con las aptitudes de liderazgo y dirección que posee el alto mando de la empresa. Si los líderes de la empresa no son buenos, o presentan carencias, todo esto tendrá impacto en la empresa como un todo.</li>        <li><b>Diferencia en roles de producción o de servicios:</b>  Este factor está relacionado con las categorías de organización y del servicio al cliente. Es un elemento importante porque una buena distinción de los cargos y responsabilidades es necesaria para obtener y mantener una productividad óptima. También ayuda a la selección de personal, ya que se conocen las necesidades de la empresa.</li>        <li><b>Relación calidad/precio:</b> Una empresa que no tiene problemas con este factor conoce a la perfección los gastos, ganancias y riesgos que reporta la producción, distribución y comercialización de sus productos o servicios.</li>        <li><b>Recursos tecnológicos:</b>  Las marcas que tienen una buena competitividad empresarial, al mismo tiempo que poseen tecnología de punta o estrategias de marketing actualizadas, son aquellas que tienen la capacidad de seleccionar los recursos tecnológicos necesarios de acuerdo con el alcance y recursos con los que cuentan.</li>        <li><b>Capacidad innovadora:</b> La capacidad innovadora es un factor importante porque puede tener repercusiones en todos los niveles de organización de una empresa. Aunque hay estrategias y maneras de organización que facilitan el desarrollo, crecimiento y prosperidad de los negocios.</li>        <li><b>Recursos comerciales:</b> Este factor determina la competitividad empresarial en tanto que da cuenta del capital económico con el que cuentan los negocios. Está relacionado con el elemento de relación precio-calidad y también dice mucho sobre la rentabilidad de una marca.</li>        <li><b>Capacidades del capital humano:</b> Dado que es el talento humano el permite realizar las tareas clave y brindar las interacciones más sobresalientes con los clientes, también es fundamental para la competitividad. Determina gran parte del factor de calidad, ya sea que la empresa comercie un producto o servicio.</li>        <li><b>Recursos financieros:</b> Este último factor es muy importante en la competitividad empresarial; sin él es imposible atender las necesidades de infraestructura, mantener un buen capital humano, o invertir en los recursos tecnológicos que necesita la empresa.</li>        </br> </ul>  </br> </br> <div style='display: flex; justify-content:center; padding-top: 1rem; padding-bottom: 3rem;'> <h4> Mapa mental de los factores de competitividad.</h4></div> </br> <div style='display: flex; justify-content:center;'><img class='img-unidades' style='width: 75rem;' src='assets/img/2_1_Factores_de_competitividad.png'></div> </br> <div style='display: flex; justify-content:center; padding-top: 1rem; padding-bottom: 3rem;'> <a style='color: blue;' target='_blank' href='https://serviciosocialaxel.github.io/GestionEmpresarial/assets/img/2_1_Factores_de_competitividad.png'>Abrir imagen en otra pestaña</a> </div> </br> <p> Camilo, C. (2022). Competitividad empresarial: qué es, importancia, tipos y ejemplos. <a style='color: blue;' target='_blank' href='https://blog.hubspot.es/sales/competitividad-empresarial'>https://blog.hubspot.es/sales/competitividad-empresarial</a></p>"
       },
       {
         "seccion": 2.2,
         "titulo": "Filosofía corporativa de empresas de innovación tecnológica",
         "descripcionRecurso": "",
         "keywords": [
+          "Misión",
+          "Visión",
+          "Valores",
+          "Concepción"
         ],
-        "actividad": "<iframe loading='lazy' src='../../../assets/data/Actividad_2_2.pdf' width='100%' height='900px' frameborder='0'></iframe>",
-        "unidad": "Contenidos pendientes por agregar",
+        "actividad": "<iframe loading='lazy' src='assets/data/Actividad_2_2.pdf' width='100%' height='900px' frameborder='0'></iframe>",
+        "unidad": "<p>La filosofía corporativa es uno de los elementos que le da identidad a una organización o empresa. En ella se explica el <b>cómo</b> una organización ve al mundo y cómo se busca operar en él. Dicho de otra manera, en ella se muestra la <b>concepción global de una organización</b> tomando en cuenta las metas y objetivos que se desean alcanzar como también el contexto en el que se plantea. La filosofía busca definir en un conjunto de principios <b>\"lo que la empresa quiere ser\".</b></p><p>Normalmente, quienes definen las filosofías corporativas son los líderes de las empresas (fundadores, CEO o gerentes) ya que <b>la filosofía corporativa es el reflejo de la propia cosmovisión y valores de los líderes.</b></p><p>Los elementos clave que establece una filosofía corporativa responden las siguientes tres preguntas:</p><ul><li>¿Quién soy y que hago? - <b>Misión</b> </li><li>¿Cómo lo hago? - <b>Valores</b> </li><li>¿A dónde quiero llegar? – <b>Visión</b> </li></ul><p>Los anteriores elementos son los cimientos de la filosofía corporativa y estas <b>rigen todas las decisiones y dirección estratégica de una empresa.</b></p> <p>Una buena filosofía corporativa debe de ser <b>comunicable</b> de forma fácil y clara, <b>útil</b> como para ser guía a la hora de formular y lograr objetivos y metas, <b>asumible</b> tomando en cuenta los costos que se desprenderán de su aplicación, <b>flexible</b> para poder adaptarse con el paso del tiempo y <b>creíble</b> donde así toda la organización vive fiel a ella y pueda ser un elemento dinamizador.</p><div style='display: flex; justify-content:center; padding-top: 1rem; padding-bottom: 3rem;'> <h4> Mapa conceptual de la Filosofía Corporativa.</h4></div> </br> <div style='display: flex; justify-content:center;'><img class='img-unidades' style='width: 65rem;' src='assets/img/2_2_Filosofia_corporativa.jpg'></div> </br> <div style='display: flex; justify-content:center; padding-top: 1rem; padding-bottom: 3rem;'> <a style='color: blue;' target='_blank' href='https://serviciosocialaxel.github.io/GestionEmpresarial/assets/img/2_2_Filosofia_corporativa.jpg'>Abrir imagen en otra pestaña</a> </div> </br> <p>Coetzee, M. (2019). How to develop a philosophy, vision and mission for your organization. Recuperado el 5 de octubre de 2022, desde <a target='_blank' href='https://www.marcuscoetzee.com/constructing-a-philosophy-vision-and-mission-for-your-organization/' style='color:blue;'>https://www.marcuscoetzee.com/constructing-a-philosophy-vision-and-mission-for-your-organization/</a></p><p>Murcia, M. (2019). Filosofía y Cultura ¿por qué las confundimos?. Recuperado el 5 de octubre de 2022, desde <a target='_blank' href='https://inspiracomunicaciones.com/comunicacion-organizacional/filosofia-y-cultura-organizacionales-por-que-las-confundimos/' style='color:blue;'>https://inspiracomunicaciones.com/comunicacion-organizacional/filosofia-y-cultura-organizacionales-por-que-las-confundimos/</a></p><p>Santos, D. (2021). 3 claves para definir la filosofía de tu empresa. Recuperado el 5 de octubre de 2022, desde <a target='_blank' href='https://blog.hubspot.es/marketing/filosofia-empresas' style='color:blue;'>https://blog.hubspot.es/marketing/filosofia-empresas</a></p>",
         "recurso": ""
       },
       {
         "seccion": 2.3,
-        "titulo": "Estrategia y Cultura Organizacional de empresas",
+        "titulo": "Estrategia y Cultura Organizacional de empresas de innovación tecnológica",
         "descripcionRecurso": "",
         "keywords": [
           "Identidad", 
           "unicidad"
         ],
-        "unidad": "Tanto la estrategia como la cultura organizacional son términos sumamente diferentes, pero no por eso dejan de estar relacionados. </br> El término cultura puede sonar como algo abstracto, poco comprensible o incluso demasiado general para poderlo aplicar. A pesar de ser un término muy utilizado, pocas veces se comprende. </br> La cultura es lo que define y <b>distingue a una organización</b> de otra. Son todas aquellas normas, creencias, rituales, códigos y valores que, compartidos, guían la actitud y el comportamiento de los colaboradores. </br> Es posible decir que la cultuira, a grandes rasgos, define la <b>“identidad” de una organización.</b> Todas las personas tenemos particularidades que nos distinguen de otros: nuestro ADN, nuestros rasgos físicos, el conjunto de habilidades, aptitudes, actitudes, emociones, nuestro estilo de comunicación, y demás características específicas que nos hacen ser quien somos. </br>    Las organizaciones tienen dos componentes que generan identidad, la <b>cultura organizacional</b> y la <b>estrategia organizacional</b>, ambas deben ser definidas con claridad y ser desarrolladas consistentemente a lo largo del tiempo. </br> <div style='display: flex; justify-content:center;'><img style='width: 75rem;' src='../../../assets/img/2_3_Estrategia_y_cultura.png'></div> </br> <a  href='https://www.altonivel.com.mx/recursos-humanos/cultura-organizacional-estrategia/' target='_blank' style='color: blue;'>Fuente<a>",
+        "unidad": "<p>Tanto la estrategia como la cultura organizacional son términos sumamente diferentes, pero no por eso dejan de estar relacionados. </p> <p>El término cultura puede sonar como algo abstracto, poco comprensible o incluso demasiado general para poderlo aplicar. A pesar de ser un término muy utilizado, pocas veces se comprende. </p> <p>La cultura es lo que define y <b>distingue a una organización</b> de otra. Son todas aquellas normas, creencias, rituales, códigos y valores que, compartidos, guían la actitud y el comportamiento de los colaboradores. </p> <p> Es posible decir que la cultuira, a grandes rasgos, define la <b>“identidad” de una organización.</b> Todas las personas tenemos particularidades que nos distinguen de otros: nuestro ADN, nuestros rasgos físicos, el conjunto de habilidades, aptitudes, actitudes, emociones, nuestro estilo de comunicación, y demás características específicas que nos hacen ser quien somos. </p> <p>   Las organizaciones tienen dos componentes que generan identidad, la <b>cultura organizacional</b> y la <b>estrategia organizacional</b>, ambas deben ser definidas con claridad y ser desarrolladas consistentemente a lo largo del tiempo. </p> <div style='display: flex; justify-content:center; padding-top: 2rem; '> <h4> Mapa mental sobre qué involucra la estrategia y cultura organizacional. </h4> </div>  <div style='display: flex; justify-content:center;'><img class='img-unidades' style='width: 75rem;' src='assets/img/2_3_Estrategia_y_cultura.png'></div> </br> <div style='display: flex; justify-content:center; padding-top: 1rem; padding-bottom: 3rem;'> <a style='color: blue;' target='_blank' href='https://serviciosocialaxel.github.io/GestionEmpresarial/assets/img/2_3_Estrategia_y_cultura.png'>Abrir imagen en otra pestaña</a> </div> </br> <p> Jennifer, A. (2018). La cultura organizacional, la base de tu estrategia de negocios. <a style='color: blue;' target='_blank' href='https://www.altonivel.com.mx/recursos-humanos/cultura-organizacional-estrategia/'>https://www.altonivel.com.mx/recursos-humanos/cultura-organizacional-estrategia/</a></p>",
         "recurso": ""
       },
       {
         "seccion": 2.4,
-        "titulo": "Implementación de la estrategia Planes",
+        "titulo": "Implementación de la estrategia Planes, programas, presupuestos y procedimientos",
         "descripcionRecurso": "",
         "keywords": [
           "Planeación", 
           "metas",
           "estrategias"
         ],
-        "unidad": "La implementación estratégica, en palabras simples, es el proceso que pone planes y estrategias en acción para alcanzar objetivos. Un plan estratégico es un documento escrito en el que se exponen los planes de negocio para alcanzar objetivos, pero quedará olvidado sin una implementación estratégica. La implementación hace que se cumplan los planes de la compañía. </br> Características de la implementación estratégica: </br> <ul> <li>Debe tener un líder muy visible que comparta valores positivos como la visión, entusiasmo, entre otras características deseables.</li> <li>Tiene un mapa estratégico.</li> <li>Los pasos a seguir son claros para lograr un óptimo desempeño.</li> <li>Se tienen claros factores de finanzas, mercado, ambiente laboral, operaciones, personas y socios.</li> </ul> </br> <div style='display: flex; justify-content:center;'><img style='width: 40rem; height:auto;' src='../../../assets/img/2_4_Implementacion_de_la_ajedrez.jpg'> </div> <div style='display: flex; justify-content:center; padding-top: 1rem; padding-bottom: 3rem;'> <a style='color: blue;' target='_blank' href='https://l.hdnux.com/350x235p/photos.demandstudios.com/74/134/fotolia_465350_XS.jpg'>Fuente de la imagen</a> </div> <div style='display: flex; justify-content:center;'> <img style='width: 40rem;' src='../../../assets/img/2_4_Implementacion_de_la_mapa.png'> </div> </br> <a  href='https://pyme.lavoztx.com/qu-es-la-implementacin-estratgica-4652.html' target='_blank' style='color: blue;'>Fuente<a>",
+        "unidad": "<p>La implementación estratégica, en palabras simples, es el proceso que pone planes y estrategias en acción para alcanzar objetivos. Un plan estratégico es un documento escrito en el que se exponen los planes de negocio para alcanzar objetivos, pero quedará olvidado sin una implementación estratégica. La implementación hace que se cumplan los planes de la compañía. </br> Características de la implementación estratégica: </p> <ul> <li>Debe tener un líder muy visible que comparta valores positivos como la visión, entusiasmo, entre otras características deseables.</li> <li>Tiene un mapa estratégico.</li> <li>Los pasos a seguir son claros para lograr un óptimo desempeño.</li> <li>Se tienen claros factores de finanzas, mercado, ambiente laboral, operaciones, personas y socios.</li> </ul> </br> <div style='display: flex; justify-content:center; padding-top: 1rem;'> <h4> Juego de ajedrez. Implementación de una estrategia.</h4> </div><div style='display: flex; justify-content:center;'><img style='width: 40rem; height:auto;' src='assets/img/2_4_Implementacion_de_la_ajedrez.jpg'> </div> </br> <div style='display: flex; justify-content:center; padding-top: 1rem; padding-bottom: 3rem;'> <a style='color: blue;' target='_blank' href='https://serviciosocialaxel.github.io/GestionEmpresarial/assets/img/2_4_Implementacion_de_la_ajedrez.jpg'>Abrir imagen en otra pestaña</a> </div> </br> <div style='display: flex; justify-content:center; padding-top: 1rem; '> <h4> Principios de una implementación estratégica. </h4> </div>  <div style='display: flex; justify-content:center;'> <img class='img-unidades' style='width: 60rem;' src='assets/img/2_4_Implementacion_de_la_mapa.png'> </div> </br> <div style='display: flex; justify-content:center; padding-top: 1rem; padding-bottom: 3rem;'> <a style='color: blue;' target='_blank' href='https://serviciosocialaxel.github.io/GestionEmpresarial/assets/img/2_4_Implementacion_de_la_mapa.png'>Abrir imagen en otra pestaña</a> </div> </br> <p> Kristie, L. (Recuperado en 2022). ¿Qué es la implementación estratégica? <a style='color: blue;' target='_blank' href='https://pyme.lavoztx.com/qu-es-la-implementacin-estratgica-4652.html'>https://pyme.lavoztx.com/qu-es-la-implementacin-estratgica-4652.html</a></p>",
         "recurso": ""
       },
       {
@@ -99,7 +180,7 @@
           "Crecimiento",
           "Calidad"
         ],
-        "unidad": "El Cuadro de Mando Integral (CMI) es un modelo de gestión que traduce la estrategia en objetivos relacionados entre sí, medidos a través de indicadores y ligados a unos planes de acción que permiten alinear el comportamiento de los miembros de la organización con la estrategia de la empresa. </br> Se trata de una herramienta de control de gestión, cuya función primordial es la implantación y comunicación de la estrategia a toda la empresa. </br> El modelo de CMI diseñado por Kaplan y Norton (Balanced Scorecard) busca un cuadro de mandos «balanceado», dónde además de la perspectiva Financiera se tienen en cuenta las otras tres grandes áreas a nivel estratégico dentro de las organizaciones: clientes, procesos y recursos. </br> <ul><li>Financiera : ¿Cómo nos vemos a los ojos de los accionistas?</li> <li>Desarrollo y Aprendizaje: ¿Podemos continuar mejorando y creando valor?</li> <li>Procesos: ¿En qué debemos sobresalir?</li> <li>Clientes: ¿Cómo nos ven los clientes?</li> </ul> <div style='display: flex; justify-content:center;'><img style='width: 45rem;' src='../../../assets/img/2_4_1_Cuadro_de_mando.png'></div> </br> <a  href='https://cmigestion.es/2012/10/23/el-cuadro-de-mando-integral-i-que-es-y-para-que-sirve/' target='_blank' style='color: blue;'>Fuente de imagen y artículo<a>",
+        "unidad": "<p>El Cuadro de Mando Integral (CMI) es un modelo de gestión que traduce la estrategia en objetivos relacionados entre sí, medidos a través de indicadores y ligados a unos planes de acción que permiten alinear el comportamiento de los miembros de la organización con la estrategia de la empresa. </p> <p>Se trata de una herramienta de control de gestión, cuya función primordial es la implantación y comunicación de la estrategia a toda la empresa. </p> <p>El modelo de CMI diseñado por Kaplan y Norton (Balanced Scorecard) busca un cuadro de mandos «balanceado», dónde además de la perspectiva Financiera se tienen en cuenta las otras tres grandes áreas a nivel estratégico dentro de las organizaciones: clientes, procesos y recursos. </p> <ul><li>Financiera : ¿Cómo nos vemos a los ojos de los accionistas?</li> <li>Desarrollo y Aprendizaje: ¿Podemos continuar mejorando y creando valor?</li> <li>Procesos: ¿En qué debemos sobresalir?</li> <li>Clientes: ¿Cómo nos ven los clientes?</li> </ul> </br> <div style='display: flex; justify-content:center; padding-top: 1rem; '> <h4> Cuadro de mando integral o Balance Scorecard. </h4> </div> <div style='display: flex; justify-content:center;'><img class='img-unidades' style='width: 55rem;' src='assets/img/2_4_1_Cuadro_de_mando.png'></div> </br> <div style='display: flex; justify-content:center; padding-top: 1rem; padding-bottom: 3rem;'> <a style='color: blue;' target='_blank' href='https://serviciosocialaxel.github.io/GestionEmpresarial/assets/img/2_4_1_Cuadro_de_mando.png'>Abrir imagen en otra pestaña</a> </div> </br> <p> Francisco, P. (2012). El Cuadro de Mando Integral (I): Qué es y para qué sirve. <a style='color: blue;' target='_blank' href='https://cmigestion.es/2012/10/23/el-cuadro-de-mando-integral-i-que-es-y-para-que-sirve/'>https://cmigestion.es/2012/10/23/el-cuadro-de-mando-integral-i-que-es-y-para-que-sirve/</a></p>",
         "recurso": ""
       },
       {
@@ -113,12 +194,12 @@
           "VRIO",
           "CANVAS"
         ],
-        "unidad": "Existen numerosas herramientas para gestionar correctamente y eficientemente una empresa, entre las que se encuentran: </br> <ul><li><b>Matriz FODA:</b> Un análisis DOFA (o matriz FODA) es un modelo de alto nivel, utilizado al comienzo de la planificación estratégica de una organización. Es un acrónimo de las palabras \"debilidades, debilidades, oportunidades, fortalezas  y amenazas\". Las fortalezas y debilidades se consideran factores internos, es decir hacen parte de la empresa; y las oportunidades y amenazas son factores externos, por lo tanto, hacen parte del entorno</li> <li><b>Porter/De las 5 fuerzas:</b> Es un marco de ejecución de estrategia más antiguo, creado por Michael Porter en 1979 en torno a la competitividad. A través de él se puede medir el nivel de competencia de la organización con enfoque en la rentabilidad del mercado. Entre las principales 5 fuerzas se encuentran: <b>Poder de negociación con proveedores, amenaza de nuevos competidores, poder de negociación con los clientes, amenaza de productos sustitutos y rivalidad competitiva existente.</b></li> <li><b>Modelo PEST/EL:</b> Consiste en evaluar la Industria de la organización y de esta manera estar preparado para acoger las oportunidades o prevenir las amenazas. Entre los principales factores a evaluar se incluyen los <b>políticos, económicos, sociales, tecnológicos, ambientales y legales.</b></li> <li><b>Análisis VRIO:</b> El marco VRIO es un acrónimo de \"valor, singularidad, imitabilidad y organización\". Este proceso de planeación estratégica se relaciona más con su declaración de visión que con su estrategia general. El objetivo final en la implementación del modelo VRIO es definir la ventaja competitiva en el mercado. Entre los principales puntos a analizar se encuentra el <b>valor, singularidad, imitabilidad, y organización.</b></li> <li><b>CANVAS:</b> El modelo Canvas se popularizó en el libro \"Blue Ocean Strategy\". Puede usarlo para comprender cómo una empresa se diferencia de sus competidores en las siguientes áreas: clientes, oferta, infraestructura y viabilidad económica. </li></ul> </br> <div style='display: flex; justify-content:center;'><img style='width: 55rem;' src='../../../assets/img/2_5_Herramientas.png'></div> </br> <a  href='https://gestion.pensemos.com/herramientas-para-elaborar-la-estrategia' target='_blank' style='color: blue;'>Fuente<a>",
+        "unidad": "<p>Existen numerosas herramientas para gestionar correctamente y eficientemente una empresa, entre las que se encuentran: </p> <ul><li><b>Matriz FODA:</b> Un análisis DOFA (o matriz FODA) es un modelo de alto nivel, utilizado al comienzo de la planificación estratégica de una organización. Es un acrónimo de las palabras \"debilidades, debilidades, oportunidades, fortalezas  y amenazas\". Las fortalezas y debilidades se consideran factores internos, es decir hacen parte de la empresa; y las oportunidades y amenazas son factores externos, por lo tanto, hacen parte del entorno</li> <li><b>Porter/De las 5 fuerzas:</b> Es un marco de ejecución de estrategia más antiguo, creado por Michael Porter en 1979 en torno a la competitividad. A través de él se puede medir el nivel de competencia de la organización con enfoque en la rentabilidad del mercado. Entre las principales 5 fuerzas se encuentran: <b>Poder de negociación con proveedores, amenaza de nuevos competidores, poder de negociación con los clientes, amenaza de productos sustitutos y rivalidad competitiva existente.</b></li> <li><b>Modelo PEST/EL:</b> Consiste en evaluar la Industria de la organización y de esta manera estar preparado para acoger las oportunidades o prevenir las amenazas. Entre los principales factores a evaluar se incluyen los <b>políticos, económicos, sociales, tecnológicos, ambientales y legales.</b></li> <li><b>Análisis VRIO:</b> El marco VRIO es un acrónimo de \"valor, singularidad, imitabilidad y organización\". Este proceso de planeación estratégica se relaciona más con su declaración de visión que con su estrategia general. El objetivo final en la implementación del modelo VRIO es definir la ventaja competitiva en el mercado. Entre los principales puntos a analizar se encuentra el <b>valor, singularidad, imitabilidad, y organización.</b></li> <li><b>CANVAS:</b> El modelo Canvas se popularizó en el libro \"Blue Ocean Strategy\". Puede usarlo para comprender cómo una empresa se diferencia de sus competidores en las siguientes áreas: clientes, oferta, infraestructura y viabilidad económica. </li></ul> </br> <div style='display: flex; justify-content:center; padding-top: 1rem; '> <h4> Mapa mental de las Herramientas de gestión estratégica. </h4> </div> <div style='display: flex; justify-content:center;'><img class='img-unidades' style='width: 65rem;' src='assets/img/2_5_Herramientas.png'></div> </br> <div style='display: flex; justify-content:center; padding-top: 1rem; padding-bottom: 3rem;'> <a style='color: blue;' target='_blank' href='https://serviciosocialaxel.github.io/GestionEmpresarial/assets/img/2_5_Herramientas.png'>Abrir imagen en otra pestaña</a> </div> </br> <p> Gabriel, R. (Recuperado en 2022). Herramientas para elaborar la Estrategia. <a style='color: blue;' target='_blank' href='https://gestion.pensemos.com/herramientas-para-elaborar-la-estrategia'>https://gestion.pensemos.com/herramientas-para-elaborar-la-estrategia</a></p>",
         "recurso": ""
       },
       {
         "seccion": "2.5.1",
-        "titulo": "Análisis FODA",
+        "titulo": "Análisis FODA y desarrollo de estrategias",
         "descripcionRecurso": "",
         "keywords": [
           "Factores internos/externos", 
@@ -127,7 +208,7 @@
           "oportunidades",
           "amenazas"
         ],
-        "unidad": "Un análisis DOFA (o matriz FODA) es un modelo de alto nivel, utilizado al comienzo de la planificación estratégica de una organización. Es un acrónimo de las palabras \"debilidades, debilidades, oportunidades, fortalezas  y amenazas\". Las fortalezas y debilidades se consideran factores internos, es decir hacen parte de la empresa; y las oportunidades y amenazas son factores externos, por lo tanto, hacen parte del entorno </br> <ul><li><b>Fortalezas:</b> son aquellos aspectos que brindan un diferenciación positiva con respecto a la competencia. Es lo que hace única y mejor a la organización.</li> <li><b>Debilidades:</b> son las limitaciones u obstáculos que nos impiden alcanzar los objetivos trazados.</li> <li><b>Oportunidades:</b> son aquellos factores que están ocurriendo en el entorno  y que nos pueden ayudar a alcanzar las metas.</li> <li><b>Amenazas:</b> son los hechos del entorno que podrían impedir alcanzar el objetivo.</li></ul> </br> <div style='display: flex; justify-content:center;'><img style='width: 55rem;' src='../../../assets/img/2_5_1_Analisis_FODA.jpg'></div>  <div style='display: flex; justify-content:center;'>Ejemplo de una matriz. <a  href='https://gestion.pensemos.com/herramientas-para-elaborar-la-estrategia' target='_blank' style='color: blue;'> Fuente<a></div>",
+        "unidad": "<p>Un análisis DOFA (o matriz FODA) es un modelo de alto nivel, utilizado al comienzo de la planificación estratégica de una organización. Es un acrónimo de las palabras \"debilidades, debilidades, oportunidades, fortalezas  y amenazas\". Las fortalezas y debilidades se consideran factores internos, es decir hacen parte de la empresa; y las oportunidades y amenazas son factores externos, por lo tanto, hacen parte del entorno. </p> <ul><li><b>Fortalezas:</b> son aquellos aspectos que brindan un diferenciación positiva con respecto a la competencia. Es lo que hace única y mejor a la organización.</li> <li><b>Debilidades:</b> son las limitaciones u obstáculos que nos impiden alcanzar los objetivos trazados.</li> <li><b>Oportunidades:</b> son aquellos factores que están ocurriendo en el entorno  y que nos pueden ayudar a alcanzar las metas.</li> <li><b>Amenazas:</b> son los hechos del entorno que podrían impedir alcanzar el objetivo.</li></ul> </br> <div style='display: flex; justify-content:center; padding-top: 1rem; '> <h4> Ejemplo de análisis DOFA en Coca Cola. </h4> </div> <div style='display: flex; justify-content:center;'><img class='img-unidades' style='width: 55rem;' src='assets/img/2_5_1_Analisis_FODA.jpg'></div> </br> <div style='display: flex; justify-content:center; padding-top: 1rem; padding-bottom: 3rem;'> <a style='color: blue;' target='_blank' href='https://serviciosocialaxel.github.io/GestionEmpresarial/assets/img/2_5_1_Analisis_FODA.jpg'>Abrir imagen en otra pestaña</a> </div>",
         "recurso": ""
       },
       {
@@ -140,7 +221,7 @@
           "valor",
           "alcances"
         ],
-        "unidad": "Un modelo de negocio es una herramienta previa al plan de negocio que te permitirá definir con claridad qué vas a ofrecer al mercado, cómo lo vas a hacer, a quién se lo vas a vender, cómo se lo vas a vender y de qué forma vas a generar ingresos. Es una herramienta de análisis que te permitirá saber quién eres, cómo lo haces, a qué coste, con qué medios y qué fuentes de ingresos vas a tener. Definir tu modelo de negocio es saber cuál es tu ADN, cómo está hecho, cómo se puede modificar, cómo pulir, cómo cambiar, cómo moldear… </br> <div style='display: flex; justify-content:center;'><img style='width: 55rem;' src='../../../assets/img/2_5_2_Modelo_de_negocio.png'></div>  <div style='display: flex; justify-content:center;'><a  href='https://www.vinte.com/wp-content/uploads/2019/08/modelo_de_negocios_3.png' target='_blank' style='color: blue;'>Fuente: imagen<a></div> </br> Los modelos que están funcionando son aquellos que son capaces de crear valor para el cliente, es decir, que tienen una propuesta de valor clara, que son capaces de llegar al cliente, de diferenciarse, de establecer fuertes lazos con el cliente, de fidelizar y que son capaces de producirlos también de una manera especial. </br> <a  href='https://www.vinte.com/en/modelo-negocios/' target='_blank' style='color: blue;'>Fuente<a>",
+        "unidad": "<p>Un modelo de negocio es una herramienta previa al plan de negocio que te permitirá definir con claridad qué vas a ofrecer al mercado, cómo lo vas a hacer, a quién se lo vas a vender, cómo se lo vas a vender y de qué forma vas a generar ingresos. Es una herramienta de análisis que te permitirá saber quién eres, cómo lo haces, a qué coste, con qué medios y qué fuentes de ingresos vas a tener. Definir tu modelo de negocio es saber cuál es tu ADN, cómo está hecho, cómo se puede modificar, cómo pulir, cómo cambiar, cómo moldear… </p> <div style='display: flex; justify-content:center; padding-top: 1rem; '> <h4> Ejemplo de maneras de cómo definir un modelo de negocio. </h4> </div><div style='display: flex; justify-content:center;'><img class='img-unidades' style='width: 55rem;' src='assets/img/2_5_2_Modelo_de_negocio.png'></div> </br> <div style='display: flex; justify-content:center; padding-top: 1rem; padding-bottom: 3rem;'> <a style='color: blue;' target='_blank' href='https://serviciosocialaxel.github.io/GestionEmpresarial/assets/img/2_5_2_Modelo_de_negocio.png'>Abrir imagen en otra pestaña</a> </div> <p> Los modelos que están funcionando son aquellos que son capaces de crear valor para el cliente, es decir, que tienen una propuesta de valor clara, que son capaces de llegar al cliente, de diferenciarse, de establecer fuertes lazos con el cliente, de fidelizar y que son capaces de producirlos también de una manera especial. </p> <p> Vinte. (Recuperado en 2022). Business Model. <a style='color: blue;' target='_blank' href='https://www.vinte.com/en/modelo-negocios/'>https://www.vinte.com/en/modelo-negocios/</a></p>",
         "recurso": ""
       },
       {
@@ -153,7 +234,7 @@
           "Rivales",
           "Factores"
         ],
-        "unidad": "El modelo de diamante de porter es un <b>esquema gráfico</b> en el cual se relacionan los indicadores a nivel micro que influyen decisivamente para que un país, una región, una comunidad o, incluso, una empresa, sean realmente competitivos. </br>Entre los principales componentes del diagrama de porter se encuentran: </br><ul><li>Condiciones de los factores</li><li>Condiciones de la demanda</li><li>Estrategia, estructura y rivalidad de las empresas</li><li>Sectores similares y auxiliares</li><li>El gobierno y gestión de los recursos a nivel interno</li><li>Factores imprevistos</li></ul> Todos los factores anteriores están sumamente relacionados y cada uno afecta a la empresa en formas distintas y de manera potencialmente negativa, ya que cualquier condición es suficiente para que la demanda no exista, o para que el producto no sea sustenible, por ejemplo. </br> <div style='display: flex; justify-content:center; padding-top: 1rem;'><img style='width: 55rem;' src='../../../assets/img/2_5_3_Modelo_de_diamante.jpg'></div>  <div style='display: flex; justify-content:center;'><a  href='https://tradebrains.in/wp-content/uploads/2019/11/What-is-Porter%E2%80%99s-Diamond-Model-of-National-Advantage-min.jpg' target='_blank' style='color: blue;'>Fuente imagen<a></div> </br><a  href='https://www.obsbusiness.school/blog/diamante-de-porter-componentes-usos-y-beneficios#:~:text=%C2%BFQu%C3%A9%20es%20el%20diamante%20de,una%20empresa%2C%20sean%20realmente%20competitivos.' target='_blank' style='color: blue;'>Fuente<a>",
+        "unidad": "<p>El modelo de diamante de porter es un <b>esquema gráfico</b> en el cual se relacionan los indicadores a nivel micro que influyen decisivamente para que un país, una región, una comunidad o, incluso, una empresa, sean realmente competitivos. </p><p>Entre los principales componentes del diagrama de porter se encuentran: </p><ul><li>Condiciones de los factores</li><li>Condiciones de la demanda</li><li>Estrategia, estructura y rivalidad de las empresas</li><li>Sectores similares y auxiliares</li><li>El gobierno y gestión de los recursos a nivel interno</li><li>Factores imprevistos</li></ul> <p>Todos los factores anteriores están sumamente relacionados y cada uno afecta a la empresa en formas distintas y de manera potencialmente negativa, ya que cualquier condición es suficiente para que la demanda no exista, o para que el producto no sea sustenible, por ejemplo. </p> <div style='display: flex; justify-content:center; padding-top: 1rem; '> <h4> Esquema de Diamante de Porter. </h4> </div> <div style='display: flex; justify-content:center; '><img class='img-unidades' style='width: 55rem;' src='assets/img/2_5_3_Modelo_de_diamante.jpg'></div> </br> <div style='display: flex; justify-content:center; padding-top: 1rem; padding-bottom: 3rem;'> <a style='color: blue;' target='_blank' href='https://serviciosocialaxel.github.io/GestionEmpresarial/assets/img/2_5_3_Modelo_de_diamante.jpg'>Abrir imagen en otra pestaña</a> </div> </br> <p> Anna, P. (2021). Diamante de Porter, componentes usos y beneficios. <a style='color: blue;' target='_blank' href='https://www.obsbusiness.school/blog/diamante-de-porter-componentes-usos-y-beneficios#:~:text=%C2%BFQu%C3%A9%20es%20el%20diamante%20de,una%20empresa%2C%20sean%20realmente%20competitivos.'>https://www.obsbusiness.school/blog/diamante-de-porter-componentes-usos-y-beneficios#:~:text=%C2%BFQu%C3%A9%20es%20el%20diamante%20de,una%20empresa%2C%20sean%20realmente%20competitivos.</a></p>",
         "recurso": ""
       },
       {
@@ -165,7 +246,7 @@
           "objetivos a lograr",
           "retención de clientes"
         ],
-        "unidad": "El <b>plan comercial</b> de una empresa es un documento en el cual se registran las acciones que tomará la compañía para atraer y retener clientes, qué productos o servicios venderás, cuáles son tus proyecciones financieras. </br>En otras palabras, un modelo de plan de negocios describe la estrategia comercial de una empresa: cuáles son tus objetivos a corto, mediano y largo plazo, y cómo vas a lograrlos.</br>Un plan comercial:</br><ul><li>Aumenta las posibilidades de supervivencia</li><li>Aumenta las oportunidades de éxito</li><li>Aumenta los ingresos a la empresa</li> <div style='display: flex; justify-content:center;'><img style='width: 55rem;' src='../../../assets/img/2_5_4_Plan_comercial.jpg'></div> </br> <div style='display: flex; justify-content:center;'><iframe width='560' height='315' src='https://www.youtube.com/embed/Lk6OfqndH1k' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></div> </br> <a style='color: blue;' target='_blank' href='https://www.zendesk.com.mx/blog/como-hacer-un-plan-comercial/'>Fuente<a>",
+        "unidad": "<p>El <b>plan comercial</b> de una empresa es un documento en el cual se registran las acciones que tomará la compañía para atraer y retener clientes, qué productos o servicios venderás, cuáles son tus proyecciones financieras. </p><p>En otras palabras, un modelo de plan de negocios describe la estrategia comercial de una empresa: cuáles son tus objetivos a corto, mediano y largo plazo, y cómo vas a lograrlos.</p><p>Un plan comercial:</p><ul><li>Aumenta las posibilidades de supervivencia</li><li>Aumenta las oportunidades de éxito</li><li>Aumenta los ingresos a la empresa</li></ul> </br> <div style='display: flex; justify-content:center; padding-top: 1rem; '> <h4> Imanes ejemplificando la retención y atracción de clientes a través de un plan. </h4> </div>  <div style='display: flex; justify-content:center;'><img class='img-unidades' style='width: 55rem;' src='assets/img/2_5_4_Plan_comercial.jpg'></div> <div style='display: flex; justify-content:center; padding-top: 1rem; padding-bottom: 3rem;'> <a style='color: blue;' target='_blank' href='https://serviciosocialaxel.github.io/GestionEmpresarial/assets/img/2_5_4_Plan_comercial.jpg'>Abrir imagen en otra pestaña</a> </div> <div style='display: flex; justify-content:center;'><iframe width='560' height='315' src='https://www.youtube.com/embed/Lk6OfqndH1k' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></div> </br> <p> Douglas, d. S. (2020). ¿Cómo hacer un plan comercial en 7 pasos? <a style='color: blue;' target='_blank' href='https://www.zendesk.com.mx/blog/como-hacer-un-plan-comercial/'>https://www.zendesk.com.mx/blog/como-hacer-un-plan-comercial/</a></p>",
         "recurso": ""
       },
       {
@@ -178,7 +259,7 @@
           "logros financieros",
           "recursos"
         ],
-        "unidad": "Una correcta ejecución de un presupuesto maestro implica velar por la realización de inversiones, los planes de crecimiento de la compañía, la expansión del negocio e incluso el posicionamiento de la empresa como marca. Al mismo tiempo, contempla riesgos, recursos, controles, límites de gastos, indicadores y todas las herramientas que puedan ser utilizadas paras las proyecciones.</br><div style='display: flex; justify-content:center;'><img style='width: 55rem;' src='../../../assets/img/2_5_5_Plan_maestro.jpeg'></div> </br><div style='display: flex; justify-content:center;'><a style='color: blue;' target='_blank' href='https://medium.datadriveninvestor.com/fundamentals-in-five-minutes-burn-rate-f4d765d5cd39?gi=4617bc3807a0'>Fuente Imagen<a></div> </br>Entre sus principales objetivos se encuentran:</br><ul><li>Asegurar el retorno de la inversión del negocio.</li><li>Comparar las inversiones pasadas con las que se realizarán en el presente y futuro de la organización.</li><li>Obtener logros financieros.</li><li>Plantear una base para que la gerencia pueda coordinar con los sistemas contables.</li><li>Monitorear las expectativas en cuanto a ingresos futuros, flujos de dinero y rentabilidad financiera.</li><li>Facilitar la gestión de cada actividad a nivel contable y financiero.</li><li>Mejora la eficacia del control de recursos de la compañía.</li></ul> </br><a style='color: blue;' target='_blank' href='https://www.esan.edu.pe/apuntes-empresariales/2019/02/el-presupuesto-maestro-conoce-sus-objetivos-en-una-empresa/'>Fuente<a>",
+        "unidad": "<p>Una correcta ejecución de un presupuesto maestro implica velar por la realización de inversiones, los planes de crecimiento de la compañía, la expansión del negocio e incluso el posicionamiento de la empresa como marca. Al mismo tiempo, contempla riesgos, recursos, controles, límites de gastos, indicadores y todas las herramientas que puedan ser utilizadas paras las proyecciones. </p> <div style='display: flex; justify-content:center; padding-top: 1rem; '> <h4> Dinero quemándose, ilustrando los riesgos económicos de un plan maestro. </h4> </div> <div style='display: flex; justify-content:center;'><img class='img-unidades' style='width: 55rem;' src='assets/img/2_5_5_Plan_maestro.jpeg'></div> <div style='display: flex; justify-content:center; padding-top: 1rem; padding-bottom: 3rem;'> <a style='color: blue;' target='_blank' href='https://serviciosocialaxel.github.io/GestionEmpresarial/assets/img/2_5_5_Plan_maestro.jpeg'>Abrir imagen en otra pestaña</a> </div>  <p>Entre sus principales objetivos se encuentran:</p><ul><li>Asegurar el retorno de la inversión del negocio.</li><li>Comparar las inversiones pasadas con las que se realizarán en el presente y futuro de la organización.</li><li>Obtener logros financieros.</li><li>Plantear una base para que la gerencia pueda coordinar con los sistemas contables.</li><li>Monitorear las expectativas en cuanto a ingresos futuros, flujos de dinero y rentabilidad financiera.</li><li>Facilitar la gestión de cada actividad a nivel contable y financiero.</li><li>Mejora la eficacia del control de recursos de la compañía.</li></ul> </br><p> Conexión ESAN. (2019). El presupuesto maestro: conoce sus objetivos en una empresa. <a style='color: blue;' target='_blank' href='https://www.esan.edu.pe/conexion-esan/el-presupuesto-maestro-conoce-sus-objetivos-en-una-empresa'>https://www.esan.edu.pe/conexion-esan/el-presupuesto-maestro-conoce-sus-objetivos-en-una-empresa</a> </p>",
         "recurso": ""
       }
     ],
@@ -241,15 +322,97 @@
     "competencia": "Aún no existe información para la unidad.",
     "keywords": [
     ],
+    "evaluacion": "<h3 class='text-center'>Sección sin información</h3>",
+    "autoevaluacion": "<h3 class='text-center'>Sección sin información</h3>",
+    "coevaluacion": "<h3 class='text-center'>Sección sin información</h3>",
     "contenido": [
       {
-        "seccion": 1.1,
-        "titulo": "Aún no existe información para esta unidad",
+        "seccion": 3.1,
+        "titulo": "Estructura organizacional",
         "descripcionRecurso": "",
         "keywords": [
         ],
-        "unidad": "<h3 class='text-center'>Sección sin información</h3>",
-        "recurso": ""
+        "unidad": "<h3 class='text-center'>Sección sin información</h3>"
+      },
+      {
+        "seccion": "3.1.1",
+        "titulo": "División del trabajo, coordinación, especialización, jerarquización, departamentalización y unidad de mando",
+        "descripcionRecurso": "",
+        "keywords": [
+        ],
+        "unidad": "<h3 class='text-center'>Sección sin información</h3>"
+      },
+      {
+        "seccion": 3.2,
+        "titulo": "Innovación y tecnología",
+        "descripcionRecurso": "",
+        "keywords": [
+        ],
+        "unidad": "<h3 class='text-center'>Sección sin información</h3>"
+      },
+      {
+        "seccion": "3.2.1",
+        "titulo": "La tecnología como factor intangible de competitividad",
+        "descripcionRecurso": "",
+        "keywords": [
+        ],
+        "unidad": "<h3 class='text-center'>Sección sin información</h3>"
+      },
+      {
+        "seccion": "3.2.2",
+        "titulo": "Tecnologías emergentes",
+        "descripcionRecurso": "",
+        "keywords": [
+        ],
+        "unidad": "<h3 class='text-center'>Sección sin información</h3>"
+      },
+      {
+        "seccion": 3.3,
+        "titulo": "Manejo de cambio e innovación",
+        "descripcionRecurso": "",
+        "keywords": [
+        ],
+        "unidad": "<h3 class='text-center'>Sección sin información</h3>"
+      },
+      {
+        "seccion": 3.4,
+        "titulo": "Herramientas de gestión operativa",
+        "descripcionRecurso": "",
+        "keywords": [
+        ],
+        "unidad": "<h3 class='text-center'>Sección sin información</h3>"
+      },
+      {
+        "seccion": "3.4.1",
+        "titulo": "Reingeniería de los procesos de negocio",
+        "descripcionRecurso": "",
+        "keywords": [
+        ],
+        "unidad": "<h3 class='text-center'>Sección sin información</h3>"
+      },
+      {
+        "seccion": "3.4.2",
+        "titulo": "Transformación de la estructura y la cultura organizacional",
+        "descripcionRecurso": "",
+        "keywords": [
+        ],
+        "unidad": "<h3 class='text-center'>Sección sin información</h3>"
+      },
+      {
+        "seccion": "3.4.3",
+        "titulo": "Evaluación tecnológica de la empresa",
+        "descripcionRecurso": "",
+        "keywords": [
+        ],
+        "unidad": "<h3 class='text-center'>Sección sin información</h3>"
+      },
+      {
+        "seccion": "3.4.4",
+        "titulo": "Optimización de los recursos tecnológicos",
+        "descripcionRecurso": "",
+        "keywords": [
+        ],
+        "unidad": "<h3 class='text-center'>Sección sin información</h3>"
       }
     ],
     "recurso": [
@@ -271,10 +434,112 @@
     "competencia": "Aún no existe información para la unidad.",
     "keywords": [
     ],
+    "evaluacion": "<h3 class='text-center'>Sección sin información</h3>",
+    "autoevaluacion": "<h3 class='text-center'>Sección sin información</h3>",
+    "coevaluacion": "<h3 class='text-center'>Sección sin información</h3>",
     "contenido": [
       {
-        "seccion": 1.1,
-        "titulo": "Aún no existe información para esta unidad",
+        "seccion": 4.1,
+        "titulo": "Capital humano",
+        "descripcionRecurso": "",
+        "keywords": [
+        ],
+        "unidad": "<h3 class='text-center'>Sección sin información</h3>",
+        "recurso": ""
+      },
+      {
+        "seccion": "4.1.1",
+        "titulo": "Funciones del departamento de Capital Humano. ",
+        "descripcionRecurso": "",
+        "keywords": [
+        ],
+        "unidad": "<h3 class='text-center'>Sección sin información</h3>",
+        "recurso": ""
+      },
+      {
+        "seccion": 4.2,
+        "titulo": "Marco normativo de las relaciones laborales",
+        "descripcionRecurso": "",
+        "keywords": [
+        ],
+        "unidad": "<h3 class='text-center'>Sección sin información</h3>",
+        "recurso": ""
+      },
+      {
+        "seccion": 4.3,
+        "titulo": "Calidad",
+        "descripcionRecurso": "",
+        "keywords": [
+        ],
+        "unidad": "<h3 class='text-center'>Sección sin información</h3>",
+        "recurso": ""
+      },
+      {
+        "seccion": "4.3.1",
+        "titulo": "Control estadístico",
+        "descripcionRecurso": "",
+        "keywords": [
+        ],
+        "unidad": "<h3 class='text-center'>Sección sin información</h3>",
+        "recurso": ""
+      },
+      {
+        "seccion": "4.3.2",
+        "titulo": "Calidad total",
+        "descripcionRecurso": "",
+        "keywords": [
+        ],
+        "unidad": "<h3 class='text-center'>Sección sin información</h3>",
+        "recurso": ""
+      },
+      {
+        "seccion": 4.4,
+        "titulo": "Herramientas de gestión del Capital Humano y la calidad",
+        "descripcionRecurso": "",
+        "keywords": [
+        ],
+        "unidad": "<h3 class='text-center'>Sección sin información</h3>",
+        "recurso": ""
+      },
+      {
+        "seccion": "4.4.1",
+        "titulo": "Las 5's",
+        "descripcionRecurso": "",
+        "keywords": [
+        ],
+        "unidad": "<h3 class='text-center'>Sección sin información</h3>",
+        "recurso": ""
+      },
+      {
+        "seccion": "4.4.2",
+        "titulo": "Just in Time",
+        "descripcionRecurso": "",
+        "keywords": [
+        ],
+        "unidad": "<h3 class='text-center'>Sección sin información</h3>",
+        "recurso": ""
+      },
+      {
+        "seccion": "4.4.3",
+        "titulo": "Análisis funcional",
+        "descripcionRecurso": "",
+        "keywords": [
+        ],
+        "unidad": "<h3 class='text-center'>Sección sin información</h3>",
+        "recurso": ""
+      },
+      {
+        "seccion": "4.4.4",
+        "titulo": "Benchmarking",
+        "descripcionRecurso": "",
+        "keywords": [
+        ],
+        "unidad": "<h3 class='text-center'>Sección sin información</h3>",
+        "recurso": ""
+      },
+      {
+        "seccion": "4.4.5",
+        "titulo": "ERP",
         "descripcionRecurso": "",
         "keywords": [
         ],
@@ -301,10 +566,130 @@
     "competencia": "Aún no existe información para la unidad.",
     "keywords": [
     ],
+    "evaluacion": "<h3 class='text-center'>Sección sin información</h3>",
+    "autoevaluacion": "<h3 class='text-center'>Sección sin información</h3>",
+    "coevaluacion": "<h3 class='text-center'>Sección sin información</h3>",
     "contenido": [
       {
-        "seccion": 1.1,
-        "titulo": "Aún no existe información para esta unidad",
+        "seccion": 5.1,
+        "titulo": "Aspectos legales",
+        "descripcionRecurso": "",
+        "keywords": [
+        ],
+        "unidad": "<h3 class='text-center'>Sección sin información</h3>",
+        "recurso": ""
+      },
+      {
+        "seccion": "5.1.1",
+        "titulo": "Propiedad Intelectual",
+        "descripcionRecurso": "",
+        "keywords": [
+        ],
+        "unidad": "<h3 class='text-center'>Sección sin información</h3>",
+        "recurso": ""
+      },
+      {
+        "seccion": "5.1.2",
+        "titulo": "Uso de información digital",
+        "descripcionRecurso": "",
+        "keywords": [
+        ],
+        "unidad": "<h3 class='text-center'>Sección sin información</h3>",
+        "recurso": ""
+      },
+      {
+        "seccion": 5.2,
+        "titulo": "Responsabilidad social y sustentabilidad",
+        "descripcionRecurso": "",
+        "keywords": [
+        ],
+        "unidad": "<h3 class='text-center'>Sección sin información</h3>",
+        "recurso": ""
+      },
+      {
+        "seccion": 5.3,
+        "titulo": "Habilidades digitales",
+        "descripcionRecurso": "",
+        "keywords": [
+        ],
+        "unidad": "<h3 class='text-center'>Sección sin información</h3>",
+        "recurso": ""
+      },
+      {
+        "seccion": "5.3.1",
+        "titulo": "Learnability",
+        "descripcionRecurso": "",
+        "keywords": [
+        ],
+        "unidad": "<h3 class='text-center'>Sección sin información</h3>",
+        "recurso": ""
+      },
+      {
+        "seccion": "5.3.2",
+        "titulo": "Teamability",
+        "descripcionRecurso": "",
+        "keywords": [
+        ],
+        "unidad": "<h3 class='text-center'>Sección sin información</h3>",
+        "recurso": ""
+      },
+      {
+        "seccion": "5.3.3",
+        "titulo": "Networking",
+        "descripcionRecurso": "",
+        "keywords": [
+        ],
+        "unidad": "<h3 class='text-center'>Sección sin información</h3>",
+        "recurso": ""
+      },
+      {
+        "seccion": "5.3.4",
+        "titulo": "Adaptability",
+        "descripcionRecurso": "",
+        "keywords": [
+        ],
+        "unidad": "<h3 class='text-center'>Sección sin información</h3>",
+        "recurso": ""
+      },
+      {
+        "seccion": 5.4,
+        "titulo": "Tecnologías digitales/ mega tendencias",
+        "descripcionRecurso": "",
+        "keywords": [
+        ],
+        "unidad": "<h3 class='text-center'>Sección sin información</h3>",
+        "recurso": ""
+      },
+      {
+        "seccion": "5.4.1",
+        "titulo": "Internet de las cosas",
+        "descripcionRecurso": "",
+        "keywords": [
+        ],
+        "unidad": "<h3 class='text-center'>Sección sin información</h3>",
+        "recurso": ""
+      },
+      {
+        "seccion": "5.4.2",
+        "titulo": "Inteligencia Artificial",
+        "descripcionRecurso": "",
+        "keywords": [
+        ],
+        "unidad": "<h3 class='text-center'>Sección sin información</h3>",
+        "recurso": ""
+      },
+      {
+        "seccion": "5.4.3",
+        "titulo": "Inteligencia de negocios",
+        "descripcionRecurso": "",
+        "keywords": [
+        ],
+        "unidad": "<h3 class='text-center'>Sección sin información</h3>",
+        "recurso": ""
+      },
+      {
+        "seccion": "5.4.4",
+        "titulo": "Blockchain y la nube",
         "descripcionRecurso": "",
         "keywords": [
         ],

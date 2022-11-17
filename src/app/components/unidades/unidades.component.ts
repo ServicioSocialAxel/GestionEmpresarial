@@ -8,6 +8,7 @@ import { InfoService } from '../../services/info.service';
   styleUrls: ['./unidades.component.css']
 })
 export class UnidadesComponent implements OnInit, DoCheck {
+  uniSection: string = "contenidos";
   unidades: any[] = [];
   id: number = 1;
   unidad: any;

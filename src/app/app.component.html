@@ -1,15 +1,14 @@
 <header class="nav-main-header fixed-top">
   <div class="header-main">
 
-    <!-- <div class="navs-header">
-      <a *ngFor="let item of navs" [href]="item.link">{{item.title}}</a>
-    </div> -->
     <nav class="navbar navbar-expand-lg navbar-light navs-header">
       <div class="logos" [routerLink]="['/']" (click)="collapse()">
         <img class="img-logo" src="assets/img/ipn.png" alt="escom">
-        <h2 class="redes-text">Gestión <p class="header-empresarial"><span>Empresarial</span></p></h2>
+        <h2 class="redes-text">Gestión <p class="header-empresarial"><span>Empresarial</span></p>
+        </h2>
       </div>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
@@ -19,7 +18,8 @@
             <a class="nav-link" [routerLink]="['/']">Inicio</a>
           </li>
           <li class="nav-item dropdown" *ngIf="currentLink == '/'">
-            <a class="nav-link dropdown-toggle"  id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
               Inicio
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown" [routerLink]="['/']" (click)="collapse()">
@@ -27,29 +27,25 @@
             </div>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
               Unidades
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown" (click)="collapse()">
-              <a class="dropdown-item" *ngFor="let item of unidades" [routerLink]="['unidades',item.indice]">{{item.indice}}.- {{item.titulo}}</a>
+              <a class="dropdown-item" *ngFor="let item of unidades"
+                [routerLink]="['unidades',item.indice]">{{item.indice}}.- {{item.titulo}}</a>
             </div>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Recursos didácticos
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Más información
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown" (click)="collapse()">
-              <a class="dropdown-item" *ngFor="let item of unidades" [routerLink]="['recursos',item.indice]">{{item.indice}}.- {{item.titulo}}</a>
+              <a class="dropdown-item" *ngFor="let item of unidades"
+                [routerLink]="['recursos',item.indice]">{{item.indice}}.- {{item.titulo}}</a>
             </div>
           </li>
-          <!--<li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Autoevaluación
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown" (click)="collapse()">
-              <a class="dropdown-item" *ngFor="let item of unidades" [routerLink]="['evaluaciones',item.indice]">{{item.indice}}.- {{item.titulo}}</a>
-            </div>
-          </li>-->
           <li style="white-space: nowrap; cursor: pointer;" class="nav-item" (click)="collapse()">
             <a class="nav-link" data-toggle="modal" [attr.data-target]="'#biblio'">Fuentes de consulta</a>
           </li>
@@ -58,15 +54,16 @@
           </li>
         </ul>
         <ul class="navbar-nav">
-
         </ul>
       </div>
       <div class="escom-logos" [routerLink]="['/']" (click)="collapse()">
         <img class="img-logo escom-logo" src="assets/img/escom.png" alt="escom">
-        <h2 class="redes-text"><p class="header-empresarial"><span>Escuela Superior de Cómputo</span></p></h2>
+        <h2 class="redes-text">
+          <p class="header-empresarial"><span>Escuela Superior de Cómputo</span></p>
+        </h2>
       </div>
     </nav>
-    
+
   </div>
 </header>
 <div class="modal fade" id="biblio">
@@ -81,45 +78,98 @@
       <div class="modal-body">
         <div class="container">
           <ul>
-            <li>Marlene, M. D. (2018, marzo). Acceso y uso de tecnologías de la información y comunicación en México: factores determinantes. <a style="color: blue;" target="_blank" href="http://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S2007-36072018000200002">http://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S2007-36072018000200002</a></li>
-            <li>Alex, P. et al. (2017, mayo). Blockchain : la revolución industrial de Internet. <a style="color: blue;" target="_blank" href="https://www.academia.edu/36701339/Blockchain_La_revoluci%C3%B3n_industrial_de_internet_Alexander_Preukschat">https://www.academia.edu/36701339/Blockchain_La_revoluci%C3%B3n_industrial_de_internet_Alexander_Preukschat</a></li>
-            <li>Johana, O. C. et al. (2018, abril). Desarrollo sostenible y responsabilidad social empresarial (RSE): un panorama integrador desde lo ambiental, social, tecnológico y económico. <a style="color: blue;" target="_blank" href="https://www.researchgate.net/publication/334813911_Desarrollo_sostenible_y_responsabilidad_social_empresarial_RSE_un_panorama_integrador_desde_lo_ambiental_social_tecnologico_y_economico">https://www.academia.edu/36701339/Blockchain_La_revoluci%C3%B3n_industrial_de_internet_Alexander_Preukschat</a></li>
-            <li>Paulo, P. et al. (2020). Usando las megatendencias para moldear la estrategia. <a style="color: blue;" target="_blank" href="https://assets.ey.com/content/dam/ey-sites/ey-com/es_pe/topics/ey-megatendencias-julio-2020.pdf">https://www.academia.edu/36701339/Blockchain_La_revoluci%C3%B3n_industrial_de_internet_Alexander_Preukschat</a></li>
-            <li>Surayne, T. L. et al. (2014, septiembre). Técnicas formales y de inteligencia artificial para la gestión de recursos humanos en proyectos informáticos. <a style="color: blue;" target="_blank" href="http://scielo.sld.cu/scielo.php?pid=S2227-18992014000300004&script=sci_arttext&tlng=en">http://scielo.sld.cu/scielo.php?pid=S2227-18992014000300004&script=sci_arttext&tlng=en</a></li>
-            <li>Camilo, C. (2022). Competitividad empresarial: qué es, importancia, tipos y ejemplos. <a style="color: blue;" target="_blank" href="https://blog.hubspot.es/sales/competitividad-empresarial">https://blog.hubspot.es/sales/competitividad-empresarial</a></li>
-            <li>Coetzee, M. (2019). How to develop a philosophy, vision and mission for your organization. <a style="color: blue;" target="_blank" href="https://www.marcuscoetzee.com/constructing-a-philosophy-vision-and-mission-for-your-organization/">https://www.marcuscoetzee.com/constructing-a-philosophy-vision-and-mission-for-your-organization/</a></li>
-            <li>Murcia, M. (2019). Filosofía y Cultura ¿por qué las confundimos?. <a style="color: blue;" target="_blank" href="https://inspiracomunicaciones.com/comunicacion-organizacional/filosofia-y-cultura-organizacionales-por-que-las-confundimos/">https://inspiracomunicaciones.com/comunicacion-organizacional/filosofia-y-cultura-organizacionales-por-que-las-confundimos/</a></li>
-            <li>Santos, D. (2021). 3 claves para definir la filosofía de tu empresa. <a style="color: blue;" target="_blank" href="https://blog.hubspot.es/marketing/filosofia-empresas">https://blog.hubspot.es/marketing/filosofia-empresas</a></li>
-            <li>Jennifer, A. (2018). La cultura organizacional, la base de tu estrategia de negocios. <a style='color: blue;' target='_blank' href='https://www.altonivel.com.mx/recursos-humanos/cultura-organizacional-estrategia/'>https://www.altonivel.com.mx/recursos-humanos/cultura-organizacional-estrategia/</a></li>
-            <li>Kristie, L. (Recuperado en 2022). ¿Qué es la implementación estratégica? <a style='color: blue;' target='_blank' href='https://pyme.lavoztx.com/qu-es-la-implementacin-estratgica-4652.html'>https://pyme.lavoztx.com/qu-es-la-implementacin-estratgica-4652.html</a></li>
-            <li>Francisco, P. (2012). El Cuadro de Mando Integral (I): Qué es y para qué sirve. <a style='color: blue;' target='_blank' href='https://cmigestion.es/2012/10/23/el-cuadro-de-mando-integral-i-que-es-y-para-que-sirve/'>https://cmigestion.es/2012/10/23/el-cuadro-de-mando-integral-i-que-es-y-para-que-sirve/</a></li>
-            <li>Gabriel, R. (Recuperado en 2022). Herramientas para elaborar la Estrategia. <a style='color: blue;' target='_blank' href='https://gestion.pensemos.com/herramientas-para-elaborar-la-estrategia'>https://gestion.pensemos.com/herramientas-para-elaborar-la-estrategia</a></li>
-            <li>Vinte. (Recuperado en 2022). Business Model. <a style='color: blue;' target='_blank' href='https://www.vinte.com/en/modelo-negocios/'>https://www.vinte.com/en/modelo-negocios/</a></li>
-            <li>Anna, P. (2021). Diamante de Porter, componentes usos y beneficios. <a style='color: blue;' target='_blank' href='https://www.obsbusiness.school/blog/diamante-de-porter-componentes-usos-y-beneficios#:~:text=%C2%BFQu%C3%A9%20es%20el%20diamante%20de,una%20empresa%2C%20sean%20realmente%20competitivos.'>https://www.obsbusiness.school/blog/diamante-de-porter-componentes-usos-y-beneficios#:~:text=%C2%BFQu%C3%A9%20es%20el%20diamante%20de,una%20empresa%2C%20sean%20realmente%20competitivos.</a></li>
-            <li>Douglas, d. S. (2020). ¿Cómo hacer un plan comercial en 7 pasos? <a style='color: blue;' target='_blank' href='https://www.zendesk.com.mx/blog/como-hacer-un-plan-comercial/'>https://www.zendesk.com.mx/blog/como-hacer-un-plan-comercial/</a></li>
-            <li>Conexión ESAN. (2019). El presupuesto maestro: conoce sus objetivos en una empresa. <a style='color: blue;' target='_blank' href='https://www.esan.edu.pe/conexion-esan/el-presupuesto-maestro-conoce-sus-objetivos-en-una-empresa'>https://www.esan.edu.pe/conexion-esan/el-presupuesto-maestro-conoce-sus-objetivos-en-una-empresa</a></li>
-            <li>Capacitación Administrativa en Línea. (Recuperado en 2022). Curso de administración de empresas. <a style='color: blue;' target='_blank' href='http://cursodeadministraciondeempresas.com/los-programas-en-la-administracion'>http://cursodeadministraciondeempresas.com/los-programas-en-la-administracion</a></li>
-            
+            <li>Marlene, M. D. (2018, marzo). Acceso y uso de tecnologías de la información y comunicación en México:
+              factores determinantes. <a style="color: blue;" target="_blank"
+                href="http://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S2007-36072018000200002">http://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S2007-36072018000200002</a>
+            </li>
+            <li>Alex, P. et al. (2017, mayo). Blockchain : la revolución industrial de Internet. <a style="color: blue;"
+                target="_blank"
+                href="https://www.academia.edu/36701339/Blockchain_La_revoluci%C3%B3n_industrial_de_internet_Alexander_Preukschat">https://www.academia.edu/36701339/Blockchain_La_revoluci%C3%B3n_industrial_de_internet_Alexander_Preukschat</a>
+            </li>
+            <li>Johana, O. C. et al. (2018, abril). Desarrollo sostenible y responsabilidad social empresarial (RSE): un
+              panorama integrador desde lo ambiental, social, tecnológico y económico. <a style="color: blue;"
+                target="_blank"
+                href="https://www.researchgate.net/publication/334813911_Desarrollo_sostenible_y_responsabilidad_social_empresarial_RSE_un_panorama_integrador_desde_lo_ambiental_social_tecnologico_y_economico">https://www.academia.edu/36701339/Blockchain_La_revoluci%C3%B3n_industrial_de_internet_Alexander_Preukschat</a>
+            </li>
+            <li>Paulo, P. et al. (2020). Usando las megatendencias para moldear la estrategia. <a style="color: blue;"
+                target="_blank"
+                href="https://assets.ey.com/content/dam/ey-sites/ey-com/es_pe/topics/ey-megatendencias-julio-2020.pdf">https://www.academia.edu/36701339/Blockchain_La_revoluci%C3%B3n_industrial_de_internet_Alexander_Preukschat</a>
+            </li>
+            <li>Surayne, T. L. et al. (2014, septiembre). Técnicas formales y de inteligencia artificial para la gestión
+              de recursos humanos en proyectos informáticos. <a style="color: blue;" target="_blank"
+                href="http://scielo.sld.cu/scielo.php?pid=S2227-18992014000300004&script=sci_arttext&tlng=en">http://scielo.sld.cu/scielo.php?pid=S2227-18992014000300004&script=sci_arttext&tlng=en</a>
+            </li>
+            <li>Camilo, C. (2022). Competitividad empresarial: qué es, importancia, tipos y ejemplos. <a
+                style="color: blue;" target="_blank"
+                href="https://blog.hubspot.es/sales/competitividad-empresarial">https://blog.hubspot.es/sales/competitividad-empresarial</a>
+            </li>
+            <li>Coetzee, M. (2019). How to develop a philosophy, vision and mission for your organization. <a
+                style="color: blue;" target="_blank"
+                href="https://www.marcuscoetzee.com/constructing-a-philosophy-vision-and-mission-for-your-organization/">https://www.marcuscoetzee.com/constructing-a-philosophy-vision-and-mission-for-your-organization/</a>
+            </li>
+            <li>Murcia, M. (2019). Filosofía y Cultura ¿por qué las confundimos?. <a style="color: blue;"
+                target="_blank"
+                href="https://inspiracomunicaciones.com/comunicacion-organizacional/filosofia-y-cultura-organizacionales-por-que-las-confundimos/">https://inspiracomunicaciones.com/comunicacion-organizacional/filosofia-y-cultura-organizacionales-por-que-las-confundimos/</a>
+            </li>
+            <li>Santos, D. (2021). 3 claves para definir la filosofía de tu empresa. <a style="color: blue;"
+                target="_blank"
+                href="https://blog.hubspot.es/marketing/filosofia-empresas">https://blog.hubspot.es/marketing/filosofia-empresas</a>
+            </li>
+            <li>Jennifer, A. (2018). La cultura organizacional, la base de tu estrategia de negocios. <a
+                style='color: blue;' target='_blank'
+                href='https://www.altonivel.com.mx/recursos-humanos/cultura-organizacional-estrategia/'>https://www.altonivel.com.mx/recursos-humanos/cultura-organizacional-estrategia/</a>
+            </li>
+            <li>Kristie, L. (Recuperado en 2022). ¿Qué es la implementación estratégica? <a style='color: blue;'
+                target='_blank'
+                href='https://pyme.lavoztx.com/qu-es-la-implementacin-estratgica-4652.html'>https://pyme.lavoztx.com/qu-es-la-implementacin-estratgica-4652.html</a>
+            </li>
+            <li>Francisco, P. (2012). El Cuadro de Mando Integral (I): Qué es y para qué sirve. <a style='color: blue;'
+                target='_blank'
+                href='https://cmigestion.es/2012/10/23/el-cuadro-de-mando-integral-i-que-es-y-para-que-sirve/'>https://cmigestion.es/2012/10/23/el-cuadro-de-mando-integral-i-que-es-y-para-que-sirve/</a>
+            </li>
+            <li>Gabriel, R. (Recuperado en 2022). Herramientas para elaborar la Estrategia. <a style='color: blue;'
+                target='_blank'
+                href='https://gestion.pensemos.com/herramientas-para-elaborar-la-estrategia'>https://gestion.pensemos.com/herramientas-para-elaborar-la-estrategia</a>
+            </li>
+            <li>Vinte. (Recuperado en 2022). Business Model. <a style='color: blue;' target='_blank'
+                href='https://www.vinte.com/en/modelo-negocios/'>https://www.vinte.com/en/modelo-negocios/</a></li>
+            <li>Anna, P. (2021). Diamante de Porter, componentes usos y beneficios. <a style='color: blue;'
+                target='_blank'
+                href='https://www.obsbusiness.school/blog/diamante-de-porter-componentes-usos-y-beneficios#:~:text=%C2%BFQu%C3%A9%20es%20el%20diamante%20de,una%20empresa%2C%20sean%20realmente%20competitivos.'>https://www.obsbusiness.school/blog/diamante-de-porter-componentes-usos-y-beneficios#:~:text=%C2%BFQu%C3%A9%20es%20el%20diamante%20de,una%20empresa%2C%20sean%20realmente%20competitivos.</a>
+            </li>
+            <li>Douglas, d. S. (2020). ¿Cómo hacer un plan comercial en 7 pasos? <a style='color: blue;' target='_blank'
+                href='https://www.zendesk.com.mx/blog/como-hacer-un-plan-comercial/'>https://www.zendesk.com.mx/blog/como-hacer-un-plan-comercial/</a>
+            </li>
+            <li>Conexión ESAN. (2019). El presupuesto maestro: conoce sus objetivos en una empresa. <a
+                style='color: blue;' target='_blank'
+                href='https://www.esan.edu.pe/conexion-esan/el-presupuesto-maestro-conoce-sus-objetivos-en-una-empresa'>https://www.esan.edu.pe/conexion-esan/el-presupuesto-maestro-conoce-sus-objetivos-en-una-empresa</a>
+            </li>
+            <li>Capacitación Administrativa en Línea. (Recuperado en 2022). Curso de administración de empresas. <a
+                style='color: blue;' target='_blank'
+                href='http://cursodeadministraciondeempresas.com/los-programas-en-la-administracion'>http://cursodeadministraciondeempresas.com/los-programas-en-la-administracion</a>
+            </li>
+
             <li>Harold, K. et al. (2012). Administración, una perspectiva global y empresarial. Mc Graw Hill.</li>
             <li>A. Whetten David y S- Cameron kIm. (2011). Desarrollo de habilidades directivas. Prentice Hall.</li>
             <li>Alcaraz R., R. (2001). El emprendedor del éxito. Mc Graw Hill.</li>
-            <li>Batista H. N. Estupiñan R. J.	(2018).	Gestión empresarial y posmodernidad.	Bélgica Ablibitum.</li>
-            <li>Chiavenato I.	(2019).	Introducción a la teoría general de la administración.	Mc Graw Hill.</li>
-            <li>Cummings T. G. Worley C. G.	(2007).	Desarrollo organizacional y cambio.	Thompson.</li>
-            <li>Daft R. L. (2013).	Teoría y diseño organizacional.	Thomson.</li>
-            <li>Effy O.	(2016).	Administración de sistemas de información.	Cengage Learning.</li>
-            <li>Hellriegel D. Slocum J. W. Woodman R. W.	(1999).	Comportamiento Organizacional.	Thompson.</li>
-            <li>Hitt M. A. Black S. J. y Porter L. W.	(2006).	Administración. Pearson Educación.</li>
-            <li>Laudon K.C. Laudon J. P.	(2008).	Sistemas de información gerencial.	Pearson.</li>
-            <li>Peña A. B., Batalla N. P. (2016).	Dirección de comunicación y habilidades directivas.	Dykinson.</li>
-            <li>Pérez M.J. (1997).	Estrategia, gestión y habilidades directivas.	Diaz de Santos.</li>
-            <li>Robbins P. S. y Coutler, M.	(2005).	Administración.	Pearson Educación.</li>
-            <li>Robbins J. (1999).	Comportamiento organizacional.	Prentice Hall.</li>
-            <li>Robinett J.	(2016).	Networking estratégico.	Paidos.</li>
-            <li>Rodríguez V. J. (2003).	Introducción a la administración con enfoque de sistemas.	Thomson.</li>
-            <li>Rubio D. P. (n. d.). Introducción a la gestión empresarial. Unión europea: Instituto Europeo de Gestión Empresarial.</li>
+            <li>Batista H. N. Estupiñan R. J. (2018). Gestión empresarial y posmodernidad. Bélgica Ablibitum.</li>
+            <li>Chiavenato I. (2019). Introducción a la teoría general de la administración. Mc Graw Hill.</li>
+            <li>Cummings T. G. Worley C. G. (2007). Desarrollo organizacional y cambio. Thompson.</li>
+            <li>Daft R. L. (2013). Teoría y diseño organizacional. Thomson.</li>
+            <li>Effy O. (2016). Administración de sistemas de información. Cengage Learning.</li>
+            <li>Hellriegel D. Slocum J. W. Woodman R. W. (1999). Comportamiento Organizacional. Thompson.</li>
+            <li>Hitt M. A. Black S. J. y Porter L. W. (2006). Administración. Pearson Educación.</li>
+            <li>Laudon K.C. Laudon J. P. (2008). Sistemas de información gerencial. Pearson.</li>
+            <li>Peña A. B., Batalla N. P. (2016). Dirección de comunicación y habilidades directivas. Dykinson.</li>
+            <li>Pérez M.J. (1997). Estrategia, gestión y habilidades directivas. Diaz de Santos.</li>
+            <li>Robbins P. S. y Coutler, M. (2005). Administración. Pearson Educación.</li>
+            <li>Robbins J. (1999). Comportamiento organizacional. Prentice Hall.</li>
+            <li>Robinett J. (2016). Networking estratégico. Paidos.</li>
+            <li>Rodríguez V. J. (2003). Introducción a la administración con enfoque de sistemas. Thomson.</li>
+            <li>Rubio D. P. (n. d.). Introducción a la gestión empresarial. Unión europea: Instituto Europeo de Gestión
+              Empresarial.</li>
             <li>Osterwalder/A. (2015). Generación de Modelo de Negocio. DEUSTO.</li>
-            <li>Instituto Mexicano de la Propiedad Intelectual.	(2021).	IMPI.	IMPI.</li>
+            <li>Instituto Mexicano de la Propiedad Intelectual. (2021). IMPI. IMPI.</li>
           </ul>
         </div>
       </div>
@@ -137,7 +187,8 @@
       </div>
       <div class="modal-body">
         <div class="container">
-          <div class='embed-responsive embed-responsive-16by9' style='height: 75rem;'><object data='assets/data/programa2020.pdf' type='application/pdf'></object></div>
+          <div class='embed-responsive embed-responsive-16by9' style='height: 75rem;'><object
+              data='assets/data/programa2020.pdf' type='application/pdf'></object></div>
         </div>
       </div>
     </div>
@@ -150,25 +201,5 @@
 <app-glosario></app-glosario>
 
 <footer class="site-footer">
-  <!--<div class="grid-footer container">
-    <div>
-      <h3>Unidades</h3>
-      <nav class="nav-foot">
-        <a *ngFor="let item of unidades" [routerLink]="['unidades',item.indice]">{{item.indice}}.- {{item.titulo}}</a>
-      </nav>
-    </div>
-    <div>
-        <h3>Recursos didácticos</h3>
-        <nav class="nav-foot">
-          <a *ngFor="let item of unidades" [routerLink]="['recursos',item.indice]">{{item.indice}}.- {{item.titulo}}</a>
-        </nav>
-    </div>
-    <div>
-      <h3>Autoevaluación</h3>
-      <nav class="nav-foot">
-        <a *ngFor="let item of unidades" [routerLink]="['evaluaciones',item.indice]">{{item.indice}}.- {{item.titulo}}</a>
-      </nav>
-    </div>
-  </div>-->
   <p class="copyright">Instituto Politécnico Nacional - Escuela Superior de Cómputo</p>
 </footer>

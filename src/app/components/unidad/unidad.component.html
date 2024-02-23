@@ -1,9 +1,10 @@
 <section class="container-unidad contenidos" *ngIf="unidad">
   <div *ngIf="tipo == 1 || (tipo == 0 && (selection == 'contenidos' || selection == 'actividades'))">
-    <div class="card" *ngFor="let item of tipo == 0 ? unidad.contenido : unidad.recurso;let idx = index">
+    <div class="card" *ngFor="let item of tipo == 0 ? unidad.contenido : unidad.recurso.slice(0, -1);let idx = index">
       <div [class]="tipo == 0 && selection == 'actividades'? 'data-act' : 'data-complete'">
         <div>
-          <div class="card-header" data-toggle="collapse" [attr.data-target]="'#seccion' + idx" aria-expanded="true" [attr.aria-controls]="'seccion' + idx">
+          <div class="card-header" data-toggle="collapse" [attr.data-target]="'#seccion' + idx" aria-expanded="true"
+            [attr.aria-controls]="'seccion' + idx">
             <h3>
               {{item.seccion}} {{item.titulo}}
             </h3>
@@ -17,21 +18,14 @@
               <span>{{item.descripcionRecurso}}</span>
             </div>
           </div>
-          <div  [id]="'seccion' + idx" class="collapsing">
-            <div [innerHTML]="item.unidad | sanitizedHtml" class="container container-grid-center" *ngIf="tipo == 0 && selection == 'contenidos'"></div>
+          <div [id]="'seccion' + idx" class="collapsing">
+            <div [innerHTML]="item.unidad | sanitizedHtml" class="container container-grid-center"
+              *ngIf="tipo == 0 && selection == 'contenidos'"></div>
             <div [innerHTML]="item.recurso | sanitizedHtml" class="container" *ngIf="tipo == 1"></div>
-            <!-- <div class="container">
-              <pdf-viewer src="../assets/data/HDLC_LLC.pdf"
-              [render-text]="false"
-              [original-size]="false"
-              class="pdf-viewer"
-              [show-borders]="true"
-              [zoom]="0.75"
-              [autoresize]="true"
-              ></pdf-viewer></div>-->
           </div>
         </div>
-        <button *ngIf="tipo == 0 && selection == 'actividades'" type="button" class="btn btn btn-outline-secondary btn-lg" data-toggle="modal" [attr.data-target]="'#actividad'+idx">
+        <button *ngIf="tipo == 0 && selection == 'actividades'" type="button"
+          class="btn btn btn-outline-secondary btn-lg" data-toggle="modal" [attr.data-target]="'#actividad'+idx">
           <i class="bi bi-book"></i>
           Actividades
         </button>
@@ -54,12 +48,31 @@
     </div>
   </div>
   <div *ngIf="tipo == 0 && selection == 'evaluacion'">
-    <div [innerHTML]="unidad.evaluacion | sanitizedHtml" ></div>
+    <div [innerHTML]="unidad.evaluacion | sanitizedHtml"></div>
   </div>
   <div *ngIf="tipo == 0 && selection == 'autoevaluacion'">
-    <div [innerHTML]="unidad.autoevaluacion | sanitizedHtml" ></div>
+    <div [innerHTML]="unidad.autoevaluacion | sanitizedHtml"></div>
   </div>
   <div *ngIf="tipo == 0 && selection == 'coevaluacion'">
-    <div [innerHTML]="unidad.coevaluacion | sanitizedHtml" ></div>
+    <div [innerHTML]="unidad.coevaluacion | sanitizedHtml"></div>
+  </div>
+  <div *ngIf="tipo == 0 && selection == 'recursos'">
+    <div class="card">
+      <div [class]="'data-complete'">
+        <div>
+          <div class="card-header" data-toggle="collapse" [attr.data-target]="'#seccion' + 0" aria-expanded="true"
+            [attr.aria-controls]="'seccion' + 0">
+            <h3>
+              {{unidad.recurso[unidad.recurso.length - 1].titulo}}
+            </h3>
+            <span>{{unidad.recurso[unidad.recurso.length - 1].descripcionRecurso}}</span>
+          </div>
+          <div [id]="'seccion' + 0" class="collapsing">
+            <div [innerHTML]="unidad.recurso[unidad.recurso.length - 1].recurso | sanitizedHtml" class="container">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </section>

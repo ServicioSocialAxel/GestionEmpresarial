@@ -1,55 +1,57 @@
 import { Component, DoCheck, OnInit } from '@angular/core';
-import { ActivatedRoute, Router } from '@angular/router';
+import { ActivatedRoute } from '@angular/router';
 import { InfoService } from '../../services/info.service';
 
 @Component({
   selector: 'app-unidades',
   templateUrl: './unidades.component.html',
-  styleUrls: ['./unidades.component.css']
+  styleUrls: ['./unidades.component.css'],
 })
 export class UnidadesComponent implements OnInit, DoCheck {
-  uniSection: string = "contenidos";
+  uniSection: string = 'contenidos';
   unidades: any[] = [];
   id: number = 1;
   unidad: any;
   flagCuadro: boolean = true;
-  constructor(private router : Router, private route: ActivatedRoute, private infoService: InfoService) {
-  }
+  constructor(
+    private route: ActivatedRoute,
+    private infoService: InfoService
+  ) {}
 
   ngOnInit(): void {
-    this.infoService.writeJSON(["test"]);
+    this.infoService.writeJSON(['test']);
     this.unidades = this.infoService.getUnidades();
     this.updateId();
     this.updateUnidad();
   }
 
   ngDoCheck(): void {
-    if(this.id != this.route.snapshot.params.id){
+    if (this.id != this.route.snapshot.params.id) {
       this.unidades = this.infoService.getUnidades();
       this.updateId();
       this.updateUnidad();
     }
   }
 
-  updateId(){
+  updateId() {
     this.id = 1;
-    if(!isNaN(this.route.snapshot.params.id))
-      this.id = this.route.snapshot.params.id % this.unidades.length == 0 ? this.unidades.length : this.route.snapshot.params.id % this.unidades.length;
+    if (!isNaN(this.route.snapshot.params.id))
+      this.id =
+        this.route.snapshot.params.id % this.unidades.length == 0
+          ? this.unidades.length
+          : this.route.snapshot.params.id % this.unidades.length;
   }
 
-  updateUnidad(){
-    this.unidad = this.unidades[this.id-1];
-    if(!this.unidad.cuadroEval|| this.unidad.cuadroEval.trim()==""){
+  updateUnidad() {
+    this.unidad = this.unidades[this.id - 1];
+    if (!this.unidad.cuadroEval || this.unidad.cuadroEval.trim() == '')
       this.flagCuadro = false;
-      //this.unidad.cuadroEvaluacion = "<h3 class='text-center'>Sin cuadro de evaluación disponible</h3>";
-    }
-    this.unidad.contenido.forEach((element:any) => {
-      if(!element.unidad || element.unidad.trim()==""){
+    this.unidad.contenido.forEach((element: any) => {
+      if (!element.unidad || element.unidad.trim() == '')
         element.unidad = "<h3 class='text-center'>Sección sin información</h3>";
-      }
-      if(!element.actividad || element.actividad.trim()==""){
-        element.actividad = "<h3 class='text-center'>Sin actividades disponibles</h3>";
-      }
+      if (!element.actividad || element.actividad.trim() == '')
+        element.actividad =
+          "<h3 class='text-center'>Sin actividades disponibles</h3>";
     });
   }
 }

@@ -1,19 +1,12 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-unidad',
   templateUrl: './unidad.component.html',
-  styleUrls: ['./unidad.component.css']
+  styleUrls: ['./unidad.component.css'],
 })
-export class UnidadComponent implements OnInit {
-
+export class UnidadComponent {
   @Input() unidad: any;
   @Input() tipo: number = 0;
-  @Input() selection: string = "contenidos";
-
-  constructor() {
-  }
-
-  ngOnInit(): void {
-  }
+  @Input() selection: string = 'contenidos';
 }

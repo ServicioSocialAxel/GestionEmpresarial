@@ -46,14 +46,20 @@
                 [routerLink]="['recursos',item.indice]">{{item.indice}}.- {{item.titulo}}</a>
             </div>
           </li>
-          <li style="white-space: nowrap; cursor: pointer;" class="nav-item" (click)="collapse()">
-            <a class="nav-link" data-toggle="modal" [attr.data-target]="'#program'">Programa académico</a>
-          </li>
-          <li style="white-space: nowrap; cursor: pointer;" class="nav-item" (click)="collapse()">
-            <a class="nav-link" data-toggle="modal" [attr.data-target]="'#biblio'">Fuentes de consulta</a>
-          </li>
-          <li style="white-space: nowrap; cursor: pointer;" class="nav-item" (click)="collapse()">
-            <a class="nav-link" data-toggle="modal" [attr.data-target]="'#glosario'">Glosario</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">
+              <i class="bi bi-info-circle"></i>
+              &nbsp; Más información
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown" (click)="collapse()">
+              <a class="dropdown-item" data-toggle="modal" [attr.data-target]="'#program'"><i
+                  class="bi bi-list-check"></i> &nbsp; Programa académico</a>
+              <a class="dropdown-item" data-toggle="modal" [attr.data-target]="'#biblio'"><i
+                  class="bi bi-card-text"></i> &nbsp; Fuentes de consulta</a>
+              <a class="dropdown-item" data-toggle="modal" [attr.data-target]="'#glosario'"><i
+                  class="bi bi-journal-text"></i> &nbsp; Glosario</a>
+            </div>
           </li>
         </ul>
         <ul class="navbar-nav">

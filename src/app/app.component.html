@@ -49,12 +49,11 @@
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
               aria-expanded="false">
-              <i class="bi bi-info-circle"></i>
               &nbsp; Más información
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown" (click)="collapse()">
               <a class="dropdown-item" data-toggle="modal" [attr.data-target]="'#program'"><i
-                  class="bi bi-list-check"></i> &nbsp; Programa académico</a>
+                  class="bi bi-list-check"></i> &nbsp; Programa de estudios</a>
               <a class="dropdown-item" data-toggle="modal" [attr.data-target]="'#biblio'"><i
                   class="bi bi-card-text"></i> &nbsp; Fuentes de consulta</a>
               <a class="dropdown-item" data-toggle="modal" [attr.data-target]="'#glosario'"><i
@@ -66,10 +65,10 @@
         </ul>
       </div>
       <div class="escom-logos" [routerLink]="['/']" (click)="collapse()">
-        <img class="img-logo escom-logo" src="assets/img/escom.png" alt="escom">
-        <h2 class="redes-text">
-          <p class="header-empresarial"><span>Escuela Superior de Cómputo</span></p>
+
+        <h2 class="redes-text"><span class="header-empresarial">Escuela Superior de Cómputo</span>
         </h2>
+        <img class="img-logo escom-logo" src="assets/img/escom.png" alt="escom">
       </div>
     </nav>
 

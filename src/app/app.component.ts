@@ -28,6 +28,14 @@ export class AppComponent implements DoCheck {
       title: 'Evaluación',
       link: '#eval',
     },
+    {
+      title: 'Contacto',
+      link: '#contacts',
+    },
+    {
+      title: 'Requerimientos',
+      link: '#req',
+    },
   ];
   constructor(private router: Router, private infoService: InfoService) {
     this.unidades = this.infoService.getUnidades();

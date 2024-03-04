@@ -29,6 +29,10 @@ export class AppComponent implements DoCheck {
       link: '#eval',
     },
     {
+      title: 'Programa',
+      link: '#prog',
+    },
+    {
       title: 'Contacto',
       link: '#contacts',
     },

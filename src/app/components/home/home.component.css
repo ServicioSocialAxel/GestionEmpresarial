@@ -1,15 +1,3 @@
-.nav-main {
-  padding: 2rem 0 2rem 0; /*Top Rigth Bottom Left */ /*TB LR*/
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-.nav-main a {
-  margin: 0 auto;
-  text-decoration: none;
-}
-
 .list-cat {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -46,22 +34,6 @@
 
 .category p:hover button {
   color: white;
-}
-
-.div-competencia img {
-  margin: 0 auto;
-}
-
-.competencia-section {
-  margin: 5rem 0;
-}
-
-.competencia-text p {
-  display: block;
-  text-align: center;
-  font-size: 2rem;
-  margin-top: 3rem;
-  border-radius: 0 0 1rem 1rem;
 }
 
 .img-cover {

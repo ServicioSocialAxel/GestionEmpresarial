@@ -1,26 +1,32 @@
-<header class="nav-main-header fixed-top">
-  <div class="header-main">
-
-    <nav class="navbar navbar-expand-lg navbar-light navs-header">
-      <div class="logos" [routerLink]="['/']" (click)="collapse()">
-        <img class="img-logo" src="assets/img/ipn.png" alt="escom">
-        <h2 class="redes-text">Gestión <p class="header-empresarial"><span>Empresarial</span></p>
-        </h2>
+<nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top container-fluid nav-custom-bb">
+  <header class="row justify-content-center">
+    <div class="navbar-brand mr-0 col-6 col-sm-4 col-md-3 col-lg-2" [routerLink]="['/']" (click)="collapse()">
+      <div class="row justify-content-start">
+        <div class="col-6">
+          <img width="128px" src="assets/img/ipn.png" alt="ipn">
+        </div>
+        <div class="col-6">
+          <strong>Gestión</strong><br />
+          <strong class="text-tertiary">Empresarial</strong>
+        </div>
       </div>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
+    </div>
+    <div class="col-12 col-sm-12 col-lg-8">
+      <div style="display: flex; flex-direction: column; align-items: center;">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+        <ul class="navbar-nav navbar-nav-scroll text-wrap" style="font-size: large;">
           <li class="nav-item" (click)="collapse()" *ngIf="currentLink != '/'">
-            <a class="nav-link" [routerLink]="['/']">Inicio</a>
+            <a class="nav-link" [routerLink]="['/']"><strong>Inicio</strong></a>
           </li>
           <li class="nav-item dropdown" *ngIf="currentLink == '/'">
             <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false">
-              Inicio
+              <strong>Inicio</strong>
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown" [routerLink]="['/']" (click)="collapse()">
               <a class="dropdown-item" *ngFor="let item of navs" (click)="goToId(item.link)">{{item.title}}</a>
@@ -29,7 +35,7 @@
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false">
-              Unidades
+              <strong>Unidades</strong>
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown" (click)="collapse()">
               <a class="dropdown-item" *ngFor="let item of unidades"
@@ -39,7 +45,7 @@
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false">
-              Material adicional
+              <strong>Material adicional</strong>
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown" (click)="collapse()">
               <a class="dropdown-item" *ngFor="let item of unidades"
@@ -47,25 +53,28 @@
             </div>
           </li>
           <li style="white-space: nowrap; cursor: pointer;" class="nav-item" (click)="collapse()">
-            <a class="nav-link" data-toggle="modal" [attr.data-target]="'#biblio'">Fuentes de consulta</a>
+            <a class="nav-link" data-toggle="modal" [attr.data-target]="'#biblio'"><strong>Fuentes de
+                consulta</strong></a>
           </li>
           <li style="white-space: nowrap; cursor: pointer;" class="nav-item" (click)="collapse()">
-            <a class="nav-link" data-toggle="modal" [attr.data-target]="'#glosario'">Glosarios</a>
+            <a class="nav-link" data-toggle="modal" [attr.data-target]="'#glosario'"><strong>Glosarios</strong></a>
           </li>
         </ul>
-        <ul class="navbar-nav">
-        </ul>
       </div>
-      <div class="escom-logos" [routerLink]="['/']" (click)="collapse()">
-        <img class="img-logo escom-logo" src="assets/img/escom.png" alt="escom">
-        <h2 class="redes-text">
-          <p class="header-empresarial"><span>Escuela Superior de Cómputo</span></p>
-        </h2>
+    </div>
+    <div class="navbar-brand mr-0 col-6 col-sm-4 col-md-3 col-lg-2" [routerLink]="['/']" (click)="collapse()">
+      <div class="row justify-content-end">
+        <div class="col-6 text-tertiary text-right">
+          <strong>Escuela</strong><br /><strong>Superior de</strong><br /><strong>Cómputo</strong>
+        </div>
+        <div class="col-6">
+          <img width="128px" src="assets/img/escom.png" alt="escom">
+        </div>
       </div>
-    </nav>
+    </div>
+  </header>
+</nav>
 
-  </div>
-</header>
 <div class="modal fade" id="biblio">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
@@ -148,7 +157,6 @@
                 style='color: blue;' target='_blank'
                 href='http://cursodeadministraciondeempresas.com/los-programas-en-la-administracion'>http://cursodeadministraciondeempresas.com/los-programas-en-la-administracion</a>
             </li>
-
             <li>Harold, K. et al. (2012). Administración, una perspectiva global y empresarial. Mc Graw Hill.</li>
             <li>A. Whetten David y S- Cameron kIm. (2011). Desarrollo de habilidades directivas. Prentice Hall.</li>
             <li>Alcaraz R., R. (2001). El emprendedor del éxito. Mc Graw Hill.</li>
@@ -196,9 +204,20 @@
     </div>
   </div>
 </div>
-<div class="app">
-  <router-outlet></router-outlet>
+
+<div class="container">
+  <div class="row">
+    <div class="col-12 col-lg-4 mt-5 pt-5">
+    </div>
+    <div class="col-12 col-lg-4 mt-5 pt-5">
+    </div>
+    <div class="col-12 col-lg-4 mt-5 pt-5">
+    </div>
+  </div>
 </div>
+<main role="main">
+  <router-outlet></router-outlet>
+</main>
 
 <app-glosario></app-glosario>
 

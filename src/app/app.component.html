@@ -1,13 +1,14 @@
-<nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top container-fluid nav-custom-bb">
+<nav
+  class="navbar navbar-expand-sm navbar-light bg-light fixed-top container-fluid nav-custom-bb justify-content-center">
   <header class="row justify-content-center">
-    <div class="navbar-brand mr-0 col-6 col-sm-4 col-md-3 col-lg-2" [routerLink]="['/']" (click)="collapse()">
+    <div class="navbar-brand mr-0 col-12 col-sm-6 col-lg-2" [routerLink]="['/']" (click)="collapse()">
       <div class="row justify-content-start">
-        <div class="col-6">
-          <img width="128px" src="assets/img/ipn.png" alt="ipn">
+        <div class="col-6 px-0">
+          <img class="mx-auto" width="128px" src="assets/img/ipn.png" alt="ipn">
         </div>
-        <div class="col-6">
-          <strong>Gestión</strong><br />
-          <strong class="text-tertiary">Empresarial</strong>
+        <div class="col-6 my-auto font-weight-bold">
+          Gestión<br />
+          <span class="text-tertiary">Empresarial</span>
         </div>
       </div>
     </div>
@@ -39,7 +40,8 @@
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown" (click)="collapse()">
               <a class="dropdown-item" *ngFor="let item of unidades"
-                [routerLink]="['unidades',item.indice]">{{item.indice}}.- {{item.titulo}}</a>
+                [routerLink]="['unidades',item.indice]">{{item.indice}}.- {{item.titulo.length > 45 ?
+                item.titulo.slice(0, 45).concat('...'): item.titulo}}</a>
             </div>
           </li>
           <li class="nav-item dropdown">
@@ -49,7 +51,8 @@
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown" (click)="collapse()">
               <a class="dropdown-item" *ngFor="let item of unidades"
-                [routerLink]="['recursos',item.indice]">{{item.indice}}.- {{item.titulo}}</a>
+                [routerLink]="['recursos',item.indice]">{{item.indice}}.- {{item.titulo.length > 45 ?
+                item.titulo.slice(0, 45).concat('...'): item.titulo}}</a>
             </div>
           </li>
           <li style="white-space: nowrap; cursor: pointer;" class="nav-item" (click)="collapse()">
@@ -62,13 +65,13 @@
         </ul>
       </div>
     </div>
-    <div class="navbar-brand mr-0 col-6 col-sm-4 col-md-3 col-lg-2" [routerLink]="['/']" (click)="collapse()">
+    <div class="navbar-brand mr-0 col-12 col-sm-6 col-lg-2" [routerLink]="['/']" (click)="collapse()">
       <div class="row justify-content-end">
-        <div class="col-6 text-tertiary text-right">
-          <strong>Escuela</strong><br /><strong>Superior de</strong><br /><strong>Cómputo</strong>
+        <div class="col-6 text-tertiary text-right text-wrap font-weight-bold">
+          Escuela<br />Superior de<br />Cómputo
         </div>
-        <div class="col-6">
-          <img width="128px" src="assets/img/escom.png" alt="escom">
+        <div class=" col-6 px-0">
+          <img class="mx-auto" width="128px" src="assets/img/escom.png" alt="escom">
         </div>
       </div>
     </div>

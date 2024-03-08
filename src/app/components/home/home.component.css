@@ -36,21 +36,9 @@
   color: white;
 }
 
-.img-cover {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-}
-
 .welcome {
   max-width: 560px;
   max-height: 315px;
-}
-
-@media (max-width: 767.98px) {
-  .img-cover {
-    height: 33vh;
-  }
 }
 
 @media (min-width: 767.98px) {
@@ -58,8 +46,4 @@
     width: 560px;
     height: 315px;
   }
-}
-
-.bg-tertiary {
-  background-color: #037bc0;
 }

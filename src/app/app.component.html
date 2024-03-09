@@ -1,18 +1,18 @@
 <nav
-  class="navbar navbar-expand-sm navbar-light bg-light fixed-top container-fluid nav-custom-bb justify-content-center">
-  <header class="row justify-content-center">
+  class="navbar navbar-expand-md navbar-light bg-light fixed-top container-fluid nav-custom-bb justify-content-center">
+  <header class="row justify-content-center" style="width: 100vw;">
     <div class="navbar-brand mr-0 col-12 col-sm-6 col-lg-2" [routerLink]="['/']" (click)="collapse()">
-      <div class="row justify-content-start">
+      <div class="row justify-content-center">
         <div class="col-6 px-0">
           <img class="mx-auto" width="128px" src="assets/img/ipn.png" alt="ipn">
         </div>
         <div class="col-6 my-auto font-weight-bold">
-          Gestión<br />
-          <span class="text-tertiary">Empresarial</span>
+          <h4 class="mb-0">Gestión</h4>
+          <h4 class="mb-0 text-tertiary">Empresarial</h4>
         </div>
       </div>
     </div>
-    <div class="col-12 col-sm-12 col-lg-8">
+    <div class="col-12 col-sm-12 col-lg-8 my-auto">
       <div style="display: flex; flex-direction: column; align-items: center;">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,53 +22,51 @@
       <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
         <ul class="navbar-nav navbar-nav-scroll text-wrap" style="font-size: large;">
           <li class="nav-item" (click)="collapse()" *ngIf="currentLink != '/'">
-            <a class="nav-link" [routerLink]="['/']"><strong>Inicio</strong></a>
+            <a class="nav-link font-weight-bold h4" [routerLink]="['/']">Inicio</a>
           </li>
           <li class="nav-item dropdown" *ngIf="currentLink == '/'">
-            <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              <strong>Inicio</strong>
-            </a>
+            <a class="nav-link dropdown-toggle font-weight-bold h4" id="navbarDropdown" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Inicio</a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown" [routerLink]="['/']" (click)="collapse()">
-              <a class="dropdown-item" *ngFor="let item of navs" (click)="goToId(item.link)">{{item.title}}</a>
+              <a class="dropdown-item font-weight-bold h5" *ngFor="let item of navs"
+                (click)="goToId(item.link)">{{item.title}}</a>
             </div>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              <strong>Unidades</strong>
-            </a>
+            <a class="nav-link dropdown-toggle font-weight-bold h4" href="#" id="navbarDropdown" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Unidades</a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown" (click)="collapse()">
-              <a class="dropdown-item" *ngFor="let item of unidades"
-                [routerLink]="['unidades',item.indice]">{{item.indice}}.- {{item.titulo.length > 45 ?
-                item.titulo.slice(0, 45).concat('...'): item.titulo}}</a>
+              <a class="dropdown-item font-weight-bold h5 text-truncate" style="max-width: 90vw;"
+                *ngFor="let item of unidades" [routerLink]="['unidades',item.indice]">{{item.indice}}.-
+                {{item.titulo}}</a>
             </div>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              <strong>Material adicional</strong>
-            </a>
+            <a class="nav-link dropdown-toggle font-weight-bold h4" href="#" id="navbarDropdown" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Material adicional</a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown" (click)="collapse()">
-              <a class="dropdown-item" *ngFor="let item of unidades"
-                [routerLink]="['recursos',item.indice]">{{item.indice}}.- {{item.titulo.length > 45 ?
-                item.titulo.slice(0, 45).concat('...'): item.titulo}}</a>
+              <a class="dropdown-item font-weight-bold h5 text-truncate" style="max-width: 90vw;"
+                *ngFor="let item of unidades" [routerLink]="['recursos',item.indice]">{{item.indice}}.-
+                {{item.titulo}}</a>
             </div>
           </li>
           <li style="white-space: nowrap; cursor: pointer;" class="nav-item" (click)="collapse()">
-            <a class="nav-link" data-toggle="modal" [attr.data-target]="'#biblio'"><strong>Fuentes de
+            <a class="nav-link h4" data-toggle="modal" [attr.data-target]="'#biblio'"><strong>Fuentes
+                de
                 consulta</strong></a>
           </li>
           <li style="white-space: nowrap; cursor: pointer;" class="nav-item" (click)="collapse()">
-            <a class="nav-link" data-toggle="modal" [attr.data-target]="'#glosario'"><strong>Glosarios</strong></a>
+            <a class="nav-link h4" data-toggle="modal" [attr.data-target]="'#glosario'"><strong>Glosarios</strong></a>
           </li>
         </ul>
       </div>
     </div>
-    <div class="navbar-brand mr-0 col-12 col-sm-6 col-lg-2" [routerLink]="['/']" (click)="collapse()">
-      <div class="row justify-content-end">
+    <div class="navbar-brand mr-0 col-12 col-sm-6 col-lg-2 my-auto" [routerLink]="['/']" (click)="collapse()">
+      <div class="row justify-content-center">
         <div class="col-6 text-tertiary text-right text-wrap font-weight-bold">
-          Escuela<br />Superior de<br />Cómputo
+          <h4 class="mb-0">Escuela</h4>
+          <h4 class="mb-0">Superior de</h4>
+          <h4 class="mb-0">Cómputo</h4>
         </div>
         <div class=" col-6 px-0">
           <img class="mx-auto" width="128px" src="assets/img/escom.png" alt="escom">

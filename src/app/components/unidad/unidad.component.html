@@ -1,11 +1,11 @@
 <section class="container-unidad contenidos" *ngIf="unidad">
   <div *ngIf="tipo == 1 || (tipo == 0 && (selection == 'contenidos' || selection == 'actividades'))">
     <div class="card" *ngFor="let item of tipo == 0 ? unidad.contenido : unidad.recurso.slice(0, -1);let idx = index">
-      <div [class]="tipo == 0 && selection == 'actividades'? 'data-act' : 'data-complete'">
+      <div [class]="tipo == 0 && selection == 'actividades'? 'data-act' : 'justify-content-center'">
         <div>
           <div class="card-header" data-toggle="collapse" [attr.data-target]="'#seccion' + idx" aria-expanded="true"
             [attr.aria-controls]="'seccion' + idx">
-            <h3>
+            <h3 class="card-title">
               {{item.seccion}} {{item.titulo}}
             </h3>
             <div *ngIf="tipo == 0">
@@ -19,9 +19,10 @@
             </div>
           </div>
           <div [id]="'seccion' + idx" class="collapsing">
-            <div [innerHTML]="item.unidad | sanitizedHtml" class="container container-grid-center"
+            <div [innerHTML]="item.unidad | sanitizedHtml" class="card-body justify-content-center"
               *ngIf="tipo == 0 && selection == 'contenidos'"></div>
-            <div [innerHTML]="item.recurso | sanitizedHtml" class="container" *ngIf="tipo == 1"></div>
+            <div [innerHTML]="item.recurso | sanitizedHtml" class="card-body justify-content-center" *ngIf="tipo == 1">
+            </div>
           </div>
         </div>
         <button *ngIf="tipo == 0 && selection == 'actividades'" type="button"

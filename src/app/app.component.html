@@ -1,75 +1,80 @@
 <nav
-  class="navbar navbar-expand-md navbar-light bg-light fixed-top container-fluid nav-custom-bb justify-content-center">
+  class="navbar navbar-expand-lg navbar-light bg-light sticky-top container-fluid nav-custom-bb justify-content-center">
   <header class="row justify-content-center" style="width: 100vw;">
-    <div class="navbar-brand mr-0 col-12 col-sm-6 col-lg-2" [routerLink]="['/']" (click)="collapse()">
+    <div class="navbar-brand mr-0 col-8 col-md-5 col-lg-2 col-xl-3 order-2 order-lg-1" [routerLink]="['/']"
+      (click)="collapse()">
       <div class="row justify-content-center">
-        <div class="col-6 px-0">
-          <img class="mx-auto" width="128px" src="assets/img/ipn.png" alt="ipn">
+        <div class="col-2 col-md-3 col-lg-6 px-0">
+          <img class="mx-auto d-none d-md-block" height="96px" width="90px" src="assets/img/ipn.png" alt="ipn">
+          <img class="mx-auto d-md-none d-block" height="56px" width="52px" src="assets/img/ipn.png" alt="ipn">
         </div>
-        <div class="col-6 my-auto font-weight-bold">
+        <div class="col-8 col-md-7 col-xl-6 d-lg-none d-xl-block my-auto font-weight-bold text-wrap">
           <h4 class="mb-0">Gestión</h4>
           <h4 class="mb-0 text-tertiary">Empresarial</h4>
         </div>
       </div>
     </div>
-    <div class="col-12 col-sm-12 col-lg-8 my-auto">
+    <div class="col-2 d-lg-none my-auto order-1 order-lg-4">
       <div style="display: flex; flex-direction: column; align-items: center;">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
       </div>
-      <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-        <ul class="navbar-nav navbar-nav-scroll text-wrap" style="font-size: large;">
-          <li class="nav-item" (click)="collapse()" *ngIf="currentLink != '/'">
-            <a class="nav-link font-weight-bold h4" [routerLink]="['/']">Inicio</a>
-          </li>
-          <li class="nav-item dropdown" *ngIf="currentLink == '/'">
-            <a class="nav-link dropdown-toggle font-weight-bold h4" id="navbarDropdown" role="button"
-              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Inicio</a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown" [routerLink]="['/']" (click)="collapse()">
-              <a class="dropdown-item font-weight-bold h5" *ngFor="let item of navs"
-                (click)="goToId(item.link)">{{item.title}}</a>
-            </div>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle font-weight-bold h4" href="#" id="navbarDropdown" role="button"
-              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Unidades</a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown" (click)="collapse()">
-              <a class="dropdown-item font-weight-bold h5 text-truncate" style="max-width: 90vw;"
-                *ngFor="let item of unidades" [routerLink]="['unidades',item.indice]">{{item.indice}}.-
-                {{item.titulo}}</a>
-            </div>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle font-weight-bold h4" href="#" id="navbarDropdown" role="button"
-              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Material adicional</a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown" (click)="collapse()">
-              <a class="dropdown-item font-weight-bold h5 text-truncate" style="max-width: 90vw;"
-                *ngFor="let item of unidades" [routerLink]="['recursos',item.indice]">{{item.indice}}.-
-                {{item.titulo}}</a>
-            </div>
-          </li>
-          <li style="white-space: nowrap; cursor: pointer;" class="nav-item" (click)="collapse()">
-            <a class="nav-link h4" data-toggle="modal" [attr.data-target]="'#biblio'"><strong>Fuentes
-                de
-                consulta</strong></a>
-          </li>
-          <li style="white-space: nowrap; cursor: pointer;" class="nav-item" (click)="collapse()">
-            <a class="nav-link h4" data-toggle="modal" [attr.data-target]="'#glosario'"><strong>Glosarios</strong></a>
-          </li>
-        </ul>
-      </div>
     </div>
-    <div class="navbar-brand mr-0 col-12 col-sm-6 col-lg-2 my-auto" [routerLink]="['/']" (click)="collapse()">
+    <div class="col-12 col-lg-8 col-xl-6 my-auto order-4 order-lg-2 collapse navbar-collapse justify-content-center"
+      id="navbarSupportedContent">
+      <ul class="navbar-nav navbar-nav-scroll text-wrap" style="font-size: large;">
+        <li class="nav-item" (click)="collapse()" *ngIf="currentLink != '/'">
+          <a class="nav-link font-weight-bold h4" [routerLink]="['/']">Inicio</a>
+        </li>
+        <li class="nav-item dropdown" *ngIf="currentLink == '/'">
+          <a class="nav-link dropdown-toggle font-weight-bold h4" id="navbarDropdown" role="button"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Inicio</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown" [routerLink]="['/']" (click)="collapse()">
+            <a class="dropdown-item font-weight-bold h5" *ngFor="let item of navs"
+              (click)="goToId(item.link)">{{item.title}}</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle font-weight-bold h4" href="#" id="navbarDropdown" role="button"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Unidades</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown" (click)="collapse()">
+            <a class="dropdown-item font-weight-bold h5 text-truncate" style="max-width: 90vw;"
+              *ngFor="let item of unidades" [routerLink]="['unidades',item.indice]">{{item.indice}}.-
+              {{item.titulo}}</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle font-weight-bold h4" href="#" id="navbarDropdown" role="button"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Material adicional</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown" (click)="collapse()">
+            <a class="dropdown-item font-weight-bold h5 text-truncate" style="max-width: 90vw;"
+              *ngFor="let item of unidades" [routerLink]="['recursos',item.indice]">{{item.indice}}.-
+              {{item.titulo}}</a>
+          </div>
+        </li>
+        <li style="white-space: nowrap; cursor: pointer;" class="nav-item" (click)="collapse()">
+          <a class="nav-link h4" data-toggle="modal" [attr.data-target]="'#biblio'"><strong>Fuentes
+              de
+              consulta</strong></a>
+        </li>
+        <li style="white-space: nowrap; cursor: pointer;" class="nav-item" (click)="collapse()">
+          <a class="nav-link h4" data-toggle="modal" [attr.data-target]="'#glosario'"><strong>Glosarios</strong></a>
+        </li>
+      </ul>
+    </div>
+    <div class="navbar-brand mr-0 col-2 col-md-5 col-lg-2 col-xl-3 my-auto order-3" [routerLink]="['/']"
+      (click)="collapse()">
       <div class="row justify-content-center">
-        <div class="col-6 text-tertiary text-right text-wrap font-weight-bold">
+        <div class="col-6 text-tertiary text-right text-nowrap font-weight-bold d-none d-md-block d-lg-none d-xl-block">
           <h4 class="mb-0">Escuela</h4>
           <h4 class="mb-0">Superior de</h4>
           <h4 class="mb-0">Cómputo</h4>
         </div>
-        <div class=" col-6 px-0">
-          <img class="mx-auto" width="128px" src="assets/img/escom.png" alt="escom">
+        <div class="col-12 col-md-6 px-0">
+          <img class="mx-auto d-none d-md-block" height="96px" width="126px" src="assets/img/escom.png" alt="escom">
+          <img class="mx-auto d-md-none" height="56px" width="73px" src="assets/img/escom.png" alt="escom">
         </div>
       </div>
     </div>
@@ -206,16 +211,6 @@
   </div>
 </div>
 
-<div class="container">
-  <div class="row">
-    <div class="col-12 col-lg-4 mt-5 pt-5">
-    </div>
-    <div class="col-12 col-lg-4 mt-5 pt-5">
-    </div>
-    <div class="col-12 col-lg-4 mt-5 pt-5">
-    </div>
-  </div>
-</div>
 <main role="main">
   <router-outlet></router-outlet>
 </main>

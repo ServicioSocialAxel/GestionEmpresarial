@@ -1,5 +1,5 @@
-<section class="container-fluid mt-3">
-  <div class="row">
+<section class="container-fluid">
+  <article class="row">
     <div class="col-12 col-md-6 p-0 order-2 order-md-1 img-cover"
       [ngStyle]="{'background-image': 'url('.concat(unidad.imagen).concat(')')}">
     </div>
@@ -11,7 +11,7 @@
         {{unidad.titulo}}
       </p>
     </div>
-  </div>
+  </article>
 </section>
 <section class="mx-3">
   <app-unidad *ngIf="unidad" [unidad]="unidad" [tipo]="1"></app-unidad>

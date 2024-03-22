@@ -1,5 +1,5 @@
 <section class="container-fluid">
-  <div class="row">
+  <article class="row">
     <div class="col-12 col-md-6 p-4 bg-primary text-white">
       <h2>Unidad {{id}}. {{unidad.titulo}}</h2>
       <h3 style="margin: 0;">Unidad de Competencia</h3>
@@ -9,11 +9,8 @@
     </div>
     <div class="img-cover col-12 col-md-6 p-0" [style]="'background-image: url('+unidad.imagen+');'">
     </div>
-  </div>
-</section>
-
-<section class="container-fluid">
-  <div class="row justify-content-center">
+  </article>
+  <article class="row justify-content-center">
     <div class="col-12 col-md-3 col-xl-2 px-0 px-md-3">
       <div class="btn-group-vertical radio-button-unidad my-md-4 w-100" role="group"
         aria-label="content selection group">
@@ -43,7 +40,7 @@
       <app-unidad style="width: 100%;" *ngIf="unidad" [unidad]="unidad" [tipo]="0"
         [selection]="uniSection"></app-unidad>
     </div>
-  </div>
+  </article>
 </section>
 
 <div class="modal fade" id="cuadroEval">

@@ -1,5 +1,5 @@
-<section class="container-fluid mt-3" id="bienvenida">
-  <div class="row justify-content-center">
+<section class="container-fluid mt-3">
+  <article class="row justify-content-center pt-3" id="bienvenida">
     <div class="col-12 px-0">
       <h2 class="text-center">Bienvenida</h2>
       <div style="display: flex; flex-direction: column; align-items: center;">
@@ -10,11 +10,8 @@
           allowfullscreen></iframe>
       </div>
     </div>
-  </div>
-
-</section>
-<section class="container-fluid" id="metodologia">
-  <div class="row">
+  </article>
+  <article id="metodologia" class="row">
     <div class="col-12 col-md-6 p-4 bg-tertiary text-white">
       <h2>Metodología</h2>
       <p>Se abordará a partir de la estrategia de aprendizaje orientada a proyectos y método deductivo e inductivo, lo
@@ -40,11 +37,8 @@
     </div>
     <div class="col-12 col-md-6 p-0 img-cover" style="background-image: url(../../../assets/img/method.jpg);">
     </div>
-  </div>
-</section>
-
-<section class="container-fluid" id="unidad">
-  <div class="row">
+  </article>
+  <article id="unidad" class="row">
     <div class="col-12 col-md-6 p-0 order-2 order-md-1 img-cover"
       style="background-image: url(../../../assets/img/goals.jpg);"></div>
     <div class="col-12 col-md-6 p-4 order-1 order-md-2 bg-tertiary text-white">
@@ -59,11 +53,8 @@
         de grupos de trabajo, capacidad de negociación, manejo de conflictos, orientación al cambio y a la innovación
         permanente, para gestionar organizaciones con una actitud emprendedora, ética y de responsabilidad social.</p>
     </div>
-  </div>
-</section>
-
-<section class="container-fluid" id="eval">
-  <div class="row">
+  </article>
+  <article id="eval" class="row">
     <div class="col-12 col-md-6 p-4 bg-tertiary text-white">
       <h2>Evaluación</h2>
       <p>Se realizará una evaluación diagnóstica, y posteriormente se ensamblará un portafolio de evidencias, el cual
@@ -79,44 +70,40 @@
       </ul>
     </div>
     <div class="col-12 col-md-6 p-0 img-cover" style="background-image: url(../../../assets/img/grading.jpg);"></div>
-  </div>
-</section>
-
-<section class="container-fluid pt-5">
-  <h2 class="text-center">Contactos: Ext. 52032</h2>
-  <div class="list-cat">
-    <div *ngFor="let item of responsables;let idx = index" class="category">
-      <div class="prof-photo" [style]="'background-image: url('+item.photo+');'"></div>
-      <p>
-        <b>{{item.name}}</b><br>{{item.mail}}<br>
-        <button type="button" class="btn btn-link" data-toggle="modal" [attr.data-target]="'#prof'+idx">Más acerca del
-          docente</button>
-      </p>
-      <div class="modal fade" [id]="'prof'+idx">
-        <div class="modal-dialog modal-lg" role="document">
-          <div class="modal-content">
-            <div class="modal-header text-center">
-              <h2 class="modal-title">{{item.name}}</h2>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span>&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <b>Desarrollo profesional:</b><br />
-              <div [innerHtml]="item.info"></div>
-              <br />
-              <b>Áreas de interés:</b><br />
-              <div [innerHtml]="item.intereses"></div>
+  </article>
+  <article class="row pt-5">
+    <h2 class="text-center">Contactos: Ext. 52032</h2>
+    <div class="list-cat">
+      <div *ngFor="let item of responsables;let idx = index" class="category">
+        <div class="prof-photo" [style]="'background-image: url('+item.photo+');'"></div>
+        <p>
+          <b>{{item.name}}</b><br>{{item.mail}}<br>
+          <button type="button" class="btn btn-link" data-toggle="modal" [attr.data-target]="'#prof'+idx">Más acerca del
+            docente</button>
+        </p>
+        <div class="modal fade" [id]="'prof'+idx">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header text-center">
+                <h2 class="modal-title">{{item.name}}</h2>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span>&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <b>Desarrollo profesional:</b><br />
+                <div [innerHtml]="item.info"></div>
+                <br />
+                <b>Áreas de interés:</b><br />
+                <div [innerHtml]="item.intereses"></div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
-
-<section class="container-fluid">
-  <div class="row">
+  </article>
+  <article class="row">
     <div class="col-12 col-md-6 p-0 order-2 order-md-1 img-cover"
       style="background-image: url(../../../assets/img/system.jpg);"></div>
     <div class="col-12 col-md-6 p-4 order-1 order-md-2 bg-tertiary text-white">
@@ -164,5 +151,5 @@
         </ul>
       </div>
     </div>
-  </div>
+  </article>
 </section>

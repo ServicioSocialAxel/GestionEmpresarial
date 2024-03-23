@@ -54,13 +54,17 @@
               {{item.titulo}}</a>
           </div>
         </li>
-        <li style="white-space: nowrap; cursor: pointer;" class="nav-item" (click)="collapse()">
-          <a class="nav-link h4" data-toggle="modal" [attr.data-target]="'#biblio'"><strong>Fuentes
-              de
-              consulta</strong></a>
-        </li>
-        <li style="white-space: nowrap; cursor: pointer;" class="nav-item" (click)="collapse()">
-          <a class="nav-link h4" data-toggle="modal" [attr.data-target]="'#glosario'"><strong>Glosarios</strong></a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle font-weight-bold h4" href="#" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            &nbsp; Más información
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown" (click)="collapse()">
+            <a class="dropdown-item font-weight-bold h5" data-toggle="modal" [attr.data-target]="'#biblio'"><i
+                class="bi bi-card-text"></i> &nbsp; Fuentes de consulta</a>
+            <a class="dropdown-item font-weight-bold h5" data-toggle="modal" [attr.data-target]="'#glosario'"><i
+                class="bi bi-journal-text"></i> &nbsp; Glosario</a>
+          </div>
         </li>
       </ul>
     </div>
@@ -80,8 +84,7 @@
     </div>
   </header>
 </nav>
-
-<div class="modal fade" id="biblio">
+<section class="modal fade" id="biblio">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header text-center">
@@ -189,34 +192,26 @@
       </div>
     </div>
   </div>
-</div>
-<div class="modal fade" id="program">
-  <div class="modal-dialog modal-lg" role="document">
-    <div class="modal-content">
-      <div class="modal-header text-center">
-        <h2 class="modal-title">Programa de la Unidad de Aprendizaje</h2>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span>&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <div class="container">
-          <div class='embed-responsive embed-responsive-16by9' style='height: 75rem;'>
-            <object data='assets/data/programa2020.pdf' type='application/pdf' aria-label="Programa 2020">Programa
-              2020</object>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
+</section>
 <main role="main">
   <router-outlet></router-outlet>
 </main>
-
 <app-glosario></app-glosario>
-
 <footer class="site-footer">
   <p class="copyright">Instituto Politécnico Nacional - Escuela Superior de Cómputo</p>
+</footer>
+<footer class="mt-auto fixed-bottom container">
+  <div class="row d-flex justify-content-end">
+    <div class="col-lg-2 col-md-3 px-0">
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <label class="input-group-text" for="lang"><i class="bi bi-globe"></i> &nbsp; Idioma</label>
+        </div>
+        <select class="custom-select custom-select-lg" id="lang">
+          <option seelected value="es">Español</option>
+          <option value="eng">Inglés</option>
+        </select>
+      </div>
+    </div>
+  </div>
 </footer>

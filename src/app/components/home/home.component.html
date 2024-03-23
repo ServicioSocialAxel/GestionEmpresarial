@@ -1,5 +1,5 @@
 <section class="container-fluid mt-3">
-  <article class="row justify-content-center pt-3" id="bienvenida">
+  <article id="bienvenida" class="row justify-content-center pt-3">
     <div class="col-12 px-0">
       <h2 class="text-center">Bienvenida</h2>
       <div style="display: flex; flex-direction: column; align-items: center;">
@@ -14,24 +14,26 @@
   <article id="metodologia" class="row">
     <div class="col-12 col-md-6 p-4 bg-tertiary text-white">
       <h2>Metodología</h2>
-      <p>Se abordará a partir de la estrategia de aprendizaje orientada a proyectos y método deductivo e inductivo, lo
-        cual permitirá la utilización de las siguientes técnicas de aprendizaje:</p>
+      <p>Se abordará a partir de la estrategia de aprendizaje orientada a proyectos y método deductivo e inductivo,
+        lo cual permitirá la utilización de las siguientes técnicas de aprendizaje:</p>
       <ul>
         <li><a class="text-white" target="_blank"
             href="http://www.scielo.org.bo/scielo.php?script=sci_arttext&pid=S0040-29151993000100008"><u>Indagación
               documental</u></a></li>
-        <li><a target="_blank" href="http://hadoc.azc.uam.mx/tecnicas/guiada.htm" class="text-white"><u>Discusión
+        <li><a class="text-white" target="_blank" href="http://hadoc.azc.uam.mx/tecnicas/guiada.htm"><u>Discusión
               dirigida</u></a></li>
-        <li><a target="_blank"
-            href="https://www.itesca.edu.mx/documentos/desarrollo_academico/metodo_aprendizaje_colaborativo.pdf"
-            class="text-white"><u>Trabajo colaborativo</u></a></li>
-        <li><a target="_blank" href="http://www.scielo.org.co/pdf/entra/v12n1/v12n1a18.pdf"
-            class="text-white"><u>Práctica de laboratorio</u></a></li>
-        <li><a target="_blank" href="https://www.academia.edu/37824886/Exposicion_como_tecnica_didactica"
-            class="text-white"><u>Exposición de temas complementarios en equipo</u></a></li>
-        <li><a target="_blank" href="https://prezi.com/uicbxppqud3l/operaciones-del-pensamiento/"
-            class="text-white"><u>Herramientas Considerar Variables (CV) y Considerar Objetivos o Propósitos
-              (COP)</u></a></li>
+        <li><a class="text-white" target="_blank"
+            href="https://www.itesca.edu.mx/documentos/desarrollo_academico/metodo_aprendizaje_colaborativo.pdf"><u>
+              Trabajo colaborativo</u></a></li>
+        <li><a class="text-white" target="_blank"
+            href="http://www.scielo.org.co/pdf/entra/v12n1/v12n1a18.pdf"><u>Práctica de
+              laboratorio</u></a></li>
+        <li><a class="text-white" target="_blank"
+            href="https://www.academia.edu/37824886/Exposicion_como_tecnica_didactica"><u>Exposición
+              de temas complementarios en equipo</u></a></li>
+        <li><a class="text-white" target="_blank"
+            href="https://prezi.com/uicbxppqud3l/operaciones-del-pensamiento/"><u>Herramientas
+              Considerar Variables (CV) y Considerar Objetivos o Propósitos (COP)</u></a></li>
       </ul>
       <p>La unidad contribuye a la creación de un proyecto empresarial aplicando la gestión estratégica.</p>
     </div>
@@ -71,8 +73,23 @@
     </div>
     <div class="col-12 col-md-6 p-0 img-cover" style="background-image: url(../../../assets/img/grading.jpg);"></div>
   </article>
-  <article class="row pt-5">
-    <h2 class="text-center">Contactos: Ext. 52032</h2>
+  <article id="prog" class="row pt-5">
+    <h2 class="text-center"><a class="text-primary" data-toggle="modal" [attr.data-target]="'#program'">Programa de
+        estudios</a></h2>
+    <div class="d-flex justify-content-center">
+      <svg class="img-thumbnail" width="200" height="200" xmlns="http://www.w3.org/2000/svg" role="img"
+        aria-label="A generic square placeholder image with a white border around it, making it resemble a photograph taken with an old instant camera: 200x200"
+        preserveAspectRatio="xMidYMid slice" focusable="false">
+        <title>A generic square placeholder image with a white border around it, making it resemble a photograph taken
+          with
+          an old instant camera</title>
+        <rect width="100%" height="100%" fill="#6c757d"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">QR</text>
+      </svg>
+    </div>
+  </article>
+  <article id="contacts" class="row pt-5">
+    <h2 class="text-center">Contacto</h2>
+    <h4 class="text-center">5729-6000 Ext. 52032</h4>
     <div class="list-cat">
       <div *ngFor="let item of responsables;let idx = index" class="category">
         <div class="prof-photo" [style]="'background-image: url('+item.photo+');'"></div>
@@ -103,7 +120,7 @@
       </div>
     </div>
   </article>
-  <article class="row">
+  <article id="req" class="row">
     <div class="col-12 col-md-6 p-0 order-2 order-md-1 img-cover"
       style="background-image: url(../../../assets/img/system.jpg);"></div>
     <div class="col-12 col-md-6 p-4 order-1 order-md-2 bg-tertiary text-white">
@@ -153,3 +170,25 @@
     </div>
   </article>
 </section>
+<section class="modal fade" id="program">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h2 class="modal-title">Programa de Estudios</h2>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span>&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="container">
+          <div class='embed-responsive embed-responsive-16by9' style='height: 75rem;'>
+            <object data='assets/data/gestionEmpresarial_ISC2020.pdf' type='application/pdf'
+              aria-label="Programa de estudios">Programa de estudios</object>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<main class="main-prod container">
+</main>

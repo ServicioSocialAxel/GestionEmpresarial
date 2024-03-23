@@ -10,7 +10,7 @@
 .navbar-nav {
   width: 40%;
   justify-content: space-between;
-  margin-left: 5rem;
+  margin-left: 1rem;
 }
 
 .dropdown-menu {
@@ -27,8 +27,8 @@
 }
 
 .img-logo {
-  width: 12rem;
-  max-width: 12rem;
+  width: 128px;
+  max-width: 128px;
 }
 
 .logos {
@@ -42,9 +42,10 @@
 .escom-logos {
   display: grid;
   cursor: pointer;
+  grid-template-columns: repeat(2, 3fr);
   text-align: center;
   align-items: center;
-  justify-items: center;
+  justify-items: right;
 }
 
 .escom-logo {

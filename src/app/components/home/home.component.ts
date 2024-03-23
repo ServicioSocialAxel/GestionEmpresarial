@@ -19,9 +19,9 @@ export class HomeComponent {
       name: 'Verónica Agustín Domínguez',
       photo: 'assets/img/prof2.jpg',
       mail: 'vagustin@ipn.mx',
-      info: 'M. en C. <br/>Mtra. ESCA Sto. Tomas IPN<br/>ESCOM-IPN Depto. de ISC profesora titular desde 2009',
+      info: 'M. en C. ESCA Sto. Tomas IPN<br/>C. P. C. ESCA Sto. Tomas IPN<br/>ESCOM-IPN Depto. de ISC profesora titular desde 2009',
       intereses:
-        'Gestión Empresarial<br/> Desarrollo de Proyectos<br/> Educación continua<br/> Emprendimiento',
+        'Gestión Empresarial<br/>Finanzas<br/> Desarrollo de Proyectos<br/> Educación continua<br/> Emprendimiento',
     },
     {
       name: 'Axel Ernesto Moreno Cervantes',

@@ -1,77 +1,90 @@
-<header class="nav-main-header fixed-top">
-  <div class="header-main">
-
-    <nav class="navbar navbar-expand-lg navbar-light navs-header">
-      <div class="logos" [routerLink]="['/']" (click)="collapse()">
-        <img class="img-logo " src="assets/img/ipn.png" alt="logo ipn">
-        <h2 class="redes-text">Gestión <p class="header-empresarial text-center"><span>Empresarial</span></p>
-        </h2>
+<nav
+  class="navbar navbar-expand-lg navbar-light bg-light sticky-top container-fluid nav-custom-bb justify-content-center">
+  <header class="row justify-content-center" style="width: 100vw;">
+    <div class="navbar-brand mr-0 col-8 col-md-5 col-lg-2 col-xl-3 order-2 order-lg-1" [routerLink]="['/']"
+      (click)="collapse()">
+      <div class="row justify-content-center">
+        <div class="col-2 col-md-3 col-lg-6 px-0">
+          <img class="mx-auto d-none d-md-block" height="96px" width="90px" src="assets/img/ipn.png" alt="ipn">
+          <img class="mx-auto d-md-none d-block" height="56px" width="52px" src="assets/img/ipn.png" alt="ipn">
+        </div>
+        <div class="col-8 col-md-7 col-xl-6 d-lg-none d-xl-block my-auto font-weight-bold text-wrap">
+          <h4 class="mb-0">Gestión</h4>
+          <h4 class="mb-0 text-tertiary">Empresarial</h4>
+        </div>
       </div>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item" (click)="collapse()" *ngIf="currentLink != '/'">
-            <a class="nav-link" [routerLink]="['/']">Inicio</a>
-          </li>
-          <li class="nav-item dropdown" *ngIf="currentLink == '/'">
-            <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              Inicio
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown" [routerLink]="['/']" (click)="collapse()">
-              <a class="dropdown-item" *ngFor="let item of navs" (click)="goToId(item.link)">{{item.title}}</a>
-            </div>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              Unidades
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown" (click)="collapse()">
-              <a class="dropdown-item" *ngFor="let item of unidades"
-                [routerLink]="['unidades',item.indice]">{{item.indice}}.- {{item.titulo}}</a>
-            </div>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              Material adicional
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown" (click)="collapse()">
-              <a class="dropdown-item" *ngFor="let item of unidades"
-                [routerLink]="['recursos',item.indice]">{{item.indice}}.- {{item.titulo}}</a>
-            </div>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
-              aria-expanded="false">
-              &nbsp; Más información
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown" (click)="collapse()">
-              <a class="dropdown-item" data-toggle="modal" [attr.data-target]="'#biblio'"><i
-                  class="bi bi-card-text"></i> &nbsp; Fuentes de consulta</a>
-              <a class="dropdown-item" data-toggle="modal" [attr.data-target]="'#glosario'"><i
-                  class="bi bi-journal-text"></i> &nbsp; Glosario</a>
-            </div>
-          </li>
-        </ul>
-        <ul class="navbar-nav">
-        </ul>
+    </div>
+    <div class="col-2 d-lg-none my-auto order-1 order-lg-4">
+      <div style="display: flex; flex-direction: column; align-items: center;">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
       </div>
-      <div class="escom-logos" [routerLink]="['/']" (click)="collapse()">
-        <h2 class="redes-text"><span class="header-empresarial">Escuela Superior de Cómputo</span>
-        </h2>
-        <img class="img-logo escom-logo" src="assets/img/escom.png" alt="escom">
+    </div>
+    <div class="col-12 col-lg-8 col-xl-6 my-auto order-4 order-lg-2 collapse navbar-collapse justify-content-center"
+      id="navbarSupportedContent">
+      <ul class="navbar-nav navbar-nav-scroll text-wrap" style="font-size: large;">
+        <li class="nav-item" (click)="collapse()" *ngIf="currentLink != '/'">
+          <a class="nav-link font-weight-bold h4" [routerLink]="['/']">Inicio</a>
+        </li>
+        <li class="nav-item dropdown" *ngIf="currentLink == '/'">
+          <a class="nav-link dropdown-toggle font-weight-bold h4" id="navbarDropdown" role="button"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Inicio</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown" [routerLink]="['/']" (click)="collapse()">
+            <a class="dropdown-item font-weight-bold h5" *ngFor="let item of navs"
+              (click)="goToId(item.link)">{{item.title}}</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle font-weight-bold h4" href="#" id="navbarDropdown" role="button"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Unidades</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown" (click)="collapse()">
+            <a class="dropdown-item font-weight-bold h5 text-truncate" style="max-width: 90vw;"
+              *ngFor="let item of unidades" [routerLink]="['unidades',item.indice]">{{item.indice}}.-
+              {{item.titulo}}</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle font-weight-bold h4" href="#" id="navbarDropdown" role="button"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Material adicional</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown" (click)="collapse()">
+            <a class="dropdown-item font-weight-bold h5 text-truncate" style="max-width: 90vw;"
+              *ngFor="let item of unidades" [routerLink]="['recursos',item.indice]">{{item.indice}}.-
+              {{item.titulo}}</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle font-weight-bold h4" href="#" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            &nbsp; Más información
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown" (click)="collapse()">
+            <a class="dropdown-item font-weight-bold h5" data-toggle="modal" [attr.data-target]="'#biblio'"><i
+                class="bi bi-card-text"></i> &nbsp; Fuentes de consulta</a>
+            <a class="dropdown-item font-weight-bold h5" data-toggle="modal" [attr.data-target]="'#glosario'"><i
+                class="bi bi-journal-text"></i> &nbsp; Glosario</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="navbar-brand mr-0 col-2 col-md-5 col-lg-2 col-xl-3 my-auto order-3" [routerLink]="['/']"
+      (click)="collapse()">
+      <div class="row justify-content-center">
+        <div class="col-6 text-tertiary text-right text-nowrap font-weight-bold d-none d-md-block d-lg-none d-xl-block">
+          <h4 class="mb-0">Escuela</h4>
+          <h4 class="mb-0">Superior de</h4>
+          <h4 class="mb-0">Cómputo</h4>
+        </div>
+        <div class="col-12 col-md-6 px-0">
+          <img class="mx-auto d-none d-md-block" height="96px" width="126px" src="assets/img/escom.png" alt="escom">
+          <img class="mx-auto d-md-none" height="56px" width="73px" src="assets/img/escom.png" alt="escom">
+        </div>
       </div>
-    </nav>
-
-  </div>
-</header>
-<div class="modal fade" id="biblio">
+    </div>
+  </header>
+</nav>
+<section class="modal fade" id="biblio">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header text-center">
@@ -153,7 +166,6 @@
                 style='color: blue;' target='_blank'
                 href='http://cursodeadministraciondeempresas.com/los-programas-en-la-administracion'>http://cursodeadministraciondeempresas.com/los-programas-en-la-administracion</a>
             </li>
-
             <li>Harold, K. et al. (2012). Administración, una perspectiva global y empresarial. Mc Graw Hill.</li>
             <li>A. Whetten David y S- Cameron kIm. (2011). Desarrollo de habilidades directivas. Prentice Hall.</li>
             <li>Alcaraz R., R. (2001). El emprendedor del éxito. Mc Graw Hill.</li>
@@ -180,14 +192,11 @@
       </div>
     </div>
   </div>
-</div>
-
-<div class="app">
+</section>
+<main role="main">
   <router-outlet></router-outlet>
-</div>
-
+</main>
 <app-glosario></app-glosario>
-
 <footer class="site-footer">
   <p class="copyright">Instituto Politécnico Nacional - Escuela Superior de Cómputo</p>
 </footer>
@@ -205,5 +214,4 @@
       </div>
     </div>
   </div>
-
 </footer>

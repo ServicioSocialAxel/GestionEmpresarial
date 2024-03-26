@@ -4,7 +4,6 @@ import { routing, routingProviders } from './app.routing';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
-import { RecursosComponent } from './components/recursos/recursos.component';
 import { UnidadesComponent } from './components/unidades/unidades.component';
 import { UnidadComponent } from './components/unidad/unidad.component';
 import { HtmlObjetPipe } from './pipes/html-objet.pipe';
@@ -12,7 +11,6 @@ import { EvaluacionesComponent } from './components/evaluaciones/evaluaciones.co
 import { FormsModule } from '@angular/forms';
 import { GlosarioComponent } from './components/glosario/glosario.component';
 import { DataTablesModule } from 'angular-datatables';
-import { PdfViewerModule } from 'ng2-pdf-viewer';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 import { HttpClientModule } from '@angular/common/http';
 
@@ -20,12 +18,11 @@ import { HttpClientModule } from '@angular/common/http';
   declarations: [
     AppComponent,
     HomeComponent,
-    RecursosComponent,
     UnidadesComponent,
     UnidadComponent,
     HtmlObjetPipe,
     EvaluacionesComponent,
-    GlosarioComponent
+    GlosarioComponent,
   ],
   imports: [
     BrowserModule,
@@ -33,13 +30,10 @@ import { HttpClientModule } from '@angular/common/http';
     FormsModule,
     DataTablesModule,
     HttpClientModule,
-    //PdfViewerModule
   ],
-  providers: [
-    routingProviders
-  ],
-  bootstrap: [AppComponent]
+  providers: [routingProviders],
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
 
 platformBrowserDynamic().bootstrapModule(AppModule);

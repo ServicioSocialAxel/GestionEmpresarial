@@ -1,26 +1,11 @@
-.nav-main{
-  padding: 2rem 0 2rem 0; /*Top Rigth Bottom Left */ /*TB LR*/
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-.nav-main a{
-  margin: 0 auto;
-  text-decoration: none;
-}
-
-.list-cat{
+.list-cat {
   display: grid;
-  grid-template-columns: repeat(3,1fr);
-  grid-template-columns: repeat(auto-fit,minmax(25rem,1fr));
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   gap: 2rem;
 }
-.categories{
-  padding-top: 5rem;
-}
 
-.prof-photo{
+.prof-photo {
   width: auto;
   height: 35rem;
   background-repeat: no-repeat;
@@ -29,13 +14,7 @@
   border-radius: 1rem 1rem 0rem 0rem;
 }
 
-.section-welcome{
-  padding: 2rem;
-  margin-bottom: 2rem;
-  padding-top: 3rem;
-}
-
-.category p{
+.category p {
   display: block;
   text-align: center;
   padding: 2rem;
@@ -43,123 +22,28 @@
   margin-top: 0;
 }
 
-.category p button{
+.category p button {
   font-size: 1.75rem;
 }
 
-.category p:hover{
-  background-color: #007BFF;
+.category p:hover {
+  background-color: #0d6efd;
   color: white;
   border-radius: 0 0 1rem 1rem;
 }
 
-.category p:hover button{
+.category p:hover button {
   color: white;
 }
 
-.about-us-img{
-  background-image: url(../../../assets/img/redes1.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
+.welcome {
+  max-width: 560px;
+  max-height: 315px;
 }
 
-.aux-div{
-  flex-basis: 50%;
-  padding-left: 8rem;
-  color: white;
-}
-
-.grid-au{
-  display: flex;
-  justify-content: flex-end;
-  max-width: 175rem;
-}
-
-.div-competencia img{
-  margin: 0 auto;
-}
-
-.competencia-section{
-  margin: 5rem 0;
-  /* display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-columns: repeat(auto-fit,minmax(25rem,1fr)); */
-}
-
-.competencia-text p{
-  display: block;
-  text-align: center;
-  font-size: 2rem;
-  margin-top: 3rem;
- /*  background-color: #007BFF; */
-  /* color: white; */
-  border-radius: 0 0 1rem 1rem;
-}
-
-.unidad{
-  background-image: linear-gradient(to right, transparent 50%,#007BFF 50%,#007BFF 100%), url(../../../assets/img/learning.png);
-  padding: 8rem 0;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: left center;
-}
-
-.grid-reque{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  padding: 5rem 0;
-}
-
-.img-reque{
-  background-image: url(../../../assets/img/requerimientos.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-}
-
-.grid-meto{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
-.img-meto{
-  background-image: url(../../../assets/img/meto.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-}
-.img-metodologia{
-  background-image: url(../../../assets/img/metodologia.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center center;
-}
-
-.img-eval{
-  background-image: url(../../../assets/img/evaluacion.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center center;
-}
-
-
-.aux-reque{
-  padding: 6rem;
-  color: white;
-  background-color: #007BFF;
-}
-
-@media only screen and (max-width: 600px) {
-  .unidad{
-    background-image: linear-gradient(to right, transparent 25%,#007BFF 25%,#007BFF 100%), url(../../../assets/img/learning.png);
-    background-position: right center;
-    padding: 5rem 0;
-  }
-  .aux-div{
-    flex-basis: 85%;
+@media (min-width: 767.98px) {
+  .welcome {
+    width: 560px;
+    height: 315px;
   }
 }
-
-
-

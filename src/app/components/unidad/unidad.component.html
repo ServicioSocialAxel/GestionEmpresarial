@@ -1,10 +1,19 @@
 <section class="container-unidad contenidos" *ngIf="unidad">
   <div *ngIf="tipo == 1 || (tipo == 0 && (selection == 'contenidos' || selection == 'actividades'))">
-    <div class="card" *ngFor="let item of tipo == 0 ? unidad.contenido : unidad.recurso;let idx = index">
-      <div [class]="tipo == 0 && selection == 'actividades'? 'data-act' : 'data-complete'">
+    <div *ngIf="tipo == 1">
+      <h4 class="font-weight-bold w-100 mt-4 mb-0">
+        Aquí encontraras PDFs, enlaces a códigos, videos, entre otros elementos auxiliares a la unidad
+        {{unidad.indice}}.
+        {{unidad.titulo}}
+      </h4>
+    </div>
+    <div class="card"
+      *ngFor="let item of tipo == 0 ? unidad.contenido : unidad.recurso.length > 1 ? unidad.recurso.slice(0, -1) : unidad.recurso;let idx = index">
+      <div [class]="tipo == 0 && selection == 'actividades'? 'data-act' : 'justify-content-center'">
         <div>
-          <div class="card-header" data-toggle="collapse" [attr.data-target]="'#seccion' + idx" aria-expanded="true" [attr.aria-controls]="'seccion' + idx">
-            <h3>
+          <div class="card-header" data-toggle="collapse" [attr.data-target]="'#seccion' + idx" aria-expanded="true"
+            [attr.aria-controls]="'seccion' + idx">
+            <h3 class="card-title">
               {{item.seccion}} {{item.titulo}}
             </h3>
             <div *ngIf="tipo == 0">
@@ -17,21 +26,15 @@
               <span>{{item.descripcionRecurso}}</span>
             </div>
           </div>
-          <div  [id]="'seccion' + idx" class="collapsing">
-            <div [innerHTML]="item.unidad | sanitizedHtml" class="container container-grid-center" *ngIf="tipo == 0 && selection == 'contenidos'"></div>
-            <div [innerHTML]="item.recurso | sanitizedHtml" class="container" *ngIf="tipo == 1"></div>
-            <!-- <div class="container">
-              <pdf-viewer src="../assets/data/HDLC_LLC.pdf"
-              [render-text]="false"
-              [original-size]="false"
-              class="pdf-viewer"
-              [show-borders]="true"
-              [zoom]="0.75"
-              [autoresize]="true"
-              ></pdf-viewer></div>-->
+          <div [id]="'seccion' + idx" class="collapsing">
+            <div [innerHTML]="item.unidad | sanitizedHtml" class="card-body justify-content-center"
+              *ngIf="tipo == 0 && selection == 'contenidos'"></div>
+            <div [innerHTML]="item.recurso | sanitizedHtml" class="card-body justify-content-center" *ngIf="tipo == 1">
+            </div>
           </div>
         </div>
-        <button *ngIf="tipo == 0 && selection == 'actividades'" type="button" class="btn btn btn-outline-secondary btn-lg" data-toggle="modal" [attr.data-target]="'#actividad'+idx">
+        <button *ngIf="tipo == 0 && selection == 'actividades'" type="button"
+          class="btn btn btn-outline-secondary btn-lg" data-toggle="modal" [attr.data-target]="'#actividad'+idx">
           <i class="bi bi-book"></i>
           Actividades
         </button>
@@ -54,12 +57,31 @@
     </div>
   </div>
   <div *ngIf="tipo == 0 && selection == 'evaluacion'">
-    <div [innerHTML]="unidad.evaluacion | sanitizedHtml" ></div>
+    <div [innerHTML]="unidad.evaluacion | sanitizedHtml"></div>
   </div>
   <div *ngIf="tipo == 0 && selection == 'autoevaluacion'">
-    <div [innerHTML]="unidad.autoevaluacion | sanitizedHtml" ></div>
+    <div [innerHTML]="unidad.autoevaluacion | sanitizedHtml"></div>
   </div>
   <div *ngIf="tipo == 0 && selection == 'coevaluacion'">
-    <div [innerHTML]="unidad.coevaluacion | sanitizedHtml" ></div>
+    <div [innerHTML]="unidad.coevaluacion | sanitizedHtml"></div>
+  </div>
+  <div *ngIf="tipo == 0 && selection == 'presentacion'">
+    <div class="card">
+      <div [class]="'data-complete'">
+        <div>
+          <div class="card-header" data-toggle="collapse" [attr.data-target]="'#seccion' + 0" aria-expanded="true"
+            [attr.aria-controls]="'seccion' + 0">
+            <h3>
+              {{unidad.recurso[unidad.recurso.length - 1].titulo}}
+            </h3>
+            <span>{{unidad.recurso[unidad.recurso.length - 1].descripcionRecurso}}</span>
+          </div>
+          <div [id]="'seccion' + 0" class="collapsing">
+            <div [innerHTML]="unidad.recurso[unidad.recurso.length - 1].recurso | sanitizedHtml" class="container">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </section>

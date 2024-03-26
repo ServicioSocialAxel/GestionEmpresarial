@@ -33,19 +33,25 @@ export class UnidadesComponent implements OnInit, DoCheck {
     }
   }
 
-  updateId() {
+  updateId = (): void => {
     this.id = 1;
     if (!isNaN(this.route.snapshot.params.id))
       this.id =
         this.route.snapshot.params.id % this.unidades.length == 0
           ? this.unidades.length
           : this.route.snapshot.params.id % this.unidades.length;
-  }
+  };
 
-  updateUnidad() {
-    this.unidad = this.unidades[this.id - 1];
-    if (!this.unidad.cuadroEval || this.unidad.cuadroEval.trim() == '')
-      this.flagCuadro = false;
+  updateResources = (): void => {
+    this.unidad.recurso.forEach((element: any) => {
+      if (!element.recurso || element.recurso.trim() == '') {
+        element.recurso =
+          "<h3 class='text-center'>Sin recursos disponibles</h3>";
+      }
+    });
+  };
+
+  updateContents = (): void => {
     this.unidad.contenido.forEach((element: any) => {
       if (!element.unidad || element.unidad.trim() == '')
         element.unidad = "<h3 class='text-center'>Sección sin información</h3>";
@@ -53,5 +59,13 @@ export class UnidadesComponent implements OnInit, DoCheck {
         element.actividad =
           "<h3 class='text-center'>Sin actividades disponibles</h3>";
     });
-  }
+  };
+
+  updateUnidad = (): void => {
+    this.unidad = this.unidades[this.id - 1];
+    if (!this.unidad.cuadroEval || this.unidad.cuadroEval.trim() == '')
+      this.flagCuadro = false;
+    this.updateResources();
+    this.updateContents();
+  };
 }

@@ -27,17 +27,20 @@
           Aprendizaje</label>
         <input type="radio" class="btn-check" name="btnradio" id="btnradio4" autocomplete="off"
           [value]="'autoevaluacion'" [(ngModel)]="uniSection">
-        <label class="btn btn-lg btn-outline-primary label-no-margin" for="btnradio4">Auto Evaluación</label>
+        <label class="btn btn-lg btn-outline-primary label-no-margin" for="btnradio4">Autoevaluación</label>
         <input type="radio" class="btn-check" name="btnradio" id="btnradio5" autocomplete="off" [value]="'coevaluacion'"
           [(ngModel)]="uniSection">
-        <label class="btn btn-lg btn-outline-primary label-no-margin" for="btnradio5">Co Evaluación</label>
-        <input type="radio" class="btn-check" name="btnradio" id="btnradio6" autocomplete="off" [value]="'recursos'"
+        <label class="btn btn-lg btn-outline-primary label-no-margin" for="btnradio5">Coevaluación</label>
+        <input type="radio" class="btn-check" name="btnradio" id="btnradio6" autocomplete="off" [value]="'presentacion'"
           [(ngModel)]="uniSection">
         <label class="btn btn-lg btn-outline-primary label-no-margin" for="btnradio6">Presentación</label>
+        <input type="radio" class="btn-check" name="btnradio" id="btnradio7" autocomplete="off" [value]="'recursos'"
+          [(ngModel)]="uniSection">
+        <label class="btn btn-lg btn-outline-primary label-no-margin" for="btnradio7">Material adicional</label>
       </div>
     </div>
     <div class="col-12 col-md-9 col-xl-10">
-      <app-unidad style="width: 100%;" *ngIf="unidad" [unidad]="unidad" [tipo]="0"
+      <app-unidad style="width: 100%;" *ngIf="unidad" [unidad]="unidad" [tipo]="uniSection == 'recursos' ? 1 : 0"
         [selection]="uniSection"></app-unidad>
     </div>
   </article>

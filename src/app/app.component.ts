@@ -8,7 +8,8 @@ import { InfoService } from './services/info.service';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent implements DoCheck {
-  title = 'redesComp';
+  title = 'Gestión Empresarial';
+  lang: string = 'es';
   unidades: any;
   currentLink: string = '';
   navs: Array<any> = [

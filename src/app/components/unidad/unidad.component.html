@@ -1,6 +1,14 @@
 <section class="container-unidad contenidos" *ngIf="unidad">
   <div *ngIf="tipo == 1 || (tipo == 0 && (selection == 'contenidos' || selection == 'actividades'))">
-    <div class="card" *ngFor="let item of tipo == 0 ? unidad.contenido : unidad.recurso.slice(0, -1);let idx = index">
+    <div *ngIf="tipo == 1">
+      <h4 class="font-weight-bold w-100 mt-4 mb-0">
+        Aquí encontraras PDFs, enlaces a códigos, videos, entre otros elementos auxiliares a la unidad
+        {{unidad.indice}}.
+        {{unidad.titulo}}
+      </h4>
+    </div>
+    <div class="card"
+      *ngFor="let item of tipo == 0 ? unidad.contenido : unidad.recurso.length > 1 ? unidad.recurso.slice(0, -1) : unidad.recurso;let idx = index">
       <div [class]="tipo == 0 && selection == 'actividades'? 'data-act' : 'justify-content-center'">
         <div>
           <div class="card-header" data-toggle="collapse" [attr.data-target]="'#seccion' + idx" aria-expanded="true"
@@ -57,7 +65,7 @@
   <div *ngIf="tipo == 0 && selection == 'coevaluacion'">
     <div [innerHTML]="unidad.coevaluacion | sanitizedHtml"></div>
   </div>
-  <div *ngIf="tipo == 0 && selection == 'recursos'">
+  <div *ngIf="tipo == 0 && selection == 'presentacion'">
     <div class="card">
       <div [class]="'data-complete'">
         <div>

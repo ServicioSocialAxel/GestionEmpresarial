@@ -5,9 +5,9 @@
     "imagen": "https://www.awerty.net/wp-content/uploads/2019/11/Gestion-Negocio.png",
     "competencia": "Distingue entre el concepto de administrar y gestionar, la clasificación de las organizaciones y su constitución legal con base en la normativa vigente.",
     "keywords": [],
-    "evaluacion": "<h3 class='text-center'>Sección sin información</h3>",
-    "autoevaluacion": "<h3 class='text-center'>Sección sin información</h3>",
-    "coevaluacion": "<h3 class='text-center'>Sección sin información</h3>",
+    "evaluacion": "<h3 class='text-center mt-4'>Sección sin información</h3>",
+    "autoevaluacion": "<h3 class='text-center mt-4'>Sección sin información</h3>",
+    "coevaluacion": "<h3 class='text-center mt-4'>Sección sin información</h3>",
     "contenido": [
       {
         "seccion": 1.1,
@@ -275,9 +275,9 @@
     "imagen": "https://d1f5pwbie4mbzn.cloudfront.net/resources/default/img/pages/home/infoempresa_home_header_mobile.png",
     "competencia": "Aún no existe información para la unidad.",
     "keywords": [],
-    "evaluacion": "<h3 class='text-center'>Sección sin información</h3>",
-    "autoevaluacion": "<h3 class='text-center'>Sección sin información</h3>",
-    "coevaluacion": "<h3 class='text-center'>Sección sin información</h3>",
+    "evaluacion": "<h3 class='text-center mt-4'>Sección sin información</h3>",
+    "autoevaluacion": "<h3 class='text-center mt-4'>Sección sin información</h3>",
+    "coevaluacion": "<h3 class='text-center mt-4'>Sección sin información</h3>",
     "contenido": [
       {
         "seccion": 3.1,
@@ -359,7 +359,7 @@
     ],
     "recurso": [
       {
-        "seccion": 1.1,
+        "seccion": 3.1,
         "titulo": "Aún no existe información para esta unidad",
         "descripcionRecurso": "",
         "keywords": [],
@@ -374,9 +374,9 @@
     "imagen": "https://sites.google.com/site/portafoliodemercadeoaud/_/rsrc/1534912118077/calidad-en-un-producto/calidad.png",
     "competencia": "Aún no existe información para la unidad.",
     "keywords": [],
-    "evaluacion": "<h3 class='text-center'>Sección sin información</h3>",
-    "autoevaluacion": "<h3 class='text-center'>Sección sin información</h3>",
-    "coevaluacion": "<h3 class='text-center'>Sección sin información</h3>",
+    "evaluacion": "<h3 class='text-center mt-4'>Sección sin información</h3>",
+    "autoevaluacion": "<h3 class='text-center mt-4'>Sección sin información</h3>",
+    "coevaluacion": "<h3 class='text-center mt-4'>Sección sin información</h3>",
     "contenido": [
       {
         "seccion": 4.1,
@@ -477,7 +477,7 @@
     ],
     "recurso": [
       {
-        "seccion": 1.1,
+        "seccion": 4.1,
         "titulo": "Aún no existe información para esta unidad",
         "descripcionRecurso": "",
         "keywords": [],
@@ -492,9 +492,9 @@
     "imagen": "https://loupenlatam.com/wp-content/uploads/elementor/thumbs/BLOG-Central-Como-o-Central-ajuda-nos-desafios-de-TI-em-2021_Prancheta-1-p73zmfwovu20qrhgv3no1s74amqecke3ct1zu8bsmk.png",
     "competencia": "Aún no existe información para la unidad.",
     "keywords": [],
-    "evaluacion": "<h3 class='text-center'>Sección sin información</h3>",
-    "autoevaluacion": "<h3 class='text-center'>Sección sin información</h3>",
-    "coevaluacion": "<h3 class='text-center'>Sección sin información</h3>",
+    "evaluacion": "<h3 class='text-center mt-4'>Sección sin información</h3>",
+    "autoevaluacion": "<h3 class='text-center mt-4'>Sección sin información</h3>",
+    "coevaluacion": "<h3 class='text-center mt-4'>Sección sin información</h3>",
     "contenido": [
       {
         "seccion": 5.1,
@@ -611,7 +611,7 @@
     ],
     "recurso": [
       {
-        "seccion": 1.1,
+        "seccion": 5.1,
         "titulo": "Aún no existe información para esta unidad",
         "descripcionRecurso": "",
         "keywords": [],

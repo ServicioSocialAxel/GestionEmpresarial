@@ -46,24 +46,24 @@
           </div>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle font-weight-bold h4" href="#" id="navbarDropdown" role="button"
-            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Material adicional</a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown" (click)="collapse()">
-            <a class="dropdown-item font-weight-bold h5 text-truncate" style="max-width: 90vw;"
-              *ngFor="let item of unidades" [routerLink]="['recursos',item.indice]">{{item.indice}}.-
-              {{item.titulo}}</a>
-          </div>
-        </li>
-        <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle font-weight-bold h4" href="#" role="button" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">
             &nbsp; Más información
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown" (click)="collapse()">
             <a class="dropdown-item font-weight-bold h5" data-toggle="modal" [attr.data-target]="'#biblio'"><i
-                class="bi bi-card-text"></i> &nbsp; Fuentes de consulta</a>
+                class="bi bi-card-text"></i>&nbsp; Fuentes de consulta</a>
             <a class="dropdown-item font-weight-bold h5" data-toggle="modal" [attr.data-target]="'#glosario'"><i
-                class="bi bi-journal-text"></i> &nbsp; Glosario</a>
+                class="bi bi-journal-text"></i>&nbsp; Glosario</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle font-weight-bold h4" href="#" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false"><i class="bi bi-globe"></i>&nbsp;Idioma
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown" (click)="collapse()">
+            <button role="a" value="es" class="dropdown-item font-weight-bolder h5 text-dark">Español</button>
+            <button role="a" value="eng" class="dropdown-item font-weight-bold h5">English</button>
           </div>
         </li>
       </ul>
@@ -199,19 +199,4 @@
 <app-glosario></app-glosario>
 <footer class="site-footer">
   <p class="copyright">Instituto Politécnico Nacional - Escuela Superior de Cómputo</p>
-</footer>
-<footer class="mt-auto fixed-bottom container">
-  <div class="row d-flex justify-content-end">
-    <div class="col-lg-2 col-md-3 px-0">
-      <div class="input-group">
-        <div class="input-group-prepend">
-          <label class="input-group-text" for="lang"><i class="bi bi-globe"></i> &nbsp; Idioma</label>
-        </div>
-        <select class="custom-select custom-select-lg" id="lang">
-          <option seelected value="es">Español</option>
-          <option value="eng">Inglés</option>
-        </select>
-      </div>
-    </div>
-  </div>
 </footer>

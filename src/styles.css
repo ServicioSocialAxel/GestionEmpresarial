@@ -105,12 +105,9 @@ img {
 .modal-title {
   width: 100%;
 }
+
 .modal-body {
   margin: 2rem;
-}
-
-.bi {
-  font-size: 1.5rem;
 }
 
 .dropdown-item {

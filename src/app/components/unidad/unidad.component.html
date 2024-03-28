@@ -39,11 +39,11 @@
           Actividades
         </button>
       </div>
-      <div class="modal fade" [id]="'actividad'+idx">
+      <div *ngIf="tipo == 0 && selection == 'actividades'" class="modal fade" [id]="'actividad'+idx">
         <div class="modal-dialog modal-xl" role="document">
           <div class="modal-content">
             <div class="modal-header text-center">
-              <h2 class="modal-title">{{item.seccion}} {{item.titulo}}: Actividades de Aprendizaje</h2>
+              <h2 class="modal-title">Actividad {{item.seccion}} {{item.titulo}}</h2>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span>&times;</span>
               </button>

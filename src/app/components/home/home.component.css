@@ -1,49 +1,12 @@
-.list-cat {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-  gap: 2rem;
-}
-
-.prof-photo {
-  width: auto;
-  height: 35rem;
+.portrait {
+  height: 300px;
+  width: 300px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0% 25%;
-  border-radius: 1rem 1rem 0rem 0rem;
 }
 
-.category p {
-  display: block;
-  text-align: center;
-  padding: 2rem;
-  font-size: 2rem;
-  margin-top: 0;
-}
-
-.category p button {
-  font-size: 1.75rem;
-}
-
-.category p:hover {
-  background-color: #0d6efd;
-  color: white;
-  border-radius: 0 0 1rem 1rem;
-}
-
-.category p:hover button {
-  color: white;
-}
-
-.welcome {
-  max-width: 560px;
-  max-height: 315px;
-}
-
-@media (min-width: 767.98px) {
-  .welcome {
-    width: 560px;
-    height: 315px;
-  }
+.qr-code {
+  height: 200px;
+  width: 200px;
 }

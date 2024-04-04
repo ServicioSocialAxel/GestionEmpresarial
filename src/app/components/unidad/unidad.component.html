@@ -1,15 +1,16 @@
 <section class="container-unidad contenidos" *ngIf="unidad">
-  <div *ngIf="tipo == 1 || (tipo == 0 && (selection == 'contenidos' || selection == 'actividades'))">
-    <div *ngIf="tipo == 1">
-      <h4 class="font-weight-bold w-100 mt-4 mb-0">
-        Aquí encontraras PDFs, enlaces a códigos, videos, entre otros elementos auxiliares a la unidad
-        {{unidad.indice}}.
-        {{unidad.titulo}}
-      </h4>
-    </div>
+  <article *ngIf="tipo == 1 || (tipo == 0 && selection == 'contenidos')">
+    <h4 *ngIf="tipo == 1" class="font-weight-bold w-100 mt-4 mb-0">
+      Aquí encontraras PDFs, enlaces a códigos, videos, entre otros elementos auxiliares a la unidad
+      {{unidad.indice}}.
+      {{unidad.titulo}}
+    </h4>
+    <h4 *ngIf="tipo == 0" class="font-weight-bold w-100 mt-4 mb-0">
+      De click en el título de cada sección para visualizar el contenido.
+    </h4>
     <div class="card"
       *ngFor="let item of tipo == 0 ? unidad.contenido : unidad.recurso.length > 1 ? unidad.recurso.slice(0, -1) : unidad.recurso;let idx = index">
-      <div [class]="tipo == 0 && selection == 'actividades'? 'data-act' : 'justify-content-center'">
+      <div class="justify-content-center">
         <div>
           <div class="card-header" data-toggle="collapse" [attr.data-target]="'#seccion' + idx" aria-expanded="true"
             [attr.aria-controls]="'seccion' + idx">
@@ -27,45 +28,55 @@
             </div>
           </div>
           <div [id]="'seccion' + idx" class="collapsing">
-            <div [innerHTML]="item.unidad | sanitizedHtml" class="card-body justify-content-center"
-              *ngIf="tipo == 0 && selection == 'contenidos'"></div>
-            <div [innerHTML]="item.recurso | sanitizedHtml" class="card-body justify-content-center" *ngIf="tipo == 1">
+            <div [innerHTML]="item.unidad | sanitizedHtml" class="card-body center-content" *ngIf="tipo == 0">
             </div>
-          </div>
-        </div>
-        <button *ngIf="tipo == 0 && selection == 'actividades'" type="button"
-          class="btn btn btn-outline-secondary btn-lg" data-toggle="modal" [attr.data-target]="'#actividad'+idx">
-          <i class="bi bi-book"></i>
-          Actividades
-        </button>
-      </div>
-      <div *ngIf="tipo == 0 && selection == 'actividades'" class="modal fade" [id]="'actividad'+idx">
-        <div class="modal-dialog modal-xl" role="document">
-          <div class="modal-content">
-            <div class="modal-header text-center">
-              <h2 class="modal-title">Actividad {{item.seccion}} {{item.titulo}}</h2>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span>&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <div [innerHtml]="item.actividad | sanitizedHtml" class="container"></div>
+            <div [innerHTML]="item.recurso | sanitizedHtml"
+              class="card-body justify-content-center embed-responsive embed-responsive-16by9" *ngIf="tipo == 1">
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <div *ngIf="tipo == 0 && selection == 'evaluacion'">
+  </article>
+  <article *ngIf="tipo == 0 && selection == 'actividades'">
+    <h4 class="font-weight-bold w-100 mt-4 mb-0" *ngIf="unidad.activities">
+      De click en el título de la actividad para visualizar el contenido.
+    </h4>
+    <h3 class="text-center mt-4" *ngIf=" !unidad.activities">
+      Sección sin información.
+    </h3>
+    <div class="card" *ngFor="let activity of unidad.activities;let idx = index">
+      <div class="justify-content-center">
+        <div>
+          <div class="card-header" data-toggle="collapse" [attr.data-target]="'#seccion' + idx" aria-expanded="true"
+            [attr.aria-controls]="'seccion' + idx">
+            <h3 class="card-title">
+              {{activity.section}} {{activity.title}}
+            </h3>
+          </div>
+          <div [id]="'seccion' + idx" class="collapsing">
+            <div *ngIf="activity.embed" [innerHTML]="activity.embed | sanitizedHtml"
+              class="card-body justify-content-center embed-responsive embed-responsive-1by1"></div>
+            <div *ngIf="activity.description" [innerHTML]="activity.description | sanitizedHtml"
+              class="card-body justify-content-center"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </article>
+  <article *ngIf="tipo == 0 && selection == 'evaluacion'">
     <div [innerHTML]="unidad.evaluacion | sanitizedHtml"></div>
-  </div>
-  <div *ngIf="tipo == 0 && selection == 'autoevaluacion'">
+  </article>
+  <article *ngIf="tipo == 0 && selection == 'autoevaluacion'">
     <div [innerHTML]="unidad.autoevaluacion | sanitizedHtml"></div>
-  </div>
-  <div *ngIf="tipo == 0 && selection == 'coevaluacion'">
+  </article>
+  <article *ngIf="tipo == 0 && selection == 'coevaluacion'">
     <div [innerHTML]="unidad.coevaluacion | sanitizedHtml"></div>
-  </div>
-  <div *ngIf="tipo == 0 && selection == 'presentacion'">
+  </article>
+  <article *ngIf="tipo == 0 && selection == 'presentacion'">
+    <h4 class="font-weight-bold w-100 mt-4 mb-0" *ngIf="unidad.activities">
+      De click en el título de la presentación para visualizar su contenido.
+    </h4>
     <div class="card">
       <div [class]="'data-complete'">
         <div>
@@ -77,11 +88,12 @@
             <span>{{unidad.recurso[unidad.recurso.length - 1].descripcionRecurso}}</span>
           </div>
           <div [id]="'seccion' + 0" class="collapsing">
-            <div [innerHTML]="unidad.recurso[unidad.recurso.length - 1].recurso | sanitizedHtml" class="container">
+            <div [innerHTML]="unidad.recurso[unidad.recurso.length - 1].recurso | sanitizedHtml"
+              class="embed-responsive embed-responsive-16by9">
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
+  </article>
 </section>

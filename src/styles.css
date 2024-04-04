@@ -41,11 +41,12 @@ a {
 }
 
 p {
-  max-width: 50ch;
+  max-width: 60ch;
   text-align: justify;
 }
 
 li {
+  max-width: 60ch;
   text-align: justify;
 }
 
@@ -132,6 +133,11 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+}
+
+.center-content * {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media (max-width: 767.98px) {

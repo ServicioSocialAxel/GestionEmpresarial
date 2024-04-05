@@ -10,3 +10,19 @@
   height: 200px;
   width: 200px;
 }
+
+.anchor {
+  scroll-margin-top: 108px;
+}
+
+@media (max-width: 767.98px) {
+  .anchor {
+    scroll-margin-top: 542px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .anchor {
+    scroll-margin-top: 568px;
+  }
+}

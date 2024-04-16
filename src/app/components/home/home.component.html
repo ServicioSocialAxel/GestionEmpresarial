@@ -37,33 +37,21 @@
       </ul>
       <p>La unidad contribuye a la creación de un proyecto empresarial aplicando la gestión estratégica.</p>
     </div>
-    <div class="col-12 col-md-6 p-0">
-      <div data-toggle="collapse" data-target="#methodologyCollapse" aria-expanded="false"
-        aria-controls="methodologyCollapse" class="d-md-none img-cover"
-        style="background-image: url(assets/img/method.jpg);">
-        <!-- Displays at xs, sm -->
-      </div>
-      <div data-toggle="collapse" data-target="#methodologyCollapse" aria-expanded="false"
-        aria-controls="methodologyCollapse" class="d-none d-md-block w-100 h-100 img-cover"
-        style="background-image: url(assets/img/method.jpg);">
-        <!-- Displays at md, lg, xl -->
-      </div>
-    </div>
-    <div class="px-0 collapse" id="methodologyCollapse">
-      <div class="card card-body">
-        Fuente: https://www.pexels.com/es-es/foto/mujer-cafe-relajacion-ordenador-portatil-4050291/
+    <div class="col-12 col-md-6 p-0 img-cover d-flex align-items-end"
+      style="background-image: url(assets/img/method.jpg);">
+      <div class="src text-white text-wrap m-4" data-toggle="collapse" data-target="#methodologyCollapse"
+        aria-expanded="false" aria-controls="methodologyCollapse"><a class="text-reset">Fuente</a><span class="collapse"
+          id="methodologyCollapse">:
+          https://www.pexels.com/es-es/foto/mujer-cafe-relajacion-ordenador-portatil-4050291/</span>
       </div>
     </div>
   </article>
   <article id="unidad" class="row anchor">
-    <div class="col-12 col-md-6 p-0 order-2 order-md-1">
-      <div data-toggle="collapse" data-target="#unitCollapse" aria-expanded="false" aria-controls="unitCollapse"
-        class="d-md-none img-cover" style="background-image: url(assets/img/goals.jpg);">
-        <!-- Displays at xs, sm -->
-      </div>
-      <div data-toggle="collapse" data-target="#unitCollapse" aria-expanded="false" aria-controls="unitCollapse"
-        class="d-none d-md-block w-100 h-100 img-cover" style="background-image: url(assets/img/goals.jpg);">
-        <!-- Displays at md, lg, xl -->
+    <div class="col-12 col-md-6 p-0 order-2 order-md-1 img-cover d-flex align-items-end"
+      style="background-image: url(assets/img/goals.jpg);">
+      <div class="src text-white text-wrap m-4" data-toggle="collapse" data-target="#unitCollapse" aria-expanded="false"
+        aria-controls="unitCollapse"><a class="text-reset">Fuente</a><span class="collapse" id="unitCollapse">:
+          https://www.pexels.com/es-es/foto/mujer-sentada-libro-de-lectura-en-biblioteca-2065490/</span>
       </div>
     </div>
     <div class="col-12 col-md-6 p-4 order-1 order-md-2 bg-tertiary text-white">
@@ -77,11 +65,6 @@
         las competencias directivas de liderazgo, toma de decisiones bajo condiciones de riesgo e incertidumbre, manejo
         de grupos de trabajo, capacidad de negociación, manejo de conflictos, orientación al cambio y a la innovación
         permanente, para gestionar organizaciones con una actitud emprendedora, ética y de responsabilidad social.</p>
-    </div>
-    <div class="px-0 collapse order-3" id="unitCollapse">
-      <div class="card card-body">
-        Fuente: https://www.pexels.com/es-es/foto/mujer-sentada-libro-de-lectura-en-biblioteca-2065490/
-      </div>
     </div>
   </article>
   <article id="eval" class="row anchor">
@@ -99,20 +82,11 @@
         <li>Evidencia de aprendizaje escrita - 30%</li>
       </ul>
     </div>
-    <div class="col-12 col-md-6 p-0">
-      <div data-toggle="collapse" data-target="#evalCollapse" aria-expanded="false" aria-controls="evalCollapse"
-        class="d-md-none img-cover" style="background-image: url(assets/img/grading.jpg);">
-        <!-- Displays at xs, sm -->
-      </div>
-      <div data-toggle="collapse" data-target="#evalCollapse" aria-expanded="false" aria-controls="evalCollapse"
-        class="d-none d-md-block w-100 h-100 img-cover" style="background-image: url(assets/img/grading.jpg);">
-        <!-- Displays at md, lg, xl -->
-      </div>
-    </div>
-    <div class="px-0 collapse" id="evalCollapse">
-      <div class="card card-body">
-        Fuente: https://www.pexels.com/es-es/foto/mujer-escritura-colegio-educacion-7092539/
-      </div>
+    <div class="col-12 col-md-6 p-0 img-cover d-flex align-items-end"
+      style="background-image: url(assets/img/grading.jpg);">
+      <div class="src text-white text-wrap m-4" data-toggle="collapse" data-target="#evalCollapse" aria-expanded="false"
+        aria-controls="evalCollapse"><a class="text-reset">Fuente</a><span class="collapse" id="evalCollapse">:
+          https://www.pexels.com/es-es/foto/mujer-escritura-colegio-educacion-7092539/</span></div>
     </div>
   </article>
   <article id="prog" class="row pt-5 anchor">
@@ -144,12 +118,12 @@
       <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg" role="document">
         <div class="modal-content">
           <div class="modal-header text-center">
-            <h2 class="modal-title">{{item.name}}</h2>
+            <h2 class="modal-title w-100">{{item.name}}</h2>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span>&times;</span>
             </button>
           </div>
-          <div class="modal-body">
+          <div class="modal-body text-center">
             <b>Desarrollo profesional:</b><br />
             <div [innerHtml]="item.info"></div>
             <br />
@@ -161,15 +135,11 @@
     </div>
   </article>
   <article id="req" class="row anchor">
-    <div class="col-12 col-md-6 p-0 order-2 order-md-1">
-      <div data-toggle="collapse" data-target="#reqCollapse" aria-expanded="false" aria-controls="reqCollapse"
-        class="d-md-none img-cover" style="background-image: url(assets/img/system.jpg);">
-        <!-- Displays at xs, sm -->
-      </div>
-      <div data-toggle="collapse" data-target="#reqCollapse" aria-expanded="false" aria-controls="reqCollapse"
-        class="d-none d-md-block w-100 h-100 img-cover" style="background-image: url(assets/img/system.jpg);">
-        <!-- Displays at md, lg, xl -->
-      </div>
+    <div class="col-12 col-md-6 p-0 order-2 order-md-1 img-cover d-flex align-items-end"
+      style="background-image: url(assets/img/system.jpg);">
+      <div class="src text-white text-wrap m-4" data-toggle="collapse" data-target="#reqCollapse" aria-expanded="false"
+        aria-controls="reqCollapse"><a class="text-reset">Fuente</a><span class="collapse" id="reqCollapse">:
+          https://www.pexels.com/es-es/foto/ipad-negro-al-lado-del-iphone-5c-verde-159643/</span></div>
     </div>
     <div class="col-12 col-md-6 p-4 order-1 order-md-2 bg-tertiary text-white">
       <h2>Requerimientos</h2>
@@ -205,18 +175,13 @@
         <li>Android WebBrowser & WebView</li>
       </ul>
     </div>
-    <div class="px-0 collapse order-3" id="reqCollapse">
-      <div class="card card-body">
-        Fuente: https://www.pexels.com/es-es/foto/ipad-negro-al-lado-del-iphone-5c-verde-159643/
-      </div>
-    </div>
   </article>
 </section>
 <section class="modal fade" id="program">
-  <div class="modal-dialog modal-lg" role="document">
+  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header text-center">
-        <h2 class="modal-title">Programa de Estudios</h2>
+        <h2 class="modal-title w-100">Programa de Estudios</h2>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span>&times;</span>
         </button>

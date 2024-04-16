@@ -15,6 +15,11 @@
   scroll-margin-top: 108px;
 }
 
+.src {
+  text-shadow: 2px 2px 2px black;
+  font-size: 1.25rem;
+}
+
 @media (max-width: 767.98px) {
   .anchor {
     scroll-margin-top: 542px;

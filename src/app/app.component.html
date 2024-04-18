@@ -195,27 +195,49 @@
     </div>
   </div>
 </section>
-<main role="main">
-  <router-outlet></router-outlet>
-</main>
-<app-glosario></app-glosario>
-<footer class="pt-3 border-top">
-  <p class="text-center mx-auto" xmlns:cc=" http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a
-      property="dct:title" rel="cc:attributionURL"
-      href="https://serviciosocialaxel.github.io/GestionEmpresarial/">Recurso Didáctico Digital:
-      Unidad II. Gestión estratégica en las empresas de innovación tecnológica</a> by <a
-      rel="cc:attributionURL dct:creator" property="cc:attributionName"
-      href="https://serviciosocialaxel.github.io/GestionEmpresarial/">Rocío Palacios Solano, Verónica Agustín Domínguez,
-      Axel Ernesto Moreno Cervantes</a> is licensed under <a
-      href="https://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1" target="_blank"
-      rel="license noopener noreferrer" style="display:inline-block;">Creative Commons
-      Attribution-NonCommercial-NoDerivatives 4.0 International<img
-        style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
-        src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img
-        style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
-        src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img
-        style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
-        src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt=""><img
-        style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
-        src="https://mirrors.creativecommons.org/presskit/icons/nd.svg?ref=chooser-v1" alt=""></a></p>
-</footer>
+<section class="modal fade" id="usermanual">
+  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h2 class="modal-title w-100">Manual de Usuario</h2>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span>&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="container">
+          <div class='embed-responsive' style="min-height: 70vh; max-height: 80vh;">
+            <iframe title="Manual de usuario" class="embed-responsive-item" loading='lazy'
+              src='assets/data/RDD_GE_usr_man.pdf'></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<main class="main-prod container">
+  <main role="main">
+    <router-outlet></router-outlet>
+  </main>
+  <app-glosario></app-glosario>
+  <footer class="pt-3 border-top">
+    <p class="text-center mx-auto" xmlns:cc=" http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a
+        property="dct:title" rel="cc:attributionURL"
+        href="https://serviciosocialaxel.github.io/GestionEmpresarial/">Recurso Didáctico Digital:
+        Unidad II. Gestión estratégica en las empresas de innovación tecnológica</a> by <a
+        rel="cc:attributionURL dct:creator" property="cc:attributionName"
+        href="https://serviciosocialaxel.github.io/GestionEmpresarial/">Rocío Palacios Solano, Verónica Agustín
+        Domínguez,
+        Axel Ernesto Moreno Cervantes</a> is licensed under <a
+        href="https://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1" target="_blank"
+        rel="license noopener noreferrer" style="display:inline-block;">Creative Commons
+        Attribution-NonCommercial-NoDerivatives 4.0 International<img
+          style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
+          src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img
+          style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
+          src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img
+          style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
+          src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt=""><img
+          style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
+          src="https://mirrors.creativecommons.org/presskit/icons/nd.svg?ref=chooser-v1" alt=""></a></p>
+  </footer>

@@ -9,7 +9,6 @@ import { InfoService } from './services/info.service';
 })
 export class AppComponent implements DoCheck {
   title = 'Gestión Empresarial';
-  lang: string = 'es';
   unidades: any;
   currentLink: string = '';
   navs: Array<any> = [

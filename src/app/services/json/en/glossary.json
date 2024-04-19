@@ -1,0 +1,9 @@
+{
+  "showAll": "All",
+  "search": "Search",
+  "prev": "Previous",
+  "next": "Next",
+  "infoTemplate": "Showing _START_ to _END_ of _TOTAL_ records",
+  "lengthTemplate": "Show _MENU_ entries",
+  "definitions": []
+}

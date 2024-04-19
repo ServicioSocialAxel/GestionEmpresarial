@@ -1,0 +1,9 @@
+{
+  "showAll": "Todas",
+  "search": "Buscar",
+  "prev": "Anterior",
+  "next": "Siguiente",
+  "infoTemplate": "Mostrando _START_ a _END_ de _TOTAL_ registros",
+  "lengthTemplate": "Mostrar _MENU_ entradas",
+  "definitions": []
+}

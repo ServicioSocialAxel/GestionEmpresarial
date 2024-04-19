@@ -54,10 +54,8 @@ export class UnidadesComponent implements OnInit, DoCheck {
   updateContents = (): void => {
     this.unidad.contenido.forEach((element: any) => {
       if (!element.unidad || element.unidad.trim() == '')
-        element.unidad = "<h3 class='text-center'>Sección sin información</h3>";
-      if (!element.actividad || element.actividad.trim() == '')
-        element.actividad =
-          "<h3 class='text-center'>Sin actividades disponibles</h3>";
+        element.unidad =
+          "<h3 class='text-center mt-4'>Sección sin información</h3>";
     });
   };
 

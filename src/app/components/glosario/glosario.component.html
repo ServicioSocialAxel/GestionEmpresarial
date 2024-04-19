@@ -1,22 +1,24 @@
 <div class="modal fade" [id]="'glosario'">
-  <div class="modal-dialog modal-xl" role="document">
+  <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header text-center">
-        <h2 class="modal-title">Glosario Gestión Empresarial</h2>
+        <h2 class="modal-title w-100">Glosario</h2>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span>&times;</span>
         </button>
       </div>
       <div class="modal-body" *ngIf="dtOptions">
-        <table datatable [dtOptions]="dtOptions" class="table table-striped" style="width:100%">
-          <thead>
-            <tr>
-              <th>Palabra</th>
-              <th>Concepto</th>
-              <th>Fuentes</th>
-            </tr>
+        <div class="table-responsive">
+          <table datatable [dtOptions]="dtOptions" class="table table-striped" style="width:100%" aria-label="glossary">
+            <thead>
+              <tr>
+                <th>Palabra</th>
+                <th>Concepto</th>
+                <th>Fuentes</th>
+              </tr>
             </thead>
-        </table>
+          </table>
+        </div>
       </div>
     </div>
   </div>

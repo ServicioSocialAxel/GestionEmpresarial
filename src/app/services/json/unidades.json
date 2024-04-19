@@ -2,7 +2,10 @@
   {
     "indice": 1,
     "titulo": "Introducción a la gestión empresarial",
-    "imagen": "https://www.awerty.net/wp-content/uploads/2019/11/Gestion-Negocio.png",
+    "imagen": {
+      "url": "https://www.awerty.net/wp-content/uploads/2019/11/Gestion-Negocio.png",
+      "src": "https://www.awerty.net/wp-content/uploads/2019/11/Gestion-Negocio.png"
+    },
     "competencia": "Distingue entre el concepto de administrar y gestionar, la clasificación de las organizaciones y su constitución legal con base en la normativa vigente.",
     "keywords": [],
     "evaluacion": "<h3 class='text-center mt-4'>Sección sin información</h3>",
@@ -94,7 +97,10 @@
   {
     "indice": 2,
     "titulo": "Gestión estratégica en las empresas de innovación tecnológica",
-    "imagen": "assets/img/2.jpg",
+    "imagen": {
+      "url": "assets/img/2.jpg",
+      "src": "https://www.pexels.com/es-es/foto/mujer-llevando-camisa-gris-3184298/"
+    },
     "competencia": "Aplica la gestión estratégica en las empresas a partir de la innovación tecnológica.",
     "keywords": [
       "Protocolos",
@@ -107,6 +113,28 @@
     "evaluacion": "<iframe loading='lazy' src='assets/data/Evaluacion_2.pdf' style='width: 100%; height: 70rem;'></iframe>",
     "autoevaluacion": "<iframe loading='lazy' frameborder='0'  style='width: 100%; height: 50rem;' src='https://view.genial.ly/625af435f8dc320011f3709d' type='text/html' allowscriptaccess='always' allowfullscreen='true' scrolling='yes' allownetworking='all'></iframe>",
     "coevaluacion": "<iframe loading='lazy' frameborder='0' style='width: 100%; height: 50rem;' src='https://my.forms.app/form/6287930d95113a44f6a79b6b' type='text/html' allowscriptaccess='always' allowfullscreen='true' scrolling='yes' allownetworking='all'></iframe>",
+    "activities": [
+      {
+        "section": 2.1,
+        "title": "Al buen entendedor, pocas palabras",
+        "embed": "<iframe loading='lazy' src='assets/data/Actividad_2_1.pdf' class='embed-responsive-item' frameborder='0'></iframe>"
+      },
+      {
+        "section": 2.2,
+        "title": "Dime con quién andas y te diré quién eres",
+        "embed": "<iframe loading='lazy' src='assets/data/Actividad_2_2.pdf' class='embed-responsive-item' frameborder='0'></iframe>"
+      },
+      {
+        "section": "2.3, 2.4",
+        "title": "Lego Serious Play",
+        "description": "Desarrollo de Práctica de Lego Serious Play, usando piezas de Lego en donde los integrantes de los equipos deben contestar a las preguntas del reto del facilitador o facilitadora, construyendo modelos tridimensionales de su proyecto de negocio para explicar su modelo y planeación estratégica."
+      },
+      {
+        "section": 2.5,
+        "title": "Actividad no disponible",
+        "description": "Sección sin información"
+      }
+    ],
     "contenido": [
       {
         "seccion": 2.1,
@@ -118,7 +146,6 @@
           "capacidad financiera",
           "competencia"
         ],
-        "actividad": "<iframe loading='lazy' src='assets/data/Actividad_2_1.pdf' width='100%' height='900px' frameborder='0'></iframe>",
         "unidad": "<p>Existen numerosos factores que afectan la gestión empresarial, entre los cuales se encuentran: </p> <ul>        <li><b>Capacidad directiva:</b> Se relaciona con las aptitudes de liderazgo y dirección que posee el alto mando de la empresa. Si los líderes de la empresa no son buenos, o presentan carencias, todo esto tendrá impacto en la empresa como un todo.</li>        <li><b>Diferencia en roles de producción o de servicios:</b>  Este factor está relacionado con las categorías de organización y del servicio al cliente. Es un elemento importante porque una buena distinción de los cargos y responsabilidades es necesaria para obtener y mantener una productividad óptima. También ayuda a la selección de personal, ya que se conocen las necesidades de la empresa.</li>        <li><b>Relación calidad/precio:</b> Una empresa que no tiene problemas con este factor conoce a la perfección los gastos, ganancias y riesgos que reporta la producción, distribución y comercialización de sus productos o servicios.</li>        <li><b>Recursos tecnológicos:</b>  Las marcas que tienen una buena competitividad empresarial, al mismo tiempo que poseen tecnología de punta o estrategias de marketing actualizadas, son aquellas que tienen la capacidad de seleccionar los recursos tecnológicos necesarios de acuerdo con el alcance y recursos con los que cuentan.</li>        <li><b>Capacidad innovadora:</b> La capacidad innovadora es un factor importante porque puede tener repercusiones en todos los niveles de organización de una empresa. Aunque hay estrategias y maneras de organización que facilitan el desarrollo, crecimiento y prosperidad de los negocios.</li>        <li><b>Recursos comerciales:</b> Este factor determina la competitividad empresarial en tanto que da cuenta del capital económico con el que cuentan los negocios. Está relacionado con el elemento de relación precio-calidad y también dice mucho sobre la rentabilidad de una marca.</li>        <li><b>Capacidades del capital humano:</b> Dado que es el talento humano el permite realizar las tareas clave y brindar las interacciones más sobresalientes con los clientes, también es fundamental para la competitividad. Determina gran parte del factor de calidad, ya sea que la empresa comercie un producto o servicio.</li>        <li><b>Recursos financieros:</b> Este último factor es muy importante en la competitividad empresarial; sin él es imposible atender las necesidades de infraestructura, mantener un buen capital humano, o invertir en los recursos tecnológicos que necesita la empresa.</li>        </br> </ul>  </br> </br> <div style='display: flex; justify-content:center; padding-top: 1rem; padding-bottom: 3rem;'> <h4> Mapa mental de los factores de competitividad.</h4></div> </br> <div style='display: flex; justify-content:center;'><img class='img-unidades' style='width: 75rem;' src='assets/img/2_1_Factores_de_competitividad.png'></div> </br> <div style='display: flex; justify-content:center; padding-top: 1rem; padding-bottom: 3rem;'> <a style='color: blue;' target='_blank' href='https://serviciosocialaxel.github.io/GestionEmpresarial/assets/img/2_1_Factores_de_competitividad.png'>Abrir imagen en otra pestaña</a> </div> </br> <p> Camilo, C. (2022). Competitividad empresarial: qué es, importancia, tipos y ejemplos. <a style='color: blue;' target='_blank' href='https://blog.hubspot.es/sales/competitividad-empresarial'>https://blog.hubspot.es/sales/competitividad-empresarial</a></p>"
       },
       {
@@ -126,7 +153,6 @@
         "titulo": "Filosofía corporativa de empresas de innovación tecnológica",
         "descripcionRecurso": "",
         "keywords": ["Misión", "Visión", "Valores", "Concepción"],
-        "actividad": "<iframe loading='lazy' src='assets/data/Actividad_2_2.pdf' width='100%' height='900px' frameborder='0'></iframe>",
         "unidad": "<p>La filosofía corporativa es uno de los elementos que le da identidad a una organización o empresa. En ella se explica el <b>cómo</b> una organización ve al mundo y cómo se busca operar en él. Dicho de otra manera, en ella se muestra la <b>concepción global de una organización</b> tomando en cuenta las metas y objetivos que se desean alcanzar como también el contexto en el que se plantea. La filosofía busca definir en un conjunto de principios <b>\"lo que la empresa quiere ser\".</b></p><p>Normalmente, quienes definen las filosofías corporativas son los líderes de las empresas (fundadores, CEO o gerentes) ya que <b>la filosofía corporativa es el reflejo de la propia cosmovisión y valores de los líderes.</b></p><p>Los elementos clave que establece una filosofía corporativa responden las siguientes tres preguntas:</p><ul><li>¿Quién soy y que hago? - <b>Misión</b> </li><li>¿Cómo lo hago? - <b>Valores</b> </li><li>¿A dónde quiero llegar? – <b>Visión</b> </li></ul><p>Los anteriores elementos son los cimientos de la filosofía corporativa y estas <b>rigen todas las decisiones y dirección estratégica de una empresa.</b></p> <p>Una buena filosofía corporativa debe de ser <b>comunicable</b> de forma fácil y clara, <b>útil</b> como para ser guía a la hora de formular y lograr objetivos y metas, <b>asumible</b> tomando en cuenta los costos que se desprenderán de su aplicación, <b>flexible</b> para poder adaptarse con el paso del tiempo y <b>creíble</b> donde así toda la organización vive fiel a ella y pueda ser un elemento dinamizador.</p><div style='display: flex; justify-content:center; padding-top: 1rem; padding-bottom: 3rem;'> <h4> Mapa conceptual de la Filosofía Corporativa.</h4></div> </br> <div style='display: flex; justify-content:center;'><img class='img-unidades' style='width: 65rem;' src='assets/img/2_2_Filosofia_corporativa.jpg'></div> </br> <div style='display: flex; justify-content:center; padding-top: 1rem; padding-bottom: 3rem;'> <a style='color: blue;' target='_blank' href='https://serviciosocialaxel.github.io/GestionEmpresarial/assets/img/2_2_Filosofia_corporativa.jpg'>Abrir imagen en otra pestaña</a> </div> </br> <p>Coetzee, M. (2019). How to develop a philosophy, vision and mission for your organization. Recuperado el 5 de octubre de 2022, desde <a target='_blank' href='https://www.marcuscoetzee.com/constructing-a-philosophy-vision-and-mission-for-your-organization/' style='color:blue;'>https://www.marcuscoetzee.com/constructing-a-philosophy-vision-and-mission-for-your-organization/</a></p><p>Murcia, M. (2019). Filosofía y Cultura ¿por qué las confundimos?. Recuperado el 5 de octubre de 2022, desde <a target='_blank' href='https://inspiracomunicaciones.com/comunicacion-organizacional/filosofia-y-cultura-organizacionales-por-que-las-confundimos/' style='color:blue;'>https://inspiracomunicaciones.com/comunicacion-organizacional/filosofia-y-cultura-organizacionales-por-que-las-confundimos/</a></p><p>Santos, D. (2021). 3 claves para definir la filosofía de tu empresa. Recuperado el 5 de octubre de 2022, desde <a target='_blank' href='https://blog.hubspot.es/marketing/filosofia-empresas' style='color:blue;'>https://blog.hubspot.es/marketing/filosofia-empresas</a></p>",
         "recurso": ""
       },
@@ -135,7 +161,6 @@
         "titulo": "Estrategia y Cultura Organizacional de empresas de innovación tecnológica",
         "descripcionRecurso": "",
         "keywords": ["Identidad", "unicidad"],
-        "actividad": "<div style='display: flex; justify-content:center;'><p>Desarrollo de Práctica de Lego Serious Play, usando piezas de Lego en donde los integrantes de los equipos deben contestar a las preguntas del reto del facilitador o facilitadora, construyendo modelos tridimensionales de su proyecto de negocio para explicar su modelo y planeación estratégica.</p></div>",
         "unidad": "<p>Tanto la estrategia como la cultura organizacional son términos sumamente diferentes, pero no por eso dejan de estar relacionados. </p> <p>El término cultura puede sonar como algo abstracto, poco comprensible o incluso demasiado general para poderlo aplicar. A pesar de ser un término muy utilizado, pocas veces se comprende. </p> <p>La cultura es lo que define y <b>distingue a una organización</b> de otra. Son todas aquellas normas, creencias, rituales, códigos y valores que, compartidos, guían la actitud y el comportamiento de los colaboradores. </p> <p> Es posible decir que la cultuira, a grandes rasgos, define la <b>“identidad” de una organización.</b> Todas las personas tenemos particularidades que nos distinguen de otros: nuestro ADN, nuestros rasgos físicos, el conjunto de habilidades, aptitudes, actitudes, emociones, nuestro estilo de comunicación, y demás características específicas que nos hacen ser quien somos. </p> <p>   Las organizaciones tienen dos componentes que generan identidad, la <b>cultura organizacional</b> y la <b>estrategia organizacional</b>, ambas deben ser definidas con claridad y ser desarrolladas consistentemente a lo largo del tiempo. </p> <div style='display: flex; justify-content:center; padding-top: 2rem; '> <h4> Mapa mental sobre qué involucra la estrategia y cultura organizacional. </h4> </div>  <div style='display: flex; justify-content:center;'><img class='img-unidades' style='width: 75rem;' src='assets/img/2_3_Estrategia_y_cultura.png'></div> </br> <div style='display: flex; justify-content:center; padding-top: 1rem; padding-bottom: 3rem;'> <a style='color: blue;' target='_blank' href='https://serviciosocialaxel.github.io/GestionEmpresarial/assets/img/2_3_Estrategia_y_cultura.png'>Abrir imagen en otra pestaña</a> </div> </br> <p> Jennifer, A. (2018). La cultura organizacional, la base de tu estrategia de negocios. <a style='color: blue;' target='_blank' href='https://www.altonivel.com.mx/recursos-humanos/cultura-organizacional-estrategia/'>https://www.altonivel.com.mx/recursos-humanos/cultura-organizacional-estrategia/</a></p>",
         "recurso": ""
       },
@@ -144,7 +169,6 @@
         "titulo": "Implementación de la estrategia Planes, programas, presupuestos y procedimientos",
         "descripcionRecurso": "",
         "keywords": ["Planeación", "metas", "estrategias"],
-        "actividad": "<div style='display: flex; justify-content:center;'><p>Desarrollo de Práctica de Lego Serious Play, usando piezas de Lego en donde los integrantes de los equipos deben contestar a las preguntas del reto del facilitador o facilitadora, construyendo modelos tridimensionales de su proyecto de negocio para explicar su modelo y planeación estratégica.</p></div>",
         "unidad": "<p>La implementación estratégica, en palabras simples, es el proceso que pone planes y estrategias en acción para alcanzar objetivos. Un plan estratégico es un documento escrito en el que se exponen los planes de negocio para alcanzar objetivos, pero quedará olvidado sin una implementación estratégica. La implementación hace que se cumplan los planes de la compañía. </br> Características de la implementación estratégica: </p> <ul> <li>Debe tener un líder muy visible que comparta valores positivos como la visión, entusiasmo, entre otras características deseables.</li> <li>Tiene un mapa estratégico.</li> <li>Los pasos a seguir son claros para lograr un óptimo desempeño.</li> <li>Se tienen claros factores de finanzas, mercado, ambiente laboral, operaciones, personas y socios.</li> </ul> </br> <div style='display: flex; justify-content:center; padding-top: 1rem;'> <h4> Juego de ajedrez. Implementación de una estrategia.</h4> </div><div style='display: flex; justify-content:center;'><img style='width: 40rem; height:auto;' src='assets/img/2_4_Implementacion_de_la_ajedrez.jpg'> </div> </br> <div style='display: flex; justify-content:center; padding-top: 1rem; padding-bottom: 3rem;'> <a style='color: blue;' target='_blank' href='https://serviciosocialaxel.github.io/GestionEmpresarial/assets/img/2_4_Implementacion_de_la_ajedrez.jpg'>Abrir imagen en otra pestaña</a> </div> </br> <div style='display: flex; justify-content:center; padding-top: 1rem; '> <h4> Principios de una implementación estratégica. </h4> </div>  <div style='display: flex; justify-content:center;'> <img class='img-unidades' style='width: 60rem;' src='assets/img/2_4_Implementacion_de_la_mapa.png'> </div> </br> <div style='display: flex; justify-content:center; padding-top: 1rem; padding-bottom: 3rem;'> <a style='color: blue;' target='_blank' href='https://serviciosocialaxel.github.io/GestionEmpresarial/assets/img/2_4_Implementacion_de_la_mapa.png'>Abrir imagen en otra pestaña</a> </div> </br> <p> Kristie, L. (Recuperado en 2022). ¿Qué es la implementación estratégica? <a style='color: blue;' target='_blank' href='https://pyme.lavoztx.com/qu-es-la-implementacin-estratgica-4652.html'>https://pyme.lavoztx.com/qu-es-la-implementacin-estratgica-4652.html</a></p>",
         "recurso": ""
       },
@@ -183,7 +207,6 @@
         "titulo": "Modelos de negocio",
         "descripcionRecurso": "",
         "keywords": ["Factores únicos", "identidad", "valor", "alcances"],
-        "actividad": "<div style='display: flex; justify-content:center;'><p>Desarrollo de Práctica de Lego Serious Play, usando piezas de Lego en donde los integrantes de los equipos deben contestar a las preguntas del reto del facilitador o facilitadora, construyendo modelos tridimensionales de su proyecto de negocio para explicar su modelo y planeación estratégica.</p></div>",
         "unidad": "<p>Un modelo de negocio es una herramienta previa al plan de negocio que te permitirá definir con claridad qué vas a ofrecer al mercado, cómo lo vas a hacer, a quién se lo vas a vender, cómo se lo vas a vender y de qué forma vas a generar ingresos. Es una herramienta de análisis que te permitirá saber quién eres, cómo lo haces, a qué coste, con qué medios y qué fuentes de ingresos vas a tener. Definir tu modelo de negocio es saber cuál es tu ADN, cómo está hecho, cómo se puede modificar, cómo pulir, cómo cambiar, cómo moldear… </p> <div style='display: flex; justify-content:center; padding-top: 1rem; '> <h4> Ejemplo de maneras de cómo definir un modelo de negocio. </h4> </div><div style='display: flex; justify-content:center;'><img class='img-unidades' style='width: 55rem;' src='assets/img/2_5_2_Modelo_de_negocio.png'></div> </br> <div style='display: flex; justify-content:center; padding-top: 1rem; padding-bottom: 3rem;'> <a style='color: blue;' target='_blank' href='https://serviciosocialaxel.github.io/GestionEmpresarial/assets/img/2_5_2_Modelo_de_negocio.png'>Abrir imagen en otra pestaña</a> </div> <p> Los modelos que están funcionando son aquellos que son capaces de crear valor para el cliente, es decir, que tienen una propuesta de valor clara, que son capaces de llegar al cliente, de diferenciarse, de establecer fuertes lazos con el cliente, de fidelizar y que son capaces de producirlos también de una manera especial. </p> <p> Vinte. (Recuperado en 2022). Business Model. <a style='color: blue;' target='_blank' href='https://www.vinte.com/en/modelo-negocios/'>https://www.vinte.com/en/modelo-negocios/</a></p>",
         "recurso": ""
       },
@@ -204,7 +227,6 @@
           "objetivos a lograr",
           "retención de clientes"
         ],
-        "actividad": "<div style='display: flex; justify-content:center;'><p>Desarrollo de Práctica de Lego Serious Play, usando piezas de Lego en donde los integrantes de los equipos deben contestar a las preguntas del reto del facilitador o facilitadora, construyendo modelos tridimensionales de su proyecto de negocio para explicar su modelo y planeación estratégica.</p></div>",
         "unidad": "<p>El <b>plan comercial</b> de una empresa es un documento en el cual se registran las acciones que tomará la compañía para atraer y retener clientes, qué productos o servicios venderás, cuáles son tus proyecciones financieras. </p><p>En otras palabras, un modelo de plan de negocios describe la estrategia comercial de una empresa: cuáles son tus objetivos a corto, mediano y largo plazo, y cómo vas a lograrlos.</p><p>Un plan comercial:</p><ul><li>Aumenta las posibilidades de supervivencia</li><li>Aumenta las oportunidades de éxito</li><li>Aumenta los ingresos a la empresa</li></ul> </br> <div style='display: flex; justify-content:center; padding-top: 1rem; '> <h4> Imanes ejemplificando la retención y atracción de clientes a través de un plan. </h4> </div>  <div style='display: flex; justify-content:center;'><img class='img-unidades' style='width: 55rem;' src='assets/img/2_5_4_Plan_comercial.jpg'></div> <div style='display: flex; justify-content:center; padding-top: 1rem; padding-bottom: 3rem;'> <a style='color: blue;' target='_blank' href='https://serviciosocialaxel.github.io/GestionEmpresarial/assets/img/2_5_4_Plan_comercial.jpg'>Abrir imagen en otra pestaña</a> </div> </br> <p> Douglas, d. S. (2020). ¿Cómo hacer un plan comercial en 7 pasos? <a style='color: blue;' target='_blank' href='https://www.zendesk.com.mx/blog/como-hacer-un-plan-comercial/'>https://www.zendesk.com.mx/blog/como-hacer-un-plan-comercial/</a></p>",
         "recurso": ""
       },
@@ -223,56 +245,59 @@
         "titulo": "Visión empresarial",
         "descripcionRecurso": "Tutorial para hacer una visión empresarial para tu empresa.",
         "unidad": "",
-        "recurso": "<iframe width='100%' height='400px' src='https://www.youtube.com/embed/Lk6OfqndH1k' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen=''></iframe>"
+        "recurso": "<iframe class='embed-responsive-item' src='https://www.youtube.com/embed/Lk6OfqndH1k' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen=''></iframe>"
       },
       {
         "seccion": 2.2,
         "titulo": "Misión empresarial",
         "descripcionRecurso": "Tutorial para hacer una misión empresarial para tu empresa.",
         "unidad": "",
-        "recurso": "<iframe width='100%' height='400px' src='https://www.youtube.com/embed/d-IqjXIgyJg' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen=''></iframe>"
+        "recurso": "<iframe class='embed-responsive-item' src='https://www.youtube.com/embed/d-IqjXIgyJg' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen=''></iframe>"
       },
       {
         "seccion": 2.3,
         "titulo": "Valores empresariales",
         "descripcionRecurso": "Tutorial acerca de los valores empresariales de tu empresa.",
         "unidad": "",
-        "recurso": "<iframe width='100%' height='400px' src='https://www.youtube.com/embed/h5qoUg2jACw' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen=''></iframe>"
+        "recurso": "<iframe class='embed-responsive-item' src='https://www.youtube.com/embed/h5qoUg2jACw' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen=''></iframe>"
       },
       {
         "seccion": "2.4.1",
         "titulo": "Visión empresarial",
         "descripcionRecurso": "Video sobre el Balanced Scorecard.",
         "unidad": "",
-        "recurso": "<iframe width='100%' height='400px' src='https://express.adobe.com/video/9tEznS736I36p/embed' frameborder='0' allowfullscreen=''></iframe>"
+        "recurso": "<iframe class='embed-responsive-item' src='https://express.adobe.com/video/9tEznS736I36p/embed' frameborder='0' allowfullscreen=''></iframe></div>"
       },
       {
         "seccion": 2.5,
         "titulo": "Análisis FODA",
         "descripcionRecurso": "Tutorial para el análisis FODA.",
         "unidad": "",
-        "recurso": "<iframe width='100%' height='400px' src='https://www.youtube.com/embed/0-ttApFL78g' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen=''></iframe>"
+        "recurso": "<iframe class='embed-responsive-item' src='https://www.youtube.com/embed/0-ttApFL78g' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen=''></iframe>"
       },
       {
         "seccion": 2.6,
         "titulo": "Análisis FODA",
         "descripcionRecurso": "Tutorial para el análisis FODA.",
         "unidad": "",
-        "recurso": "<iframe width='100%' height='400px' src='https://www.youtube.com/embed/_6vz0-Hx9cE' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen=''></iframe>"
+        "recurso": "<iframe class='embed-responsive-item' src='https://www.youtube.com/embed/_6vz0-Hx9cE' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen=''></iframe>"
       },
       {
         "seccion": 2.7,
         "titulo": "Gestión estratégica de la empresa",
         "descripcionRecurso": "Presentación de genial.ly sobre la Gestión Estratégica de las empresas.",
         "unidad": "",
-        "recurso": "<iframe frameborder='0' width='100%' height='500px'  src='https://view.genial.ly/6154a6c25d28670d7f01b83e' type='text/html' allowscriptaccess='always' allowfullscreen='true' scrolling='yes' allownetworking='all'></iframe>"
+        "recurso": "<iframe class='embed-responsive-item' frameborder='0' src='https://view.genial.ly/6154a6c25d28670d7f01b83e' type='text/html' allowscriptaccess='always' allowfullscreen='true' scrolling='yes' allownetworking='all'></iframe>"
       }
     ]
   },
   {
     "indice": 3,
     "titulo": "Gestión operativa de la empresa",
-    "imagen": "https://d1f5pwbie4mbzn.cloudfront.net/resources/default/img/pages/home/infoempresa_home_header_mobile.png",
+    "imagen": {
+      "url": "https://d1f5pwbie4mbzn.cloudfront.net/resources/default/img/pages/home/infoempresa_home_header_mobile.png",
+      "src": "https://d1f5pwbie4mbzn.cloudfront.net/resources/default/img/pages/home/infoempresa_home_header_mobile.png"
+    },
     "competencia": "Aún no existe información para la unidad.",
     "keywords": [],
     "evaluacion": "<h3 class='text-center mt-4'>Sección sin información</h3>",
@@ -371,7 +396,10 @@
   {
     "indice": 4,
     "titulo": "Gestión del capital humano y la calidad",
-    "imagen": "https://sites.google.com/site/portafoliodemercadeoaud/_/rsrc/1534912118077/calidad-en-un-producto/calidad.png",
+    "imagen": {
+      "url": "https://sites.google.com/site/portafoliodemercadeoaud/_/rsrc/1534912118077/calidad-en-un-producto/calidad.png",
+      "src": "https://sites.google.com/site/portafoliodemercadeoaud/_/rsrc/1534912118077/calidad-en-un-producto/calidad.png"
+    },
     "competencia": "Aún no existe información para la unidad.",
     "keywords": [],
     "evaluacion": "<h3 class='text-center mt-4'>Sección sin información</h3>",
@@ -489,7 +517,10 @@
   {
     "indice": 5,
     "titulo": "Retos de la gestión empresarial",
-    "imagen": "https://loupenlatam.com/wp-content/uploads/elementor/thumbs/BLOG-Central-Como-o-Central-ajuda-nos-desafios-de-TI-em-2021_Prancheta-1-p73zmfwovu20qrhgv3no1s74amqecke3ct1zu8bsmk.png",
+    "imagen": {
+      "url": "https://loupenlatam.com/wp-content/uploads/elementor/thumbs/BLOG-Central-Como-o-Central-ajuda-nos-desafios-de-TI-em-2021_Prancheta-1-p73zmfwovu20qrhgv3no1s74amqecke3ct1zu8bsmk.png",
+      "src": "https://loupenlatam.com/wp-content/uploads/elementor/thumbs/BLOG-Central-Como-o-Central-ajuda-nos-desafios-de-TI-em-2021_Prancheta-1-p73zmfwovu20qrhgv3no1s74amqecke3ct1zu8bsmk.png"
+    },
     "competencia": "Aún no existe información para la unidad.",
     "keywords": [],
     "evaluacion": "<h3 class='text-center mt-4'>Sección sin información</h3>",

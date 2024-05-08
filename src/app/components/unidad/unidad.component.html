@@ -1,9 +1,9 @@
 <section class="container-unidad contenidos" *ngIf="unidad">
   <article *ngIf="tipo == 1 || (tipo == 0 && selection == 'contenidos')">
     <h4 *ngIf="tipo == 1" class="font-weight-bold w-100 mt-4 mb-0">
-      Aquí encontraras PDFs, enlaces a códigos, videos, entre otros elementos auxiliares a la unidad
+      Aquí encontraras videos, lecturas, podcasts, entre otros elementos auxiliares a la unidad
       {{unidad.indice}}.
-      {{unidad.titulo}}
+      {{unidad.titulo}}.
     </h4>
     <h4 *ngIf="tipo == 0" class="font-weight-bold w-100 mt-4 mb-0">
       De click en el título de cada sección para visualizar el contenido.

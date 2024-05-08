@@ -17,31 +17,27 @@
   </article>
   <article class="row justify-content-center">
     <div class="col-12 col-md-3 col-xl-2 px-0 px-md-3">
-      <div class="btn-group-vertical radio-button-unidad my-md-4 w-100" role="group"
-        aria-label="content selection group">
-        <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked
-          [value]="'contenidos'" [(ngModel)]="uniSection">
-        <label class="btn btn-lg btn-outline-primary label-no-margin" for="btnradio1">Contenido</label>
-        <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off" [value]="'evaluacion'"
-          [(ngModel)]="uniSection">
-        <label class="btn btn-lg btn-outline-primary label-no-margin" for="btnradio2">Evaluación por
+      <div class="btn-group-vertical btn-group-lg btn-group-toggle my-md-4 w-100" data-toggle="buttons">
+        <label class="btn btn-outline-primary label-no-margin active" for="contenidos"><input type="radio"
+            class="btn-check" name="uniSection" id="contenidos" autocomplete="off" [value]="'contenidos'"
+            [(ngModel)]="uniSection" checked />Contenido</label>
+        <label class="btn btn-outline-primary label-no-margin"><input type="radio" class="btn-check" name="uniSection"
+            id="evaluacion" autocomplete="off" [value]="'evaluacion'" [(ngModel)]="uniSection" />Evaluación por
           unidad</label>
-        <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off" [value]="'actividades'"
-          [(ngModel)]="uniSection">
-        <label class="btn btn-lg btn-outline-primary label-no-margin" for="btnradio3">Actividades de
+        <label class="btn btn-outline-primary label-no-margin"><input type="radio" class="btn-check" name="uniSection"
+            id="actividades" autocomplete="off" [value]="'actividades'" [(ngModel)]="uniSection" />Actividades de
           Aprendizaje</label>
-        <input type="radio" class="btn-check" name="btnradio" id="btnradio4" autocomplete="off"
-          [value]="'autoevaluacion'" [(ngModel)]="uniSection">
-        <label class="btn btn-lg btn-outline-primary label-no-margin" for="btnradio4">Autoevaluación</label>
-        <input type="radio" class="btn-check" name="btnradio" id="btnradio5" autocomplete="off" [value]="'coevaluacion'"
-          [(ngModel)]="uniSection">
-        <label class="btn btn-lg btn-outline-primary label-no-margin" for="btnradio5">Coevaluación</label>
-        <input type="radio" class="btn-check" name="btnradio" id="btnradio6" autocomplete="off" [value]="'presentacion'"
-          [(ngModel)]="uniSection">
-        <label class="btn btn-lg btn-outline-primary label-no-margin" for="btnradio6">Presentación</label>
-        <input type="radio" class="btn-check" name="btnradio" id="btnradio7" autocomplete="off" [value]="'recursos'"
-          [(ngModel)]="uniSection">
-        <label class="btn btn-lg btn-outline-primary label-no-margin" for="btnradio7">Material adicional</label>
+        <label class="btn btn-outline-primary label-no-margin"><input type="radio" class="btn-check" name="uniSection"
+            id="autoevaluacion" autocomplete="off" [value]="'autoevaluacion'"
+            [(ngModel)]="uniSection" />Autoevaluación</label>
+        <label class="btn btn-outline-primary label-no-margin"><input type="radio" class="btn-check" name="uniSection"
+            id="coevaluacion" autocomplete="off" [value]="'coevaluacion'"
+            [(ngModel)]="uniSection" />Coevaluación</label>
+        <label class="btn btn-outline-primary label-no-margin"><input type="radio" class="btn-check" name="uniSection"
+            id="presentacion" autocomplete="off" [value]="'presentacion'"
+            [(ngModel)]="uniSection" />Presentación</label>
+        <label class="btn btn-outline-primary label-no-margin"><input type="radio" class="btn-check" name="uniSection"
+            id="recursos" autocomplete="off" [value]="'recursos'" [(ngModel)]="uniSection" />Material adicional</label>
       </div>
     </div>
     <div class="col-12 col-md-9 col-xl-10">
@@ -52,7 +48,7 @@
 </section>
 
 <div class="modal fade" id="cuadroEval">
-  <div class="modal-dialog modal-lg" role="document">
+  <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="modal-header text-center">
         <h2 class="modal-title">Cuadro de Evaluación</h2>

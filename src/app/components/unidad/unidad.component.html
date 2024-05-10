@@ -1,38 +1,57 @@
 <section class="container-unidad contenidos" *ngIf="unidad">
   <article *ngIf="tipo == 1 || (tipo == 0 && selection == 'contenidos')">
-    <h4 *ngIf="tipo == 1" class="font-weight-bold w-100 mt-4 mb-0">
-      Aquí encontraras PDFs, enlaces a códigos, videos, entre otros elementos auxiliares a la unidad
-      {{unidad.indice}}.
-      {{unidad.titulo}}
-    </h4>
+    <div *ngIf="tipo == 1">
+      <h4 class="font-weight-bold w-100 mt-4">
+        Aquí encontraras videos, lecturas, podcasts, entre otros elementos auxiliares a la unidad
+        {{unidad.indice}}.
+        {{unidad.titulo}}. De click en el título de cada sección para visualizar el contenido.
+      </h4>
+      <div class="btn-group btn-group-lg btn-group-toggle w-100" data-toggle="buttons">
+        <label
+          [classList]="rsrcsCategory === 'video' ? 'btn btn-outline-info label-no-margin active':'btn btn-outline-info label-no-margin'"><input
+            type="radio" class="btn-check" name="rsrcsCategory" id="video" autocomplete="off" [value]="'video'"
+            [(ngModel)]="rsrcsCategory" />Videos</label>
+        <label
+          [classList]="rsrcsCategory === 'reading' ? 'btn btn-outline-info label-no-margin active':'btn btn-outline-info label-no-margin'"><input
+            type="radio" class="btn-check" name="rsrcsCategory" id="reading" autocomplete="off" [value]="'reading'"
+            [(ngModel)]="rsrcsCategory" />Lecturas</label>
+        <label
+          [classList]="rsrcsCategory === 'podcast' ? 'btn btn-outline-info label-no-margin active':'btn btn-outline-info label-no-margin'"><input
+            type="radio" class="btn-check" name="rsrcsCategory" id="podcast" autocomplete="off" [value]="'podcast'"
+            [(ngModel)]="rsrcsCategory" />Podcasts</label>
+      </div>
+    </div>
     <h4 *ngIf="tipo == 0" class="font-weight-bold w-100 mt-4 mb-0">
       De click en el título de cada sección para visualizar el contenido.
     </h4>
     <div class="card"
-      *ngFor="let item of tipo == 0 ? unidad.contenido : unidad.recurso.length > 1 ? unidad.recurso.slice(0, -1) : unidad.recurso;let idx = index">
+      *ngFor="let item of tipo == 0 ? unidad.contenido : unidad.recurso.length > 1 ? unidad.recurso.slice(0, -1).filter(rscCategortyFilter) : unidad.recurso;let idx = index">
       <div class="justify-content-center">
-        <div>
-          <div class="card-header" data-toggle="collapse" [attr.data-target]="'#seccion' + idx" aria-expanded="true"
-            [attr.aria-controls]="'seccion' + idx">
-            <h3 class="card-title">
-              {{item.seccion}} {{item.titulo}}
-            </h3>
-            <div *ngIf="tipo == 0">
-              <span>Palabras clave: </span>
-              <span *ngFor="let kw of item.keywords;let isLast = last;">
-                {{kw}}<span *ngIf="!isLast">,</span>
-              </span>
-            </div>
-            <div *ngIf="tipo == 1">
-              <span>{{item.descripcionRecurso}}</span>
-            </div>
+        <div class="card-header" data-toggle="collapse" [attr.data-target]="'#seccion' + idx" aria-expanded="true"
+          [attr.aria-controls]="'seccion' + idx">
+          <h3 class="card-title">
+            {{item.seccion}} {{item.titulo}}
+          </h3>
+          <div *ngIf="tipo == 0">
+            <span>Palabras clave: </span>
+            <span *ngFor="let kw of item.keywords;let isLast = last;">
+              {{kw}}<span *ngIf="!isLast">,</span>
+            </span>
           </div>
-          <div [id]="'seccion' + idx" class="collapsing">
-            <div [innerHTML]="item.unidad | sanitizedHtml" class="card-body center-content" *ngIf="tipo == 0">
-            </div>
-            <div [innerHTML]="item.recurso | sanitizedHtml"
-              class="card-body justify-content-center embed-responsive embed-responsive-16by9" *ngIf="tipo == 1">
-            </div>
+          <div *ngIf="tipo == 1">
+            <span>{{item.descripcionRecurso}}</span>
+          </div>
+        </div>
+        <div [id]="'seccion' + idx" class="collapsing">
+          <div [innerHTML]="item.unidad | sanitizedHtml" class="card-body center-content" *ngIf="tipo == 0">
+          </div>
+          <div [innerHTML]="item.recurso | sanitizedHtml"
+            class="card-body justify-content-center embed-responsive embed-responsive-16by9"
+            *ngIf="tipo == 1 && item.category === 'video'">
+          </div>
+          <div [innerHTML]="item.recurso | sanitizedHtml"
+            class="card-body justify-content-center embed-responsive embed-responsive-1by1"
+            *ngIf="tipo == 1 && item.category === 'reading'">
           </div>
         </div>
       </div>

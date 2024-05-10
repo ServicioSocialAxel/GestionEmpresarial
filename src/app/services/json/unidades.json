@@ -241,52 +241,59 @@
     ],
     "recurso": [
       {
+        "seccion": 2.0,
+        "titulo": "Proceso Administrativo por Alfredo Luna González",
+        "descripcionRecurso": "Lectura recomendada sobre los temas de la unidad 2.",
+        "category": "reading",
+        "recurso": "<iframe class='embed-responsive-item' frameborder='0' scrolling='no' style='border:0px' src='https://books.google.com.gt/books?id=b8_hBAAAQBAJ&lpg=PR4&hl=es&pg=PP1&output=embed'></iframe>"
+      },
+      {
         "seccion": 2.1,
-        "titulo": "Visión empresarial",
+        "titulo": "Cómo Hacer una Visión",
         "descripcionRecurso": "Tutorial para hacer una visión empresarial para tu empresa.",
-        "unidad": "",
+        "category": "video",
         "recurso": "<iframe class='embed-responsive-item' src='https://www.youtube.com/embed/Lk6OfqndH1k' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen=''></iframe>"
       },
       {
         "seccion": 2.2,
-        "titulo": "Misión empresarial",
+        "titulo": "Cómo Hacer una Misión",
         "descripcionRecurso": "Tutorial para hacer una misión empresarial para tu empresa.",
-        "unidad": "",
+        "category": "video",
         "recurso": "<iframe class='embed-responsive-item' src='https://www.youtube.com/embed/d-IqjXIgyJg' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen=''></iframe>"
       },
       {
         "seccion": 2.3,
-        "titulo": "Valores empresariales",
+        "titulo": "Cómo Determino los Valores Empresariales para mi Negocio",
         "descripcionRecurso": "Tutorial acerca de los valores empresariales de tu empresa.",
-        "unidad": "",
+        "category": "video",
         "recurso": "<iframe class='embed-responsive-item' src='https://www.youtube.com/embed/h5qoUg2jACw' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen=''></iframe>"
       },
       {
         "seccion": "2.4.1",
-        "titulo": "Visión empresarial",
-        "descripcionRecurso": "Video sobre el Balanced Scorecard.",
-        "unidad": "",
+        "titulo": "Balanced Socorecard",
+        "descripcionRecurso": "Video sobre el Cuadro de Mando Integral.",
+        "category": "video",
         "recurso": "<iframe class='embed-responsive-item' src='https://express.adobe.com/video/9tEznS736I36p/embed' frameborder='0' allowfullscreen=''></iframe></div>"
       },
       {
         "seccion": 2.5,
-        "titulo": "Análisis FODA",
+        "titulo": "Cómo Hacer un Análisis FODA",
         "descripcionRecurso": "Tutorial para el análisis FODA.",
-        "unidad": "",
+        "category": "video",
         "recurso": "<iframe class='embed-responsive-item' src='https://www.youtube.com/embed/0-ttApFL78g' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen=''></iframe>"
       },
       {
         "seccion": 2.6,
-        "titulo": "Análisis FODA",
+        "titulo": "Qué es y Cómo se Hace un Análisis FODA",
         "descripcionRecurso": "Tutorial para el análisis FODA.",
-        "unidad": "",
+        "category": "video",
         "recurso": "<iframe class='embed-responsive-item' src='https://www.youtube.com/embed/_6vz0-Hx9cE' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen=''></iframe>"
       },
       {
         "seccion": 2.7,
         "titulo": "Gestión estratégica de la empresa",
         "descripcionRecurso": "Presentación de genial.ly sobre la Gestión Estratégica de las empresas.",
-        "unidad": "",
+        "category": "reading",
         "recurso": "<iframe class='embed-responsive-item' frameborder='0' src='https://view.genial.ly/6154a6c25d28670d7f01b83e' type='text/html' allowscriptaccess='always' allowfullscreen='true' scrolling='yes' allownetworking='all'></iframe>"
       }
     ]

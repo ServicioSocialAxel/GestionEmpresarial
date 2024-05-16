@@ -248,6 +248,20 @@
         "recurso": "<iframe class='embed-responsive-item' frameborder='0' scrolling='no' style='border:0px' src='https://books.google.com.gt/books?id=b8_hBAAAQBAJ&lpg=PR4&hl=es&pg=PP1&output=embed'></iframe>"
       },
       {
+        "seccion": 2.0,
+        "titulo": "La Pinche Complejidad con Nicolás Alvarado",
+        "descripcionRecurso": "La complejidad de la comida y su gentrificación en la CDMX",
+        "category": "podcast",
+        "recurso": "<iframe src='https://open.spotify.com/embed/episode/0r1r2m4WzERzASnUADDFZs?utm_source=generator' class='embed-responsive-item' frameBorder='0' allowfullscreen='' allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture' loading='lazy'></iframe>"
+      },
+      {
+        "seccion": 2.0,
+        "titulo": "Los Pericos - Todos lo Hacen",
+        "descripcionRecurso": "Video musical por Los Pericos para Todos lo Hacen.",
+        "category": "video",
+        "recurso": "<iframe class='embed-responsive-item' src='https://www.youtube-nocookie.com/embed/RV47ycSh5vU?si=VNaRR-T5Nqno8gM8' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen=''></iframe>"
+      },
+      {
         "seccion": 2.1,
         "titulo": "Cómo Hacer una Visión",
         "descripcionRecurso": "Tutorial para hacer una visión empresarial para tu empresa.",
@@ -512,10 +526,23 @@
     ],
     "recurso": [
       {
+        "seccion": 4.0,
+        "titulo": "El Entrevistador",
+        "descripcionRecurso": "Un cortometraje de Genevieve Clay-Smith y Robin Bryan que trata sobre la inclusión y las buenas prácticas que pueden llevarse a cabo dentro de las empresas para que éstas sean más diversas.",
+        "category": "video",
+        "recurso": "<iframe class='embed-responsive-item' src='https://www.youtube-nocookie.com/embed/9g103OsEzh0?si=xKUkVHIyh4D02bIn' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen=''></iframe>"
+      },
+      {
+        "seccion": 4.0,
+        "titulo": "La Pinche Complejidad con Nicolás Alvarado",
+        "descripcionRecurso": "¿Adiós al lenguaje inclusivo? Milei y Bukele lo prohíben",
+        "category": "podcast",
+        "recurso": "<iframe src='https://open.spotify.com/embed/episode/3tTSJcDKWzQhXIlDocByqG?utm_source=generator' class='embed-responsive-item' frameBorder='0' allowfullscreen='' allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture' loading='lazy'></iframe>"
+      },
+      {
         "seccion": 4.1,
         "titulo": "Aún no existe información para esta unidad",
         "descripcionRecurso": "",
-        "keywords": [],
         "unidad": "<h3 class='text-center'>Sección sin información</h3>",
         "recurso": ""
       }

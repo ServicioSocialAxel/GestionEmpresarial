@@ -47,7 +47,7 @@
           </div>
           <div [innerHTML]="item.recurso | sanitizedHtml"
             class="card-body justify-content-center embed-responsive embed-responsive-16by9"
-            *ngIf="tipo == 1 && item.category === 'video'">
+            *ngIf="tipo == 1 && item.category !== 'reading'">
           </div>
           <div [innerHTML]="item.recurso | sanitizedHtml"
             class="card-body justify-content-center embed-responsive embed-responsive-1by1"

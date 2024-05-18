@@ -115,7 +115,7 @@
       </div>
     </div>
     <div *ngFor="let item of responsables;let idx = index" class="modal fade" [id]="'prof'+idx">
-      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg" role="document">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
         <div class="modal-content">
           <div class="modal-header text-center">
             <h2 class="modal-title w-100">{{item.name}}</h2>
@@ -178,7 +178,7 @@
   </article>
 </section>
 <section class="modal fade" id="program">
-  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header text-center">
         <h2 class="modal-title w-100">Programa de Estudios</h2>

@@ -6,6 +6,7 @@
       "url": "https://www.awerty.net/wp-content/uploads/2019/11/Gestion-Negocio.png",
       "src": "https://www.awerty.net/wp-content/uploads/2019/11/Gestion-Negocio.png"
     },
+    "lemma": "Primero es el número uno, después todos los demás.",
     "competencia": "Distingue entre el concepto de administrar y gestionar, la clasificación de las organizaciones y su constitución legal con base en la normativa vigente.",
     "keywords": [],
     "evaluacion": "<h3 class='text-center mt-4'>Sección sin información</h3>",
@@ -101,6 +102,7 @@
       "url": "assets/img/2.jpg",
       "src": "https://www.pexels.com/es-es/foto/mujer-llevando-camisa-gris-3184298/"
     },
+    "lemma": "Bien anda el que lleva el caballo por la brida.",
     "competencia": "Aplica la gestión estratégica en las empresas a partir de la innovación tecnológica.",
     "keywords": [
       "Protocolos",
@@ -126,7 +128,7 @@
       },
       {
         "section": "2.3, 2.4",
-        "title": "Lego Serious Play",
+        "title": "Por los frutos se conoce al árbol. No me salgas con que a Chuchita la bolsearon",
         "description": "Desarrollo de Práctica de Lego Serious Play, usando piezas de Lego en donde los integrantes de los equipos deben contestar a las preguntas del reto del facilitador o facilitadora, construyendo modelos tridimensionales de su proyecto de negocio para explicar su modelo y planeación estratégica."
       },
       {
@@ -242,64 +244,57 @@
     "recurso": [
       {
         "seccion": 2.0,
-        "titulo": "Proceso Administrativo por Alfredo Luna González",
-        "descripcionRecurso": "Lectura recomendada sobre los temas de la unidad 2.",
+        "titulo": "Proceso Administrativo",
+        "descripcionRecurso": "¿Quieres saber más?",
         "category": "reading",
         "recurso": "<iframe class='embed-responsive-item' frameborder='0' scrolling='no' style='border:0px' src='https://books.google.com.gt/books?id=b8_hBAAAQBAJ&lpg=PR4&hl=es&pg=PP1&output=embed'></iframe>"
       },
       {
         "seccion": 2.0,
         "titulo": "La Pinche Complejidad con Nicolás Alvarado",
-        "descripcionRecurso": "La complejidad de la comida y su gentrificación en la CDMX",
+        "descripcionRecurso": "La complejidad de la comida y su gentrificación en la CDMX, discutamos el tema",
         "category": "podcast",
         "recurso": "<iframe src='https://open.spotify.com/embed/episode/0r1r2m4WzERzASnUADDFZs?utm_source=generator' class='embed-responsive-item' frameBorder='0' allowfullscreen='' allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture' loading='lazy'></iframe>"
       },
       {
         "seccion": 2.0,
         "titulo": "Los Pericos - Todos lo Hacen",
-        "descripcionRecurso": "Video musical por Los Pericos para Todos lo Hacen.",
+        "descripcionRecurso": "Reflexionemos sobre valores.",
         "category": "video",
         "recurso": "<iframe class='embed-responsive-item' src='https://www.youtube-nocookie.com/embed/RV47ycSh5vU?si=VNaRR-T5Nqno8gM8' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen=''></iframe>"
       },
       {
         "seccion": 2.1,
-        "titulo": "Cómo Hacer una Visión",
-        "descripcionRecurso": "Tutorial para hacer una visión empresarial para tu empresa.",
+        "titulo": "¿Cómo Hacer una Visión?",
+        "descripcionRecurso": "Miremos al futuro.",
         "category": "video",
         "recurso": "<iframe class='embed-responsive-item' src='https://www.youtube.com/embed/Lk6OfqndH1k' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen=''></iframe>"
       },
       {
         "seccion": 2.2,
-        "titulo": "Cómo Hacer una Misión",
-        "descripcionRecurso": "Tutorial para hacer una misión empresarial para tu empresa.",
+        "titulo": "¿Cómo Hacer una Misión?",
+        "descripcionRecurso": "Miremos el hoy.",
         "category": "video",
         "recurso": "<iframe class='embed-responsive-item' src='https://www.youtube.com/embed/d-IqjXIgyJg' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen=''></iframe>"
       },
       {
         "seccion": 2.3,
-        "titulo": "Cómo Determino los Valores Empresariales para mi Negocio",
-        "descripcionRecurso": "Tutorial acerca de los valores empresariales de tu empresa.",
+        "titulo": "Cómo Determino los Valores Empresariales para mi Negocio?",
+        "descripcionRecurso": "¿Qué es un valor?",
         "category": "video",
         "recurso": "<iframe class='embed-responsive-item' src='https://www.youtube.com/embed/h5qoUg2jACw' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen=''></iframe>"
       },
       {
-        "seccion": "2.4.1",
-        "titulo": "Balanced Socorecard",
-        "descripcionRecurso": "Video sobre el Cuadro de Mando Integral.",
+        "seccion": "2.4",
+        "titulo": "Balanced Scorecard",
+        "descripcionRecurso": "Cuadro de Mando Integral.",
         "category": "video",
         "recurso": "<iframe class='embed-responsive-item' src='https://express.adobe.com/video/9tEznS736I36p/embed' frameborder='0' allowfullscreen=''></iframe></div>"
       },
       {
-        "seccion": 2.5,
-        "titulo": "Cómo Hacer un Análisis FODA",
-        "descripcionRecurso": "Tutorial para el análisis FODA.",
-        "category": "video",
-        "recurso": "<iframe class='embed-responsive-item' src='https://www.youtube.com/embed/0-ttApFL78g' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen=''></iframe>"
-      },
-      {
         "seccion": 2.6,
-        "titulo": "Qué es y Cómo se Hace un Análisis FODA",
-        "descripcionRecurso": "Tutorial para el análisis FODA.",
+        "titulo": "Qué es y Cómo se Hace un Análisis FODA?",
+        "descripcionRecurso": "¿Fortaleza o debilidad?",
         "category": "video",
         "recurso": "<iframe class='embed-responsive-item' src='https://www.youtube.com/embed/_6vz0-Hx9cE' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen=''></iframe>"
       },
@@ -320,6 +315,7 @@
       "src": "https://d1f5pwbie4mbzn.cloudfront.net/resources/default/img/pages/home/infoempresa_home_header_mobile.png"
     },
     "competencia": "Aún no existe información para la unidad.",
+    "lemma": "No todos podemos todo.",
     "keywords": [],
     "evaluacion": "<h3 class='text-center mt-4'>Sección sin información</h3>",
     "autoevaluacion": "<h3 class='text-center mt-4'>Sección sin información</h3>",
@@ -422,6 +418,7 @@
       "src": "https://sites.google.com/site/portafoliodemercadeoaud/_/rsrc/1534912118077/calidad-en-un-producto/calidad.png"
     },
     "competencia": "Aún no existe información para la unidad.",
+    "lemma": "Ni picha, ni cacha, ni deja batear.",
     "keywords": [],
     "evaluacion": "<h3 class='text-center mt-4'>Sección sin información</h3>",
     "autoevaluacion": "<h3 class='text-center mt-4'>Sección sin información</h3>",
@@ -556,6 +553,7 @@
       "src": "https://loupenlatam.com/wp-content/uploads/elementor/thumbs/BLOG-Central-Como-o-Central-ajuda-nos-desafios-de-TI-em-2021_Prancheta-1-p73zmfwovu20qrhgv3no1s74amqecke3ct1zu8bsmk.png"
     },
     "competencia": "Aún no existe información para la unidad.",
+    "lemma": "El que no enseña, no vende.",
     "keywords": [],
     "evaluacion": "<h3 class='text-center mt-4'>Sección sin información</h3>",
     "autoevaluacion": "<h3 class='text-center mt-4'>Sección sin información</h3>",

@@ -71,7 +71,7 @@
       </ul>
     </div>
     <div class="navbar-brand mr-0 col-2 col-md-5 col-lg-2 col-xl-3 my-auto order-3" [routerLink]="['/']"
-      (click)="collapse()">
+      (click)="collapse()" onkeypress="collapse()">
       <div class="row justify-content-center">
         <div class="col-6 text-tertiary text-right text-nowrap font-weight-bold d-none d-md-block d-lg-none d-xl-block">
           <h4 class="mb-0">Escuela</h4>
@@ -87,7 +87,7 @@
   </header>
 </nav>
 <section class="modal fade" id="biblio">
-  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header text-center">
         <h2 class="modal-title w-100">Fuentes de Consulta</h2>
@@ -189,6 +189,7 @@
               Empresarial.</li>
             <li>Osterwalder/A. (2015). Generación de Modelo de Negocio. DEUSTO.</li>
             <li>Instituto Mexicano de la Propiedad Intelectual. (2021). IMPI. IMPI.</li>
+            <li>Cipriano, L. G. A. (2014). Proceso administrativo. Grupo Editorial Patria.</li>
           </ul>
         </div>
       </div>
@@ -196,7 +197,7 @@
   </div>
 </section>
 <section class="modal fade" id="usermanual">
-  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header text-center">
         <h2 class="modal-title w-100">Manual de Usuario</h2>

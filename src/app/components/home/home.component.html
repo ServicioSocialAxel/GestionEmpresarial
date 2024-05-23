@@ -92,7 +92,7 @@
   <article id="prog" class="row pt-5 anchor">
     <h2 class="text-center"><a class="text-primary" data-toggle="modal" [attr.data-target]="'#program'">Programa de
         estudios</a></h2>
-    <img class="img-thumbnail bi mx-auto qr-code" alt="Program QR code" src="assets/img/programQR.svg">
+    <img class="img-thumbnail bi mx-auto qr-code" alt="Program QR code" src="assets/img/programQR.png">
   </article>
   <article id="contacts" class="row pt-5 anchor">
     <h2 class="text-center">Contacto</h2>
@@ -115,7 +115,7 @@
       </div>
     </div>
     <div *ngFor="let item of responsables;let idx = index" class="modal fade" [id]="'prof'+idx">
-      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg" role="document">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
         <div class="modal-content">
           <div class="modal-header text-center">
             <h2 class="modal-title w-100">{{item.name}}</h2>
@@ -178,7 +178,7 @@
   </article>
 </section>
 <section class="modal fade" id="program">
-  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header text-center">
         <h2 class="modal-title w-100">Programa de Estudios</h2>

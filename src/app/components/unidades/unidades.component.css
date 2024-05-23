@@ -9,11 +9,3 @@
 .label-no-margin {
   margin: 0;
 }
-
-.btn-check:checked + .btn,
-.btn.active,
-.btn.show,
-.btn:first-child:active,
-:not(.btn-check) + .btn:active {
-  background-color: #007bff !important;
-}

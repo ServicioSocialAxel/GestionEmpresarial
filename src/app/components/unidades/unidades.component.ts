@@ -20,14 +20,18 @@ export class UnidadesComponent implements OnInit, DoCheck {
 
   ngOnInit(): void {
     this.infoService.writeJSON(['test']);
-    this.unidades = this.infoService.getUnidades();
+    this.infoService.getUnidades().subscribe((unidades) => {
+      this.unidades = unidades;
+    });
     this.updateId();
     this.updateUnidad();
   }
 
   ngDoCheck(): void {
     if (this.id != this.route.snapshot.params.id) {
-      this.unidades = this.infoService.getUnidades();
+      this.infoService.getUnidades().subscribe((unidades) => {
+        this.unidades = unidades;
+      });
       this.updateId();
       this.updateUnidad();
     }

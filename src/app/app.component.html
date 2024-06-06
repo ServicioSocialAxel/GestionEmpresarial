@@ -25,20 +25,18 @@
     <div class="col-12 col-lg-8 col-xl-6 my-auto order-4 order-lg-2 collapse navbar-collapse justify-content-center"
       id="navbarSupportedContent">
       <ul class="navbar-nav navbar-nav-scroll text-wrap" style="font-size: large;">
-        <li class="nav-item" (click)="collapse()" *ngIf="currentLink != '/'">
-          <a class="nav-link font-weight-bold h4" [routerLink]="['/']">Inicio</a>
-        </li>
-        <li class="nav-item dropdown" *ngIf="currentLink == '/'">
-          <a class="nav-link dropdown-toggle font-weight-bold h4" id="navbarDropdown" role="button"
-            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Inicio</a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown" [routerLink]="['/']" (click)="collapse()">
+        <li [classList]="currentLink != '/' ? 'nav-item' : 'nav-item dropdown'">
+          <a [classList]="currentLink != '/' ? 'nav-link font-weight-bold h4': 'nav-link dropdown-toggle font-weight-bold h4'"
+            id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+            [routerLink]="['/']" (click)="collapse()" translate>home</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item font-weight-bold h5" *ngFor="let item of navs"
-              (click)="goToId(item.link)">{{item.title}}</a>
+              (click)="goToId(item.link)">{{item.title | translate}}</a>
           </div>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle font-weight-bold h4" href="#" id="navbarDropdown" role="button"
-            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Unidades</a>
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" translate>units</a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown" (click)="collapse()">
             <a class="dropdown-item font-weight-bold h5 text-truncate" style="max-width: 90vw;"
               *ngFor="let item of unidades" [routerLink]="['unidades',item.indice]">{{item.indice}}.-
@@ -48,24 +46,28 @@
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle font-weight-bold h4" href="#" role="button" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">
-            Más información
+            {{'more_info'|translate}}
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown" (click)="collapse()">
-            <a class="dropdown-item font-weight-bold h5" data-toggle="modal" [attr.data-target]="'#biblio'"><i
-                class="bi bi-card-text"></i>&nbsp; Fuentes de consulta</a>
-            <a class="dropdown-item font-weight-bold h5" data-toggle="modal" [attr.data-target]="'#glosario'"><i
-                class="bi bi-journal-text"></i>&nbsp; Glosario</a>
-            <a class="dropdown-item font-weight-bold h5" data-toggle="modal" [attr.data-target]="'#usermanual'"><i
-                class="bi bi-question-circle"></i>&nbsp; Manual de usuario</a>
+            <a class="dropdown-item font-weight-bold h5" data-toggle="modal" [attr.data-target]="'#biblio'" translate><i
+                class="bi bi-card-text"></i>&nbsp; sources</a>
+            <a class="dropdown-item font-weight-bold h5" data-toggle="modal" [attr.data-target]="'#glosario'"
+              translate><i class="bi bi-journal-text"></i>&nbsp; glossary</a>
+            <a class="dropdown-item font-weight-bold h5" data-toggle="modal" [attr.data-target]="'#usermanual'"
+              translate><i class="bi bi-question-circle"></i>&nbsp; userManual</a>
           </div>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle font-weight-bold h4" href="#" role="button" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false"><i class="bi bi-globe"></i>&nbsp;Idioma
+            aria-haspopup="true" aria-expanded="false" translate><i class="bi bi-globe"></i>&nbsp; lang
           </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown" (click)="collapse()">
-            <button role="a" value="es" class="dropdown-item font-weight-bolder h5 text-dark">Español</button>
-            <button role="a" value="en" class="dropdown-item font-weight-bold h5 disabled" disabled>English</button>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown" (click)="collapse()" onkeypress="collapse()">
+            <button [value]="'es'" [(ngModel)]="lang" (click)="setLang($event)"
+              [classList]="lang === 'es' ? 'dropdown-item font-weight-bold h5 text-dark':'dropdown-item font-weight-bold h5 text-muted'"
+              translate>es</button>
+            <button [value]="'en'" [(ngModel)]="lang" (click)="setLang($event)"
+              [classList]="lang === 'en' ? 'dropdown-item font-weight-bold h5 text-dark':'dropdown-item font-weight-bold h5 text-muted'"
+              translate>en</button>
           </div>
         </li>
       </ul>
@@ -90,7 +92,7 @@
   <div class="modal-dialog modal-lg modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header text-center">
-        <h2 class="modal-title w-100">Fuentes de Consulta</h2>
+        <h2 class="modal-title w-100" translate>sources</h2>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span>&times;</span>
         </button>
@@ -200,7 +202,7 @@
   <div class="modal-dialog modal-lg modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header text-center">
-        <h2 class="modal-title w-100">Manual de Usuario</h2>
+        <h2 class="modal-title w-100" translate>userManual</h2>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span>&times;</span>
         </button>

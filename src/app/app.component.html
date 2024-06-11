@@ -31,7 +31,7 @@
         <li [classList]="currentLink != '/' ? 'nav-item' : 'nav-item dropdown'">
           <a [classList]="currentLink != '/' ? 'nav-link font-weight-bold h4': 'nav-link dropdown-toggle font-weight-bold h4'"
             id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
-            [routerLink]="['/']" (click)="collapse()" (keypress)="collapse()" translate>home</a>
+            [routerLink]="currentLink != '/' ? ['/']: null" translate>home</a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item font-weight-bold h5" *ngFor="let item of navs"
               (click)="goToId(item.link)">{{item.title | translate}}</a>

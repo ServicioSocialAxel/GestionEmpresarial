@@ -1,7 +1,9 @@
 {
+  "firstTitle": "Gestión",
+  "secondTitle": "Empresarial",
   "home": "Inicio",
   "units": "Unidades",
-  "more_info": "Más información",
+  "moreInfo": "Más información",
   "lang": "Idioma",
   "sources": "Fuentes de consulta",
   "glossary": "Glosario",
@@ -10,9 +12,16 @@
   "es": "Español",
   "welcome": "Bienvenida",
   "methodology": "Metodología",
-  "unit": "Unidad de competentcia",
+  "goal": "Unidad de competentcia",
   "eval": "Evaluación",
   "prog": "Programa",
   "contacts": "Contacto",
-  "req": "Requerimientos"
+  "req": "Requerimientos",
+  "unit": {
+    "1": "{{index}}. Introducción a la gestión empresarial",
+    "2": "{{index}}. Gestión estratégica en las empresas de innovación tecnológica",
+    "3": "{{index}}. Gestión operativa de la empresa",
+    "4": "{{index}}. Gestión del capital humano y la calidad",
+    "5": "{{index}}. Retos de la gestión empresarial"
+  }
 }

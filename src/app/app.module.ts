@@ -12,7 +12,13 @@ import { FormsModule } from '@angular/forms';
 import { GlosarioComponent } from './components/glosario/glosario.component';
 import { DataTablesModule } from 'angular-datatables';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
-import { HttpClientModule } from '@angular/common/http';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
+import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+
+export function HttpLoaderFactory(http: HttpClient) {
+  return new TranslateHttpLoader(http);
+}
 
 @NgModule({
   declarations: [
@@ -30,8 +36,16 @@ import { HttpClientModule } from '@angular/common/http';
     FormsModule,
     DataTablesModule,
     HttpClientModule,
+    TranslateModule.forRoot({
+      defaultLanguage: 'es',
+      loader: {
+        provide: TranslateLoader,
+        useFactory: HttpLoaderFactory,
+        deps: [HttpClient],
+      },
+    }),
   ],
-  providers: [routingProviders],
+  providers: [HttpClient, routingProviders],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

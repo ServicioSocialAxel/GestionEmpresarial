@@ -1,0 +1,27 @@
+{
+  "firstTitle": "Business",
+  "secondTitle": "Management",
+  "home": "Home",
+  "units": "Units",
+  "moreInfo": "More Information",
+  "lang": "Language",
+  "sources": "Sources",
+  "glossary": "Glossary",
+  "userManual": "User Manual",
+  "en": "English",
+  "es": "Spanish",
+  "welcome": "Welcome",
+  "methodology": "Methodology",
+  "goal": "Goal",
+  "eval": "Evaluation",
+  "prog": "Program",
+  "contacts": "Contact",
+  "req": "Requirements",
+  "unit": {
+    "1": "{{index}}. Introduction to business management",
+    "2": "{{index}}. Strategic management in technological innovation companies",
+    "3": "{{index}}. Operational management of the company",
+    "4": "{{index}}. Human resources and quality management",
+    "5": "{{index}}. Challenges of business management"
+  }
+}

@@ -23,8 +23,8 @@ export class AppComponent implements DoCheck {
       link: '#methodology',
     },
     {
-      title: 'unit',
-      link: '#unit',
+      title: 'goal',
+      link: '#goal',
     },
     {
       title: 'eval',
@@ -55,9 +55,6 @@ export class AppComponent implements DoCheck {
     this.translateService.use(localStorage.getItem('lang') ?? this.lang);
     this.infoService.getUnidades().subscribe((unidades) => {
       this.unidades = unidades;
-    });
-    this.translateService.onLangChange.subscribe((event) => {
-      console.log('Change unit content to: ', event.lang);
     });
   }
 

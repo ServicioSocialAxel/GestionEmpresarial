@@ -102,14 +102,14 @@
         <div class="card-img-top img-thumbnail rounded-circle mx-auto portrait"
           [style]="'background-image: url('+item.photo+');'">
         </div>
-        <div class="card-header">
+        <div class="card-header bg-white">
           <h3 class="card-title">{{item.name}}</h3>
         </div>
         <div class="card-body">
           <h4 class="card-subtitle">{{item.mail}}</h4>
         </div>
-        <div class="card-footer">
-          <button type="button" class="btn btn-outline-primary btn-lg btn-block" data-toggle="modal"
+        <div class="card-footer bg-white">
+          <button type="button" class="btn btn-outline-info btn-lg btn-block" data-toggle="modal"
             [attr.data-target]="'#prof'+idx">Más acerca del docente</button>
         </div>
       </div>

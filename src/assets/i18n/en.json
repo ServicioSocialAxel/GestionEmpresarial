@@ -13,13 +13,16 @@
     "es": "Spanish"
   },
   "home": {
-    "welcome": "Welcome",
-    "methodology": "Methodology",
-    "goal": "Goal",
-    "eval": "Evaluation",
-    "prog": "Program",
-    "contacts": "Contact",
-    "req": "Requirements"
+    "welcome": {
+      "title": "Welcome",
+      "embed": "https://www.youtube-nocookie.com/embed/HfG2zySCAw8?si=QCmEZVUb0DRsaqGG&cc_load_policy=1&cc_lang_pref=en&controls=1&autoplay=1"
+    },
+    "methodology": { "title": "Methodology" },
+    "goal": { "title": "Goals" },
+    "eval": { "title": "Evaluation" },
+    "prog": { "title": "Program" },
+    "contacts": { "title": "Contact" },
+    "req": { "title": "Requirements" }
   },
   "unit": {
     "1": "{{index}}. Introduction to business management",

@@ -62,7 +62,7 @@
           <a class="nav-link dropdown-toggle font-weight-bold h4" href="#" role="button" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false" translate><i class="bi bi-globe"></i>&nbsp; app.lang
           </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown" (click)="collapse()" onkeypress="collapse()">
+          <div class="dropdown-menu mb-2" aria-labelledby="navbarDropdown" (click)="collapse()" onkeypress="collapse()">
             <button [value]="'es'" [(ngModel)]="lang" (click)="setLang($event)"
               [classList]="lang === 'es' ? 'dropdown-item font-weight-bold h5 text-dark':'dropdown-item font-weight-bold h5 text-muted'"
               translate>app.es</button>

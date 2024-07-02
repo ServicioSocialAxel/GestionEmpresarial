@@ -2,6 +2,7 @@ import { Component, DoCheck } from '@angular/core';
 import { Router } from '@angular/router';
 import { InfoService } from './services/info.service';
 import { TranslateService } from '@ngx-translate/core';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-root',
@@ -46,7 +47,8 @@ export class AppComponent implements DoCheck {
   constructor(
     private router: Router,
     private infoService: InfoService,
-    public translateService: TranslateService
+    public translateService: TranslateService,
+    private titleService: Title
   ) {
     this.translateService.addLangs(['es', 'en']);
     this.lang = this.translateService.getBrowserLang() ?? 'es';
@@ -56,12 +58,23 @@ export class AppComponent implements DoCheck {
     this.infoService.getUnidades().subscribe((unidades) => {
       this.unidades = unidades;
     });
+    this.translateService.onLangChange.subscribe(() => {
+      this.updateTitle();
+    });
   }
+
+  updateTitle = () => {
+    const title = this.translateService
+      .instant('app.firstTitle')
+      .concat(' ', this.translateService.instant('app.secondTitle'));
+    this.titleService.setTitle(title);
+  };
 
   ngDoCheck(): void {
     this.currentLink = this.router.url;
     this.infoService.getUnidades().subscribe((unidades) => {
       this.unidades = unidades;
+      this.updateTitle();
     });
   }
 

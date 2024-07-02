@@ -8,7 +8,6 @@
     },
     "lemma": "Primero es el número uno, después todos los demás.",
     "competencia": "Distingue entre el concepto de administrar y gestionar, la clasificación de las organizaciones y su constitución legal con base en la normativa vigente.",
-    "keywords": [],
     "evaluacion": "<h3 class='text-center mt-4'>Sección sin información</h3>",
     "autoevaluacion": "<h3 class='text-center mt-4'>Sección sin información</h3>",
     "coevaluacion": "<h3 class='text-center mt-4'>Sección sin información</h3>",
@@ -104,14 +103,6 @@
     },
     "lemma": "Bien anda el que lleva el caballo por la brida.",
     "competencia": "Aplica la gestión estratégica en las empresas a partir de la innovación tecnológica.",
-    "keywords": [
-      "Protocolos",
-      "Encapsulamiento",
-      "Transmisión",
-      "Multiplexación",
-      "Control de errores",
-      "Segmentación"
-    ],
     "evaluacion": "<iframe loading='lazy' src='assets/data/Evaluacion_2.pdf' style='width: 100%; height: 70rem;'></iframe>",
     "autoevaluacion": "<iframe loading='lazy' frameborder='0'  style='width: 100%; height: 50rem;' src='https://view.genial.ly/625af435f8dc320011f3709d' type='text/html' allowscriptaccess='always' allowfullscreen='true' scrolling='yes' allownetworking='all'></iframe>",
     "coevaluacion": "<iframe loading='lazy' frameborder='0' style='width: 100%; height: 50rem;' src='https://my.forms.app/form/6287930d95113a44f6a79b6b' type='text/html' allowscriptaccess='always' allowfullscreen='true' scrolling='yes' allownetworking='all'></iframe>",
@@ -128,12 +119,12 @@
       },
       {
         "section": "2.3, 2.4",
-        "title": "Por los frutos se conoce al árbol. No me salgas con que a Chuchita la bolsearon",
+        "title": "Por los frutos se conoce al árbol.",
         "description": "Desarrollo de Práctica de Lego Serious Play, usando piezas de Lego en donde los integrantes de los equipos deben contestar a las preguntas del reto del facilitador o facilitadora, construyendo modelos tridimensionales de su proyecto de negocio para explicar su modelo y planeación estratégica."
       },
       {
         "section": 2.5,
-        "title": "Actividad no disponible",
+        "title": "No me salgas con que a Chuchita la bolsearon",
         "description": "Sección sin información"
       }
     ],
@@ -316,7 +307,6 @@
     },
     "competencia": "Aún no existe información para la unidad.",
     "lemma": "No todos podemos todo.",
-    "keywords": [],
     "evaluacion": "<h3 class='text-center mt-4'>Sección sin información</h3>",
     "autoevaluacion": "<h3 class='text-center mt-4'>Sección sin información</h3>",
     "coevaluacion": "<h3 class='text-center mt-4'>Sección sin información</h3>",
@@ -419,7 +409,6 @@
     },
     "competencia": "Aún no existe información para la unidad.",
     "lemma": "Ni picha, ni cacha, ni deja batear.",
-    "keywords": [],
     "evaluacion": "<h3 class='text-center mt-4'>Sección sin información</h3>",
     "autoevaluacion": "<h3 class='text-center mt-4'>Sección sin información</h3>",
     "coevaluacion": "<h3 class='text-center mt-4'>Sección sin información</h3>",
@@ -554,7 +543,6 @@
     },
     "competencia": "Aún no existe información para la unidad.",
     "lemma": "El que no enseña, no vende.",
-    "keywords": [],
     "evaluacion": "<h3 class='text-center mt-4'>Sección sin información</h3>",
     "autoevaluacion": "<h3 class='text-center mt-4'>Sección sin información</h3>",
     "coevaluacion": "<h3 class='text-center mt-4'>Sección sin información</h3>",

@@ -34,7 +34,7 @@
             [routerLink]="currentLink != '/' ? ['/']: null" translate>app.home</a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item font-weight-bold h5" *ngFor="let item of navs" (click)="goToId(item.link)"
-              translate>{{'home.'.concat(item.title)}}</a>
+              translate>{{'home.'.concat(item.title).concat('.title')}}</a>
           </div>
         </li>
         <li class="nav-item dropdown">

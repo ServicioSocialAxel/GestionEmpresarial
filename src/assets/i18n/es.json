@@ -15,7 +15,8 @@
   "home": {
     "welcome": {
       "title": "Bienvenida",
-      "embed": "https://www.youtube-nocookie.com/embed/HfG2zySCAw8?si=QCmEZVUb0DRsaqGG&controls=1&autoplay=1"
+      "embed": "https://www.youtube-nocookie.com/embed/HfG2zySCAw8?si=QCmEZVUb0DRsaqGG&controls=1&autoplay=1",
+      "lemma": "Persona que es curiosa tiene un refrán para cada cosa"
     },
     "methodology": {
       "title": "Metodología",

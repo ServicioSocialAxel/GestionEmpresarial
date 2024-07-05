@@ -17,7 +17,11 @@ import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 
 export function HttpLoaderFactory(http: HttpClient) {
-  return new TranslateHttpLoader(http);
+  return new TranslateHttpLoader(
+    http,
+    document.baseURI + 'assets/i18n/',
+    '.json'
+  );
 }
 
 @NgModule({

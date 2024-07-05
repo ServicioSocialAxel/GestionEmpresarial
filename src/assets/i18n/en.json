@@ -15,7 +15,8 @@
   "home": {
     "welcome": {
       "title": "Welcome",
-      "embed": "https://www.youtube-nocookie.com/embed/HfG2zySCAw8?si=QCmEZVUb0DRsaqGG&cc_load_policy=1&cc_lang_pref=en&controls=1&autoplay=1"
+      "embed": "https://www.youtube-nocookie.com/embed/HfG2zySCAw8?si=QCmEZVUb0DRsaqGG&cc_load_policy=1&cc_lang_pref=en&controls=1&autoplay=1",
+      "lemma": "A curious person has a saying for everything"
     },
     "methodology": { "title": "Methodology" },
     "goal": { "title": "Goals" },

@@ -1,0 +1,63 @@
+{
+  "app": {
+    "firstTitle": "Gestión",
+    "secondTitle": "Empresarial",
+    "home": "Inicio",
+    "units": "Unidades",
+    "moreInfo": "Más información",
+    "lang": "Idioma",
+    "sources": "Fuentes de consulta",
+    "glossary": "Glosario",
+    "userManual": "Manual de usuario",
+    "en": "Inglés",
+    "es": "Español"
+  },
+  "home": {
+    "welcome": {
+      "title": "Bienvenida",
+      "embed": "https://www.youtube-nocookie.com/embed/HfG2zySCAw8?si=QCmEZVUb0DRsaqGG&controls=1&autoplay=1",
+      "lemma": "Persona que es curiosa tiene un refrán para cada cosa"
+    },
+    "methodology": {
+      "title": "Metodología",
+      "content": {
+        "header": "Se abordará a partir de la estrategia de aprendizaje orientada a proyectos y método deductivo e inductivo, lo cual permitirá la utilización de las siguientes técnicas de aprendizaje:",
+        "refs": [
+          {
+            "text": "Indagación documental",
+            "url": "http://www.scielo.org.bo/scielo.php?script=sci_arttext&pid=S0040-29151993000100008"
+          }
+        ],
+        "footer": "La unidad contribuye a la creación de un proyecto empresarial aplicando la gestión estratégica."
+      }
+    },
+    "goal": {
+      "title": "Objetivos",
+      "content": [
+        {
+          "heading": "Unidad de competencia",
+          "description": "Se busca que los estudiantes gestionen organizaciones de innovación tecnológica con base en competencias gerenciales."
+        },
+        {
+          "heading": "Propósito de la unidad de aprendizaje",
+          "description": "Gestiona organizaciones de innovación tecnológica con base en competencias gerenciales."
+        },
+        {
+          "heading": "Intención educativa",
+          "description": "La unidad de aprendizaje contribuye al perfil de egreso del ingeniero en sistemas computacionales desarrollando las competencias directivas de liderazgo, toma de decisiones bajo condiciones de riesgo e incertidumbre, manejo de grupos de trabajo, capacidad de negociación, manejo de conflictos, orientación al cambio y a la innovación permanente, para gestionar organizaciones con una actitud emprendedora, ética y de responsabilidad social."
+        }
+      ]
+    },
+    "eval": { "title": "Evaluación" },
+    "prog": { "title": "Programa" },
+    "contacts": { "title": "Contacto" },
+    "req": { "title": "Requerimientos" }
+  },
+  "unit": {
+    "1": "{{index}}. Introducción a la gestión empresarial",
+    "2": "{{index}}. Gestión estratégica en las empresas de innovación tecnológica",
+    "3": "{{index}}. Gestión operativa de la empresa",
+    "4": "{{index}}. Gestión del capital humano y la calidad",
+    "5": "{{index}}. Retos de la gestión empresarial"
+  }
+}

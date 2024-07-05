@@ -1,6 +1,6 @@
 <section class="container-fluid">
   <article class="row">
-    <div class="col-12 col-md-6 p-4 bg-primary text-white">
+    <div class="col-12 col-md-6 p-4 bg-tertiary text-white">
       <h2>Unidad {{id}}. {{unidad.titulo}}</h2>
       <h3 style="margin: 0;">Unidad de Competencia</h3>
       <p>
@@ -18,26 +18,36 @@
   <article class="row justify-content-center">
     <div class="col-12 col-md-3 col-xl-2 px-0 px-md-3">
       <div class="btn-group-vertical btn-group-lg btn-group-toggle my-md-4 w-100" data-toggle="buttons">
-        <label class="btn btn-outline-primary label-no-margin" for="contenidos"><input type="radio" class="btn-check"
-            name="uniSection" id="contenidos" autocomplete="off" [value]="'contenidos'"
+        <label
+          [classList]="uniSection === 'contenidos' ? 'btn btn-outline-primary label-no-margin active':'btn btn-outline-primary label-no-margin'"><input
+            type="radio" class="btn-check" name="uniSection" id="contenidos" autocomplete="off" [value]="'contenidos'"
             [(ngModel)]="uniSection" />Contenido</label>
-        <label class="btn btn-outline-primary label-no-margin"><input type="radio" class="btn-check" name="uniSection"
-            id="evaluacion" autocomplete="off" [value]="'evaluacion'" [(ngModel)]="uniSection" />Evaluación por
+        <label
+          [classList]="uniSection === 'evaluacion' ? 'btn btn-outline-primary label-no-margin active':'btn btn-outline-primary label-no-margin'"><input
+            type="radio" class="btn-check" name="uniSection" id="evaluacion" autocomplete="off" [value]="'evaluacion'"
+            [(ngModel)]="uniSection" />Evaluación por
           unidad</label>
-        <label class="btn btn-outline-primary label-no-margin"><input type="radio" class="btn-check" name="uniSection"
-            id="actividades" autocomplete="off" [value]="'actividades'" [(ngModel)]="uniSection" />Actividades de
+        <label
+          [classList]="uniSection === 'actividades' ? 'btn btn-outline-primary label-no-margin active':'btn btn-outline-primary label-no-margin'"><input
+            type="radio" class="btn-check" name="uniSection" id="actividades" autocomplete="off" [value]="'actividades'"
+            [(ngModel)]="uniSection" />Actividades de
           Aprendizaje</label>
-        <label class="btn btn-outline-primary label-no-margin"><input type="radio" class="btn-check" name="uniSection"
-            id="autoevaluacion" autocomplete="off" [value]="'autoevaluacion'"
-            [(ngModel)]="uniSection" />Autoevaluación</label>
-        <label class="btn btn-outline-primary label-no-margin"><input type="radio" class="btn-check" name="uniSection"
-            id="coevaluacion" autocomplete="off" [value]="'coevaluacion'"
-            [(ngModel)]="uniSection" />Coevaluación</label>
-        <label class="btn btn-outline-primary label-no-margin"><input type="radio" class="btn-check" name="uniSection"
-            id="presentacion" autocomplete="off" [value]="'presentacion'"
-            [(ngModel)]="uniSection" />Presentación</label>
-        <label class="btn btn-outline-primary label-no-margin"><input type="radio" class="btn-check" name="uniSection"
-            id="recursos" autocomplete="off" [value]="'recursos'" [(ngModel)]="uniSection" />Material adicional</label>
+        <label
+          [classList]="uniSection === 'autoevaluacion' ? 'btn btn-outline-primary label-no-margin active':'btn btn-outline-primary label-no-margin'"><input
+            type="radio" class="btn-check" name="uniSection" id="autoevaluacion" autocomplete="off"
+            [value]="'autoevaluacion'" [(ngModel)]="uniSection" />Autoevaluación</label>
+        <label
+          [classList]="uniSection === 'coevaluacion' ? 'btn btn-outline-primary label-no-margin active':'btn btn-outline-primary label-no-margin'"><input
+            type="radio" class="btn-check" name="uniSection" id="coevaluacion" autocomplete="off"
+            [value]="'coevaluacion'" [(ngModel)]="uniSection" />Coevaluación</label>
+        <label
+          [classList]="uniSection === 'presentacion' ? 'btn btn-outline-primary label-no-margin active':'btn btn-outline-primary label-no-margin'"><input
+            type="radio" class="btn-check" name="uniSection" id="presentacion" autocomplete="off"
+            [value]="'presentacion'" [(ngModel)]="uniSection" />Presentación</label>
+        <label
+          [classList]="uniSection === 'recursos' ? 'btn btn-outline-primary label-no-margin active':'btn btn-outline-primary label-no-margin'"><input
+            type="radio" class="btn-check" name="uniSection" id="recursos" autocomplete="off" [value]="'recursos'"
+            [(ngModel)]="uniSection" />Material adicional</label>
       </div>
     </div>
     <div class="col-12 col-md-9 col-xl-10">

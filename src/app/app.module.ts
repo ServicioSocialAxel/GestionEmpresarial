@@ -7,7 +7,6 @@ import { HomeComponent } from './components/home/home.component';
 import { UnidadesComponent } from './components/unidades/unidades.component';
 import { UnidadComponent } from './components/unidad/unidad.component';
 import { HtmlObjetPipe } from './pipes/html-objet.pipe';
-import { EvaluacionesComponent } from './components/evaluaciones/evaluaciones.component';
 import { FormsModule } from '@angular/forms';
 import { GlosarioComponent } from './components/glosario/glosario.component';
 import { DataTablesModule } from 'angular-datatables';
@@ -31,7 +30,6 @@ export function HttpLoaderFactory(http: HttpClient) {
     UnidadesComponent,
     UnidadComponent,
     HtmlObjetPipe,
-    EvaluacionesComponent,
     GlosarioComponent,
   ],
   imports: [

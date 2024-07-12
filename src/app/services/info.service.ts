@@ -1,6 +1,5 @@
 import { Injectable } from '@angular/core';
 import unidades from './json/unidades.json';
-import autoevaluaciones from './json/es/autoevaluaciones.json';
 import { Glossary } from './model/glossary';
 import glossary from './json/en/glossary.json';
 import glosario from './json/es/glosario.json';
@@ -16,10 +15,6 @@ export class InfoService {
 
   getUnidades() {
     return of(unidades).pipe(tap((_) => {}));
-  }
-
-  getAutoevaluaciones() {
-    return autoevaluaciones;
   }
 
   getGlossary(lang: string): Observable<Glossary> {

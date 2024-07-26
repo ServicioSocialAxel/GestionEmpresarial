@@ -68,10 +68,10 @@ git push -u origin branch_type/short_user_name-short_description`
 
 ## Reglas para commits
 
-Todos los commits deben contener un mensaje, dicho mensaje comenzará con el short_user_name y una pequeña descripción en inglés con espacios que sea descriptiva (no debe contener carácteres especiales) y diferente al nombre de la branch, por ejemplo:
+Todos los commits deben contener un mensaje, dicho mensaje contendrá una pequeña descripción en inglés, con espacios, que sea descriptiva (no debe contener carácteres especiales) y diferente al nombre de la rama, por ejemplo:
 
 ```bash
-git commit -m "jonrojas adding ng description to readme file"
+git commit -m "adding ng description to readme file"
 ```
 
 ## Despliegue en GitHub Pages
